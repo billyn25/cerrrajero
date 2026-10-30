@@ -41,7 +41,7 @@ El cero en Madrid corresponde al campo barrios de la importación del callejero,
 2. **Ampliar barrios contrastados:** especialmente los 176 municipios de Madrid sin contexto adicional, además de huecos urbanos en otras provincias. No convertir carreteras, entidades o polígonos automáticamente en barrios.
 3. **Revisión editorial local:** solo siete fichas tienen contenido específico revisado registrado. Las otras 424 comparten buena parte de la estructura y los textos. Abrir la indexación por petición del titular no elimina ese límite. No generar variaciones sin utilidad para alterar una cifra de similitud.
 4. **Evidencia del servicio:** fotografías propias autorizadas y casos reales documentados cuando el titular los aporte. No se inventan intervenciones, oficinas, testimonios, tarifas ni plazos de llegada.
-5. **Imagen específica de mirilla:** el servicio utiliza una fotografía contextual de puerta; una foto de un equipo real facilitaría entenderlo. No se muestra un producto inexistente como instalación propia.
+5. **Imagen de mirilla resuelta:** se incorpora la foto de equipo IMOU facilitada por el titular, en la página de servicio y su desplegable de portada; se identifica como ejemplo de equipo.
 6. **Search Console y rendimiento real:** verificar propiedad, enviar el sitemap, inspeccionar portada/provincias/muestras locales y revisar cobertura e impresiones. No hay acceso a esos datos ni medición pública de Core Web Vitals en esta auditoría.
 
 ## Reproducción

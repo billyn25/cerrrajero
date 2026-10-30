@@ -239,8 +239,8 @@
     "short": "Pantalla interior y conexión al móvil, según modelo.",
     "lead": "Instalación y sustitución de mirillas digitales con pantalla y conexión WiFi en Álava, Bizkaia, Gipuzkoa y Madrid, previa revisión de la puerta y del equipo.",
     "icon": "shield",
-    "image": "puerta.webp",
-    "alt": "Puerta de vivienda donde revisar la compatibilidad de una mirilla digital",
+    "image": "mirilla-wifi.jpg",
+    "alt": "Mirilla digital WiFi IMOU con cámara exterior y pantalla interior",
     "situations": [
       "Quieres sustituir la mirilla óptica por una pantalla interior.",
       "Buscas consultar quién llama desde el móvil con un modelo compatible.",
@@ -286,6 +286,10 @@
         "¿La instalación incluye grabación en la nube?",
         "No se presupone incluida. La memoria, la grabación y los planes de nube dependen del equipo y de las condiciones del fabricante; deben concretarse antes de contratar."
       ]
-    ]
+    ],
+    "imageWidth": 800,
+    "imageHeight": 800,
+    "imageClass": "product-photo",
+    "caption": "Ejemplo de equipo: mirilla digital WiFi IMOU. Modelo sujeto a disponibilidad y compatibilidad con la puerta."
   }
 ]

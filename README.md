@@ -79,3 +79,5 @@ La revisión de contenido y técnica está en [AUDITORIA_SEO.md](AUDITORIA_SEO.m
 ## Dominio definitivo
 
 Usar `cerrajerourgente247.com` como dominio principal en Netlify y activar su certificado HTTPS. Añadir `www.cerrajerourgente247.com` como alias. Las redirecciones HTTP y www están generadas en `_redirects`, pero DNS y TLS deben estar activos en el alojamiento. Para la vista privada compilar con `SITE_PREVIEW=1 npm run build`; para producción ejecutar `npm run build && npm run check`. Tras conectar DNS, comprobar `/`, una ficha, `/robots.txt`, `/sitemap.xml` y una ruta inexistente (404 real). Enviar `https://cerrajerourgente247.com/sitemap.xml` a Search Console una vez verificado. No se dispone de acceso al registrador ni a Search Console desde este proyecto.
+
+La imagen `assets/mirilla-wifi.jpg` fue facilitada por el titular mediante URL de PcComponentes: https://img.pccomponentes.com/articles/1101/11015296/1227-mirilla-digital-wifi-imou-vd1-5m0s-pantalla-43-125-comprar.jpg . Se sirve localmente, sin hotlink, como ejemplo de equipo IMOU, sin atribuirla a una instalación propia.
