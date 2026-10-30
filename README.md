@@ -66,6 +66,10 @@ Todos los recursos visuales se sirven localmente. El buscador no envía consulta
 
 La versión única de `package.json` se añade a CSS, JavaScript, logo y datos de búsqueda para que una actualización no siga mostrando recursos antiguos en caché.
 
+## Auditoría SEO
+
+La revisión de contenido y técnica está en [AUDITORIA_SEO.md](AUDITORIA_SEO.md). La portada muestra 48 municipios, 12 por provincia, configurables en `data/home-municipalities.json`. `npm run audit:seo` mide patrones de artículo compartidos; los metadatos únicos no garantizan que Google indexe cada ficha.
+
 ## Verificación
 
 `npm run check` comprueba títulos y descripciones únicos, un H1 por página, JSON-LD válido, recursos y anclas internas, destinos de los municipios y teléfonos de cada provincia. La compilación de producción debe verificarse con el dominio definitivo antes de enviar a indexar.
