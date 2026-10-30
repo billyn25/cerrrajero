@@ -1,6 +1,6 @@
 # Auditoría del sitio — 30 de octubre de 2026
 
-Versión 2.4.1. Dominio configurado: https://cerrajerourgente247.com. Revisión de código, compilación y navegación local. La consulta pública de portada, robots y sitemap no ha permitido verificar el alojamiento del dominio; no se atribuye ese fallo a una causa DNS o TLS sin más evidencia.
+Versión 2.4.2. Dominio configurado: https://cerrajerourgente247.com. Revisión de código, compilación y navegación local. La consulta pública de portada, robots y sitemap no ha permitido verificar el alojamiento del dominio; no se atribuye ese fallo a una causa DNS o TLS sin más evidencia.
 
 ## Resultado y correcciones
 
@@ -28,7 +28,7 @@ El cero en Madrid corresponde al campo barrios de la importación del callejero,
 
 - 448 páginas: un H1 por página, títulos y descripciones diferentes, enlaces, recursos y anclas internos existentes.
 - 431 URLs municipales distintas, contactos regionales y WhatsApp correctos, sin fichas huérfanas. Municipios accesibles en dos enlaces desde portada como máximo.
-- 48 municipios visibles desde portada y búsqueda por barrios y zonas documentados.
+- 80 municipios enlazados desde portada: 48 visibles y 32 en cuatro desplegables nativos +/−, con enlaces presentes en el HTML. Se mantiene la búsqueda por barrios y zonas documentados.
 - Siete servicios en las cuatro provincias, antes del directorio; mirilla WiFi enlazada desde las fichas y seleccionable en el borrador de WhatsApp.
 - Canónicas, migas JSON-LD y sitemaps apuntan al dominio definitivo. No hay marcado de puntuaciones ni reseñas inventadas.
 - La página 404 y las vistas de prueba siguen excluidas; producción permite indexar las 431 fichas. Robots permite el rastreo.
