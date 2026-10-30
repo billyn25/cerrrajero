@@ -1,8 +1,9 @@
 import {readFileSync} from 'node:fs';
 import {join} from 'node:path';
-import {createHash} from 'node:crypto';
+const load=n=>JSON.parse(readFileSync('data/'+n+'.json','utf8'));
 const towns=JSON.parse(readFileSync('dist/assets/municipios.json','utf8'));
-const groups=new Map();
-for(const town of towns){const html=readFileSync(join('dist',town.url,'index.html'),'utf8');let article=html.match(/<article>(.*?)<\/article>/s)[1].replace(/<[^>]+>/g,' ').replace(/\s+/g,' ').trim();for(const label of [town.name,town.province].sort((a,b)=>b.length-a.length))article=article.replaceAll(label,'[ZONA]');article=article.replace(/\+?34\d{9}|\d{3} \d{2} \d{2} \d{2}/g,'[TEL]');const hash=createHash('sha256').update(article).digest('hex');if(!groups.has(hash))groups.set(hash,[]);groups.get(hash).push(town.name);}
-const shared=[...groups.values()].filter(g=>g.length>1).sort((a,b)=>b.length-a.length);
-console.log(JSON.stringify({municipalPages:towns.length,articlePatterns:groups.size,pagesSharingArticlePattern:shared.reduce((sum,g)=>sum+g.length,0),largestGroups:shared.map(g=>g.length),interpretation:'Diagnóstico editorial: se eliminan nombres de lugar y teléfonos para comparar artículos. No es una predicción de Google ni una prueba de penalización. Las páginas con estructura común requieren valor local verificable; los metadatos únicos no garantizan indexación.'},null,2));
+const policy=load('local-indexing'),reviewed=new Set(policy.reviewedMunicipalities),references=load('local-references');
+let pending=0,eligible=0;
+for(const t of towns){const html=readFileSync(join('dist',t.url,'index.html'),'utf8');if(reviewed.has(t.name))eligible++;else{pending++;if(!html.includes('content="noindex,follow"'))throw Error('Ficha pendiente indexable: '+t.name);}}
+const records=Object.values(references.municipalities);
+console.log(JSON.stringify({municipalPages:towns.length,defaultPolicy:policy.default,eligibleAfterEditorialReview:eligible,pendingNoindex:pending,municipalitiesWithStreets:records.filter(r=>r.streets.length).length,municipalitiesWithNeighborhoodsFromStreetRegister:records.filter(r=>r.neighborhoods.length).length,streetReferences:records.reduce((sum,r)=>sum+r.streets.length,0),neighborhoodReferences:records.reduce((sum,r)=>sum+r.neighborhoods.length,0),interpretation:'La mitigación consiste en excluir de indexación las fichas pendientes y consolidar las explicaciones técnicas. Añadir calles o reducir una cifra de similitud no activa la indexación ni garantiza posiciones. Incluso las fichas revisadas pueden ser evaluadas de otra forma por Google.'},null,2));

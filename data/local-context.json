@@ -1,9 +1,91 @@
 {
- "Bilbao":{"areas":["Deusto","Uribarri","Otxarkoaga-Txurdinaga","Begoña","Ibaiondo","Abando","Rekalde","Basurto-Zorrotza"],"source":"https://bilbaogazte.bilbao.eus/es/servicio/consejos-de-distrito/","label":"Distritos de Bilbao","note":"Para localizar una urgencia en Bilbao, indica el distrito y después la calle y el portal. No es lo mismo no poder entrar al edificio que tener bloqueada la puerta de la vivienda: aclara cuál es el acceso afectado."},
- "Vitoria-Gasteiz":{"areas":["Salburua","Zabalgana"],"source":"https://www.vitoria-gasteiz.org/wb021/was/contenidoAction.do?idioma=es&uid=u3abcabbd_1806944c208__7ded","label":"Referencias de zona en Vitoria-Gasteiz","note":"En Vitoria-Gasteiz, facilita el barrio y el portal para situar el aviso. Si se trata de una vivienda dentro de un edificio con varios accesos, distingue el portal de la entrada del garaje y explica en cuál está el problema."},
- "Donostia / San Sebastián":{"areas":["Amara Berri","Antiguo","Gros","Egia","Intxaurrondo","Altza","Aiete","Centro"],"source":"https://www.donostia.eus/es/como-es-ciudad/barrios","label":"Barrios de Donostia / San Sebastián","note":"En Donostia / San Sebastián, indica el barrio además de la dirección. Para una urgencia de acceso, explica si puedes pasar del portal o si el bloqueo está en la vivienda; la cerradura del edificio y la de casa pueden necesitar trabajos distintos."},
- "Madrid":{"areas":["Centro","Arganzuela","Chamartín","Chamberí","Carabanchel"],"source":"https://www.madrid.es/portales/munimadrid/es/Inicio/El-Ayuntamiento/Chamartin/Actividades-y-eventos/Distritos-y-barrios/?vgnextchannel=be12d47ffee28010VgnVCM100000dc0ca8c0RCRD&vgnextfmt=default&vgnextoid=5a86befb3fd31810VgnVCM2000001f4a900aRCRD","label":"Distritos de referencia en Madrid capital","note":"En Madrid capital, especifica distrito, calle y número de portal. Si hay conserjería o un recinto con acceso controlado, coméntalo para coordinar la llegada sin confundir la puerta de la vivienda con la entrada de la urbanización."},
- "Coslada":{"areas":["Barrio del Puerto","Valleaguado Norte","Valleaguado Sur","Ciudad 70","La Espinilla / Parque Blanco","La Cañada","Barrio de la Estación","Casco"],"source":"https://coslada.es/transparencia/2025/02/02/poblacion-de-coslada/","label":"Zonas de Coslada","note":"En Coslada puedes concretar el aviso por zonas como Valleaguado, Ciudad 70 o Barrio del Puerto. Añade siempre calle, número y el acceso afectado. Si el trastero se alcanza desde un garaje, indica si puedes entrar al garaje antes de pedir la apertura del trastero."},
- "San Fernando de Henares":{"areas":["Parque Henares","Avenida de Zarauz","Avenida de Algorta","Calle Motrico"],"source":"https://www.ayto-sanfernando.com/comercio-local/","label":"Referencias de acceso en Parque Henares","note":"Si necesitas asistencia en Parque Henares, facilita la vía y el portal exactos. En calles con distintos bloques y locales en planta baja, indica si la intervención es en una vivienda, un negocio o un acceso comunitario. El teléfono de esta página corresponde a Madrid."},
- "Barakaldo":{"areas":["Centro-Rontegi","Beurko-Bagatza","San Vicente","Retuerto","Cruces / Gurutzeta","Lutxana","Burtzeña","El Regato-Gorostiza"],"source":"https://www.barakaldo.eus/OficinaVirtualBarakaldo/tramites/acceso.do?id=494","label":"Zonas de Barakaldo","note":"Para pedir cerrajería en Barakaldo, concreta la zona y el portal. Si el cierre afectado es el del portal de una comunidad, conviene coordinar el trabajo con la persona que lo autoriza y distinguir el fallo del bombín del de un cierrapuertas."}
+  "Bilbao": {
+    "areas": [
+      "Deusto",
+      "Uribarri",
+      "Otxarkoaga-Txurdinaga",
+      "Begoña",
+      "Ibaiondo",
+      "Abando",
+      "Rekalde",
+      "Basurto-Zorrotza"
+    ],
+    "source": "https://bilbaogazte.bilbao.eus/es/servicio/consejos-de-distrito/",
+    "label": "Distritos de Bilbao",
+    "note": "Para localizar una urgencia en Bilbao, indica el distrito y después la calle y el portal. No es lo mismo no poder entrar al edificio que tener bloqueada la puerta de la vivienda: aclara cuál es el acceso afectado."
+  },
+  "Vitoria-Gasteiz": {
+    "areas": [
+      "Salburua",
+      "Zabalgana"
+    ],
+    "source": "https://www.vitoria-gasteiz.org/wb021/was/contenidoAction.do?idioma=es&uid=u3abcabbd_1806944c208__7ded",
+    "label": "Referencias de zona en Vitoria-Gasteiz",
+    "note": "En Vitoria-Gasteiz, facilita el barrio y el portal para situar el aviso. Si se trata de una vivienda dentro de un edificio con varios accesos, distingue el portal de la entrada del garaje y explica en cuál está el problema."
+  },
+  "Donostia / San Sebastián": {
+    "areas": [
+      "Amara Berri",
+      "Antiguo",
+      "Gros",
+      "Egia",
+      "Intxaurrondo",
+      "Altza",
+      "Aiete",
+      "Centro"
+    ],
+    "source": "https://www.donostia.eus/es/como-es-ciudad/barrios",
+    "label": "Barrios de Donostia / San Sebastián",
+    "note": "En Donostia / San Sebastián, indica el barrio además de la dirección. Para una urgencia de acceso, explica si puedes pasar del portal o si el bloqueo está en la vivienda; la cerradura del edificio y la de casa pueden necesitar trabajos distintos."
+  },
+  "Madrid": {
+    "areas": [
+      "Centro",
+      "Arganzuela",
+      "Chamartín",
+      "Chamberí",
+      "Carabanchel"
+    ],
+    "source": "https://www.madrid.es/portales/munimadrid/es/Inicio/El-Ayuntamiento/Chamartin/Actividades-y-eventos/Distritos-y-barrios/?vgnextchannel=be12d47ffee28010VgnVCM100000dc0ca8c0RCRD&vgnextfmt=default&vgnextoid=5a86befb3fd31810VgnVCM2000001f4a900aRCRD",
+    "label": "Distritos de referencia en Madrid capital",
+    "note": "En Madrid capital, especifica distrito, calle y número de portal. Si hay conserjería o un recinto con acceso controlado, coméntalo para coordinar la llegada sin confundir la puerta de la vivienda con la entrada de la urbanización."
+  },
+  "Coslada": {
+    "areas": [
+      "Barrio del Puerto",
+      "Valleaguado Norte",
+      "Valleaguado Sur",
+      "Ciudad 70",
+      "La Espinilla / Parque Blanco",
+      "La Cañada",
+      "Barrio de la Estación",
+      "Casco"
+    ],
+    "source": "https://coslada.es/transparencia/2025/02/02/poblacion-de-coslada/",
+    "label": "Zonas de Coslada",
+    "note": "En Coslada puedes concretar el aviso por zonas como Valleaguado, Ciudad 70 o Barrio del Puerto. Añade siempre calle, número y el acceso afectado. Si el trastero se alcanza desde un garaje, indica si puedes entrar al garaje antes de pedir la apertura del trastero."
+  },
+  "San Fernando de Henares": {
+    "areas": [
+      "Parque Henares"
+    ],
+    "source": "https://www.ayto-sanfernando.com/comercio-local/",
+    "label": "Zona de referencia en San Fernando de Henares",
+    "note": "Si necesitas asistencia en Parque Henares, facilita la vía y el portal exactos. En calles con distintos bloques y locales en planta baja, indica si la intervención es en una vivienda, un negocio o un acceso comunitario. El teléfono de esta página corresponde a Madrid."
+  },
+  "Barakaldo": {
+    "areas": [
+      "Centro-Rontegi",
+      "Beurko-Bagatza",
+      "San Vicente",
+      "Retuerto",
+      "Cruces / Gurutzeta",
+      "Lutxana",
+      "Burtzeña",
+      "El Regato-Gorostiza"
+    ],
+    "source": "https://www.barakaldo.eus/OficinaVirtualBarakaldo/tramites/acceso.do?id=494",
+    "label": "Zonas de Barakaldo",
+    "note": "Para pedir cerrajería en Barakaldo, concreta la zona y el portal. Si el cierre afectado es el del portal de una comunidad, conviene coordinar el trabajo con la persona que lo autoriza y distinguir el fallo del bombín del de un cierrapuertas."
+  }
 }

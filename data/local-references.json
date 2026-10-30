@@ -1,0 +1,7122 @@
+{
+  "sources": {
+    "eustat": {
+      "label": "Eustat · callejero oficial",
+      "url": "https://opendata.euskadi.eus/catalogo/-/callejero-comunidad-autonoma-del-pais-vasco/",
+      "attribution": "Eusko Jaurlaritza / Gobierno Vasco. Eustat.",
+      "retrieved": "2026-10-30"
+    },
+    "madrid": {
+      "label": "Comunidad de Madrid · callejero completo",
+      "url": "https://web.comunidad.madrid/iestadis/fijas/estructu/general/territorio/estructu_descargas.htm",
+      "attribution": "Comunidad de Madrid. Subdirección General de Estadística.",
+      "retrieved": "2026-10-30",
+      "fileVersion": "Callejero_Completo_V124.dbf"
+    }
+  },
+  "municipalities": {
+    "Vitoria-Gasteiz": {
+      "code": "01059",
+      "streets": [
+        "Calle Eduardo Dato",
+        "Calle Posta/Postas",
+        "Calle Aiztogile/Cuchillería",
+        "Avenida Gasteiz",
+        "Calle Andre Maria Zuriaren Koroatzea/Coronación de la Virgen Blanca",
+        "Avenida Sofia Erregina/Reina Sofía",
+        "Calle Gaztelako Atea/Portal de Castilla",
+        "Calle Hedegile/Correría"
+      ],
+      "neighborhoods": [],
+      "source": "eustat"
+    },
+    "Agurain / Salvatierra": {
+      "code": "01051",
+      "streets": [
+        "Calle Mayor",
+        "Calle Zapatari",
+        "Calle Harrikruz",
+        "Calle Fueros",
+        "Calle Urzabal",
+        "Plaza Errotalde",
+        "Calle Dulantzi",
+        "Calle Nuestra Señora del Rosario"
+      ],
+      "neighborhoods": [],
+      "source": "eustat"
+    },
+    "Alegría-Dulantzi": {
+      "code": "01001",
+      "streets": [
+        "Calle Gasteiz Bidea",
+        "Calle Mayor",
+        "Calle Dulantzi",
+        "Calle Arrabal",
+        "Calle Añua Bidea",
+        "Calle Ursuleta",
+        "Calle Nuestra Señora de Aiala",
+        "Plaza La Estación"
+      ],
+      "neighborhoods": [],
+      "source": "eustat"
+    },
+    "Asparrena": {
+      "code": "01009",
+      "streets": [
+        "Calle Albeniz",
+        "Calle Intuxi",
+        "Calle Santsaerreka",
+        "Calle Arriola",
+        "Calle Mayor",
+        "Calle Sagastui",
+        "Calle Andra Mari",
+        "Calle Intxerdui"
+      ],
+      "neighborhoods": [],
+      "source": "eustat"
+    },
+    "San Millán / Donemiliaga": {
+      "code": "01053",
+      "streets": [
+        "Calle Mayor",
+        "Calle Zadorra",
+        "Calle Olabaso",
+        "Calle Mentalde",
+        "Calle Dulantzi-Bide",
+        "Calle San Clemente",
+        "Calle Goikomendi",
+        "Avenida Lomendi"
+      ],
+      "neighborhoods": [
+        "Barrio Arriba",
+        "Barrio Medio",
+        "Barrio Abajo"
+      ],
+      "source": "eustat"
+    },
+    "Elburgo / Burgelu": {
+      "code": "01021",
+      "streets": [
+        "Avenida Burgelu",
+        "Calle Arralde",
+        "Calle Parrala",
+        "Calle Mayor",
+        "Calle Ederki",
+        "Calle Camino del Monte",
+        "Calle Bitikurri",
+        "Plaza San Esteban"
+      ],
+      "neighborhoods": [
+        "Santa Marina",
+        "Camino del Molino"
+      ],
+      "source": "eustat"
+    },
+    "Iruña de Oca / Iruña Oka": {
+      "code": "01901",
+      "streets": [
+        "Avenida Langraiz",
+        "Calle Camino Real",
+        "Calle Álava",
+        "Calle Mayor",
+        "Calle Alanzo",
+        "Calle San Cristóbal",
+        "Calle Rubina",
+        "Plaza Rita Oraa"
+      ],
+      "neighborhoods": [
+        "Garabo",
+        "Gazpidi",
+        "Vallelengo"
+      ],
+      "source": "eustat"
+    },
+    "Legutio": {
+      "code": "01058",
+      "streets": [
+        "Calle Comercio",
+        "Calle Goikuri",
+        "Calle San Bartolome",
+        "Calle Padurea",
+        "Calle Gorbea",
+        "Avenida San Blas",
+        "Calle San Roque",
+        "Plaza Doctor Ortiz de Zarate"
+      ],
+      "neighborhoods": [
+        "Kurutzalde",
+        "Nafarrate",
+        "Goikoetxe",
+        "Ollerías/Ollerieta",
+        "Saindurdi",
+        "Santa Engracia"
+      ],
+      "source": "eustat"
+    },
+    "Zigoitia": {
+      "code": "01018",
+      "streets": [
+        "Calle Kale Nagusia",
+        "Calle Urtegieta",
+        "Calle Berrikazubi",
+        "Calle Lagagorri",
+        "Calle San Roke",
+        "Calle Elizalde",
+        "Calle Sarragoa",
+        "Avenida Gorbea"
+      ],
+      "neighborhoods": [],
+      "source": "eustat"
+    },
+    "Zuia": {
+      "code": "01063",
+      "streets": [
+        "Calle Domingo de Sautu",
+        "Calle Biguillano",
+        "Calle San Martin",
+        "Calle Herriko Bidea",
+        "Calle Elizalde",
+        "Calle Palatu",
+        "Calle Baias",
+        "Plaza Ayuntamiento"
+      ],
+      "neighborhoods": [],
+      "source": "eustat"
+    },
+    "Laudio / Llodio": {
+      "code": "01036",
+      "streets": [
+        "Avenida Zumalakarregi",
+        "Calle Arraño",
+        "Calle Larrazabal",
+        "Calle Landaluze",
+        "Calle Virgen del Carmen",
+        "Calle Atxeta",
+        "Calle Goienuri",
+        "Plaza Alberto Acero"
+      ],
+      "neighborhoods": [
+        "Isasi"
+      ],
+      "source": "eustat"
+    },
+    "Amurrio": {
+      "code": "01002",
+      "streets": [
+        "Calle Mendiko",
+        "Calle Landaburu",
+        "Calle Bañuetaibar",
+        "Calle Aiara",
+        "Calle Ugartebetxi",
+        "Calle Gernikako Arbola",
+        "Calle Larrabe",
+        "Avenida San Roke"
+      ],
+      "neighborhoods": [
+        "San Jose",
+        "Onsoño",
+        "Aldama",
+        "Bergantza"
+      ],
+      "source": "eustat"
+    },
+    "Ayala / Aiara": {
+      "code": "01010",
+      "streets": [
+        "Calle Padura",
+        "Calle San Lorenzo",
+        "Calle La Torre",
+        "Calle Barrena",
+        "Paseo Babio",
+        "Calle Restergo",
+        "Calle La Magdalena",
+        "Calle Oloste"
+      ],
+      "neighborhoods": [
+        "La Iglesia",
+        "Mendieta",
+        "La Llana",
+        "Zubito",
+        "Ripa",
+        "Retes de Llanteno"
+      ],
+      "source": "eustat"
+    },
+    "Artziniega": {
+      "code": "01004",
+      "streets": [
+        "Calle Barrenkale",
+        "Calle Artekale",
+        "Calle Zaballa",
+        "Avenida Garai",
+        "Calle Ubaltorre",
+        "Avenida Gernika",
+        "Avenida Ametzola",
+        "Plaza Goiko plaza"
+      ],
+      "neighborhoods": [
+        "Barretaguren",
+        "San Antonio",
+        "Benta",
+        "Eskartza",
+        "Hormaza",
+        "Barcena"
+      ],
+      "source": "eustat"
+    },
+    "Okondo": {
+      "code": "01042",
+      "streets": [
+        "Calle Arenalde",
+        "Calle Jose Pablo Ulibarri",
+        "Avenida Garaikoetxea"
+      ],
+      "neighborhoods": [
+        "Irabien",
+        "San Roman/San Román",
+        "Billatxika/Villachica",
+        "Gorostiola",
+        "Aretxaga",
+        "Ugalde"
+      ],
+      "source": "eustat"
+    },
+    "Urkabustaiz": {
+      "code": "01054",
+      "streets": [
+        "Calle Ibaizabal",
+        "Calle Santa Lucía",
+        "Calle La Estación",
+        "Calle Godamiturri",
+        "Calle Mayor",
+        "Calle San Vicente",
+        "Calle La Escuela",
+        "Plaza Municipal"
+      ],
+      "neighborhoods": [],
+      "source": "eustat"
+    },
+    "Laguardia": {
+      "code": "01031",
+      "streets": [
+        "Calle Mayor",
+        "Calle Páganos",
+        "Calle Santa Engracia",
+        "Calle Los Chocolateros",
+        "Calle Rua Mayor de Peralta",
+        "Avenida Excma. Diputación",
+        "Calle San Bartolome",
+        "Plaza Nueva"
+      ],
+      "neighborhoods": [],
+      "source": "eustat"
+    },
+    "Oyón-Oion": {
+      "code": "01043",
+      "streets": [
+        "Avenida Navarra",
+        "Avenida Diputación",
+        "Calle Mayor",
+        "Calle Salvatierra-Agurain",
+        "Calle Concepción",
+        "Calle Santa Lucía",
+        "Calle Mendoza",
+        "Plaza Mayor"
+      ],
+      "neighborhoods": [],
+      "source": "eustat"
+    },
+    "Labastida / Bastida": {
+      "code": "01028",
+      "streets": [
+        "Calle Mayor",
+        "Avenida Diputación",
+        "Calle El Otero",
+        "Avenida San Ginés",
+        "Calle Sopalacio",
+        "Calle Larrazuria",
+        "Calle Mentoste",
+        "Plaza Doctor Andrés Castillo"
+      ],
+      "neighborhoods": [],
+      "source": "eustat"
+    },
+    "Elciego": {
+      "code": "01022",
+      "streets": [
+        "Calle Barrihuelo",
+        "Calle Grupo Gallarza",
+        "Calle Hospital",
+        "Calle Eras",
+        "Calle Norte",
+        "Calle Monjio",
+        "Calle Capitan Gallarza",
+        "Avenida Marqués de Riscal"
+      ],
+      "neighborhoods": [],
+      "source": "eustat"
+    },
+    "Lapuebla de Labarca": {
+      "code": "01033",
+      "streets": [
+        "Calle Bodegas",
+        "Avenida La Poveda",
+        "Calle Mayor",
+        "Avenida Excelentísima Diputación",
+        "Avenida Gasteiz",
+        "Calle Real",
+        "Travesía Antigua de Elciego",
+        "Plaza El Plano"
+      ],
+      "neighborhoods": [],
+      "source": "eustat"
+    },
+    "Lanciego / Lantziego": {
+      "code": "01032",
+      "streets": [
+        "Calle La Fuente",
+        "Calle Alarilla",
+        "Calle Mayor",
+        "Calle La Virgen",
+        "Calle El Olmo",
+        "Calle Luis de Aramayona",
+        "Calle Moral Alto",
+        "Plaza Antonio Soloaga"
+      ],
+      "neighborhoods": [],
+      "source": "eustat"
+    },
+    "Campezo / Kanpezu": {
+      "code": "01017",
+      "streets": [
+        "Calle Arrabal",
+        "Calle La Villa",
+        "Calle Mayor",
+        "Calle Herrería",
+        "Calle La Berguilla",
+        "Calle Subida del Frontón",
+        "Calle Centro",
+        "Plaza Samuel Picaza"
+      ],
+      "neighborhoods": [
+        "Barrio Medio",
+        "Barrio Abajo",
+        "Barrio Arriba"
+      ],
+      "source": "eustat"
+    },
+    "Arraia-Maeztu": {
+      "code": "01037",
+      "streets": [
+        "Calle Mayor",
+        "Calle San Esteban",
+        "Calle Mediodía",
+        "Calle San Pedro",
+        "Calle San Juan",
+        "Calle San Andres",
+        "Calle Santiago",
+        "Avenida Corres"
+      ],
+      "neighborhoods": [
+        "Goikara",
+        "Bengara",
+        "Elespara",
+        "Barrio Abajo",
+        "Barrio Arriba",
+        "Arrabal"
+      ],
+      "source": "eustat"
+    },
+    "Valdegovía / Gaubea": {
+      "code": "01055",
+      "streets": [
+        "Calle Real",
+        "Calle La Iglesia",
+        "Calle Arquitecto Jesus Guinea",
+        "Calle Santa Lucía",
+        "Calle San Martin",
+        "Calle Las Arenas",
+        "Calle El Llano",
+        "Avenida Omecillo"
+      ],
+      "neighborhoods": [
+        "Barrio Abajo",
+        "Barrio Arriba",
+        "Barrio Medio"
+      ],
+      "source": "eustat"
+    },
+    "Ribera Baja / Erribera Beitia": {
+      "code": "01047",
+      "streets": [
+        "Calle Francisco Manuel de Echanove",
+        "Calle Alfonso VI",
+        "Calle Real",
+        "Calle San Juan",
+        "Calle Parrales",
+        "Calle Postas",
+        "Calle Río Zadorra",
+        "Avenida Miranda"
+      ],
+      "neighborhoods": [],
+      "source": "eustat"
+    },
+    "Añana": {
+      "code": "01049",
+      "streets": [
+        "Calle Real",
+        "Calle Revilla",
+        "Calle San Cristóbal",
+        "Calle Cerca Alta",
+        "Calle Solana",
+        "Calle La Carrera",
+        "Calle Perruchico",
+        "Plaza Don Miguel Diaz de Tuesta"
+      ],
+      "neighborhoods": [
+        "Barrio Abajo",
+        "Barrio Arriba"
+      ],
+      "source": "eustat"
+    },
+    "Aramaio": {
+      "code": "01003",
+      "streets": [
+        "Calle Nardeaga",
+        "Calle Ibargoia",
+        "Calle Pedro Ignacio Barrutia",
+        "Calle Iturrizuri",
+        "Plaza Bixente Goikoetxea",
+        "Calle Matxain",
+        "Plaza Santakurtz Abadea",
+        "Calle Osteta"
+      ],
+      "neighborhoods": [
+        "Oleta",
+        "Azkoaga",
+        "Barajuen",
+        "Zabola",
+        "Eguzkierripa",
+        "Etxaguen"
+      ],
+      "source": "eustat"
+    },
+    "Armiñón": {
+      "code": "01006",
+      "streets": [
+        "Calle Real",
+        "Calle La Picota",
+        "Calle La Fuente",
+        "Calle El Arenal",
+        "Calle El Castillo",
+        "Calle El Puente",
+        "Calle La Iglesia",
+        "Calle Playa de San José"
+      ],
+      "neighborhoods": [],
+      "source": "eustat"
+    },
+    "Arratzua-Ubarrundia": {
+      "code": "01008",
+      "streets": [
+        "Calle Francisco Santos de Ayala",
+        "Calle Enkandadua",
+        "Calle Única",
+        "Calle Itsasostea",
+        "Calle Ikastolabide",
+        "Calle Bastibarrea",
+        "Calle Irizaya",
+        "Plaza La Landa"
+      ],
+      "neighborhoods": [
+        "Barrio Medio",
+        "Otxategi",
+        "Estación",
+        "Ibaiartegui",
+        "La Landa",
+        "Zelandia"
+      ],
+      "source": "eustat"
+    },
+    "Baños de Ebro / Mañueta": {
+      "code": "01011",
+      "streets": [
+        "Calle Las Cuevas",
+        "Avenida Puente del Río Ebro",
+        "Calle San Cristóbal",
+        "Calle San Vicente",
+        "Calle Mayor",
+        "Calle Laguardia",
+        "Calle El Rosario",
+        "Plaza Constitución"
+      ],
+      "neighborhoods": [],
+      "source": "eustat"
+    },
+    "Barrundia": {
+      "code": "01013",
+      "streets": [
+        "Calle Mayor",
+        "Calle Elejalde",
+        "Calle Uria",
+        "Calle Zarrikizubi",
+        "Calle Elizalde",
+        "Calle La Venta",
+        "Calle Orgutxa",
+        "Plaza El Cargadero"
+      ],
+      "neighborhoods": [
+        "Etxebitarte",
+        "El Solar",
+        "Arrube",
+        "Alkarana",
+        "Arkia",
+        "Larrintzar"
+      ],
+      "source": "eustat"
+    },
+    "Berantevilla": {
+      "code": "01014",
+      "streets": [
+        "Calle Mayor",
+        "Calle Abajo",
+        "Calle Real",
+        "Calle Castillo de Portilla",
+        "Calle Río Ayuda",
+        "Calle El Horno",
+        "Calle Principal",
+        "Plaza Fray Pedro de Urbina"
+      ],
+      "neighborhoods": [],
+      "source": "eustat"
+    },
+    "Bernedo": {
+      "code": "01016",
+      "streets": [
+        "Calle Real",
+        "Calle Mayor",
+        "Calle Abajo",
+        "Calle El Cristo",
+        "Calle Las Eras",
+        "Plaza Calle Mayor",
+        "Avenida Izki",
+        "Calle La Sarrea"
+      ],
+      "neighborhoods": [
+        "Barrio Arriba",
+        "Barrio Abajo"
+      ],
+      "source": "eustat"
+    },
+    "Elvillar / Bilar": {
+      "code": "01023",
+      "streets": [
+        "Calle Somillo",
+        "Calle Herrerías",
+        "Calle Coscojal",
+        "Plaza Santa María",
+        "Calle Camino de Bernedo",
+        "Calle Hornos",
+        "Calle Laurel",
+        "Calle San Pedro"
+      ],
+      "neighborhoods": [],
+      "source": "eustat"
+    },
+    "Erriberagoitia / Ribera Alta": {
+      "code": "01046",
+      "streets": [
+        "Calle Álava",
+        "Calle Kalera",
+        "Calle Manzanera",
+        "Calle La Iglesia",
+        "Calle Las Paulejas",
+        "Calle Las Campas",
+        "Calle Santa María",
+        "Avenida Iñaki"
+      ],
+      "neighborhoods": [
+        "Mimbredo",
+        "San Miguel"
+      ],
+      "source": "eustat"
+    },
+    "Harana / Valle de Arana": {
+      "code": "01056",
+      "streets": [
+        "Calle Mayor",
+        "Calle de la Virgen de Uralde",
+        "Calle de la Fuente",
+        "Calle Balbanio",
+        "Calle San Cristóbal",
+        "Calle San Juan",
+        "Calle Arnaska",
+        "Avenida Entzia"
+      ],
+      "neighborhoods": [],
+      "source": "eustat"
+    },
+    "Iruraiz-Gauna": {
+      "code": "01027",
+      "streets": [
+        "Calle Gauna",
+        "Calle Trokoniz",
+        "Calle Ezkerekotxa",
+        "Calle Gazeo",
+        "Calle Alaitza",
+        "Calle Arrieta",
+        "Calle Gereñu",
+        "Calle Azilu"
+      ],
+      "neighborhoods": [
+        "Málaga",
+        "Elisalde",
+        "Arridundiz",
+        "Agonza"
+      ],
+      "source": "eustat"
+    },
+    "Kripan": {
+      "code": "01019",
+      "streets": [
+        "Calle San Juan",
+        "Calle San Martin",
+        "Plaza El Coso",
+        "Plaza de la Barbacana",
+        "Calle Zaga de San Juan",
+        "Calle de Veranilla",
+        "Calle Santa María",
+        "Calle de Castrujales"
+      ],
+      "neighborhoods": [],
+      "source": "eustat"
+    },
+    "Kuartango": {
+      "code": "01020",
+      "streets": [],
+      "neighborhoods": [],
+      "source": "eustat"
+    },
+    "Lagrán": {
+      "code": "01030",
+      "streets": [
+        "Avenida Vitoria",
+        "Calle Presbitero Miner",
+        "Calle San Andrés",
+        "Calle Portal de Cristo",
+        "Calle Herrería",
+        "Calle Trasera",
+        "Calle Central",
+        "Plaza Santa María"
+      ],
+      "neighborhoods": [
+        "Los Curas"
+      ],
+      "source": "eustat"
+    },
+    "Lantarón": {
+      "code": "01902",
+      "streets": [
+        "Calle Real",
+        "Calle La Fuente",
+        "Calle Baños de la Villa",
+        "Calle El Campo",
+        "Calle Gobea",
+        "Calle Mayor",
+        "Calle San Nicolas",
+        "Plaza Las Eras"
+      ],
+      "neighborhoods": [
+        "Barrio Arriba",
+        "Barrio Abajo"
+      ],
+      "source": "eustat"
+    },
+    "Leza": {
+      "code": "01034",
+      "streets": [
+        "Calle Mayor",
+        "Calle Norte",
+        "Calle Lombilla Baja",
+        "Calle La Fuente",
+        "Calle Lombilla Alta",
+        "Calle Las Cuevas",
+        "Calle Mediodía",
+        "Plaza El Mesón"
+      ],
+      "neighborhoods": [],
+      "source": "eustat"
+    },
+    "Moreda de Álava / Moreda Araba": {
+      "code": "01039",
+      "streets": [
+        "Calle La Planilla",
+        "Calle Herrerías",
+        "Calle Los Jardines",
+        "Calle Las Cuevas",
+        "Calle San Prudencio",
+        "Calle Rubiejo",
+        "Calle El Somo",
+        "Plaza Mayor Manuel Álvarez"
+      ],
+      "neighborhoods": [],
+      "source": "eustat"
+    },
+    "Navaridas": {
+      "code": "01041",
+      "streets": [
+        "Calle El Tesoro",
+        "Calle Mayor",
+        "Avenida Diputación Foral de Alava",
+        "Calle Marques de Estella",
+        "Calle Madrid",
+        "Calle La Pila",
+        "Calle Vitoria",
+        "Plaza Enrique Privado"
+      ],
+      "neighborhoods": [],
+      "source": "eustat"
+    },
+    "Peñacerrada-Urizaharra": {
+      "code": "01044",
+      "streets": [
+        "Calle Real",
+        "Avenida Urizaharra",
+        "Avenida Loza",
+        "Calle Mauricio Baldivielso",
+        "Avenida Payueta/Pagoeta",
+        "Calle San Roque",
+        "Calle Santa Eulalia",
+        "Plaza Los Fueros"
+      ],
+      "neighborhoods": [],
+      "source": "eustat"
+    },
+    "Samaniego": {
+      "code": "01052",
+      "streets": [
+        "Calle Murriarte",
+        "Calle Matarredo de Abajo",
+        "Calle El Ochavo",
+        "Calle Matarredo de Enmedio",
+        "Calle Matarredo de Arriba",
+        "Calle Sor Felicias",
+        "Calle El Cristo",
+        "Calle El Cercado"
+      ],
+      "neighborhoods": [],
+      "source": "eustat"
+    },
+    "Villabuena de Álava / Eskuernaga": {
+      "code": "01057",
+      "streets": [
+        "Calle Herrería",
+        "Calle Mayor",
+        "Calle Buenavista",
+        "Calle Santa María",
+        "Calle Baños de Ebro",
+        "Calle La Colina",
+        "Calle San Roque",
+        "Plaza La Iglesia"
+      ],
+      "neighborhoods": [],
+      "source": "eustat"
+    },
+    "Yécora / Iekora": {
+      "code": "01060",
+      "streets": [
+        "Calle El Sur",
+        "Avenida Excma. Diputación de Alava",
+        "Calle San Sebastián",
+        "Calle El Colegio",
+        "Calle La Fuente",
+        "Calle San Juan",
+        "Calle San Miguel",
+        "Calle San Bartolomé"
+      ],
+      "neighborhoods": [],
+      "source": "eustat"
+    },
+    "Zalduondo": {
+      "code": "01061",
+      "streets": [],
+      "neighborhoods": [
+        "Iturbero",
+        "Iturribarri",
+        "Errotalde",
+        "Goikoaldea",
+        "Goitialdea",
+        "Torre-Larre"
+      ],
+      "source": "eustat"
+    },
+    "Zambrana": {
+      "code": "01062",
+      "streets": [
+        "Calle Real",
+        "Calle Mayor",
+        "Calle Zadorra",
+        "Calle Inglares",
+        "Calle Cantones",
+        "Calle La Calzada",
+        "Calle Santa Marina",
+        "Plaza Sta. Lucía"
+      ],
+      "neighborhoods": [
+        "Barrio del Campo"
+      ],
+      "source": "eustat"
+    },
+    "Bilbao": {
+      "code": "48020",
+      "streets": [
+        "Calle Kale Nagusia On Diego Lopez Haroko/Gran Vía Don Diego López de Haro",
+        "Calle Autonomía",
+        "Calle Iturribide",
+        "Calle Poza Lizentziatua/Licenciado Poza",
+        "Alameda Urkixo/Urquijo",
+        "Avenida Agirre Lehendakaria/Lehendakari Aguirre",
+        "Calle Zabalbide",
+        "Calle Zamácola"
+      ],
+      "neighborhoods": [
+        "Betolatza",
+        "Zurbaranbarri",
+        "Uretamendi",
+        "Zurbaran",
+        "Buia",
+        "Mintegitxueta/Monte Caramelo"
+      ],
+      "source": "eustat"
+    },
+    "Barakaldo": {
+      "code": "48013",
+      "streets": [
+        "Plaza Herriko plaza",
+        "Calle Gernikako Arbola",
+        "Avenida Askatasuna/La Libertad",
+        "Calle Francisco Gomez",
+        "Paseo Foruak/Los Fueros",
+        "Calle La Dinamita",
+        "Calle La Familiar",
+        "Calle Oleta/Ferrerías"
+      ],
+      "neighborhoods": [
+        "Gorostitza",
+        "Santa Agueda"
+      ],
+      "source": "eustat"
+    },
+    "Getxo": {
+      "code": "48044",
+      "streets": [
+        "Calle Errotalde",
+        "Calle Peña de Santa Marina",
+        "Calle Maidagan",
+        "Avenida Zugatzarte",
+        "Avenida Los Chopos",
+        "Avenida Basagoiti",
+        "Calle Gabriel Ramos Uranga",
+        "Plaza Gazteluzarra"
+      ],
+      "neighborhoods": [],
+      "source": "eustat"
+    },
+    "Portugalete": {
+      "code": "48078",
+      "streets": [
+        "Calle General Castaños",
+        "Calle Abatxolo",
+        "Calle Grumete Diego",
+        "Calle María Diaz de Haro",
+        "Calle Correos",
+        "Calle Arturo Campión",
+        "Calle Gipuzkoa",
+        "Avenida Abaro"
+      ],
+      "neighborhoods": [
+        "Campanzar",
+        "Ballonti"
+      ],
+      "source": "eustat"
+    },
+    "Santurtzi": {
+      "code": "48082",
+      "streets": [
+        "Avenida Iparragirre",
+        "Calle Lauaxeta",
+        "Avenida Antonio Alzaga",
+        "Calle Las Viñas",
+        "Calle Mamariga",
+        "Calle Bullón",
+        "Calle Itsasalde",
+        "Plaza Juan José Mendizabal"
+      ],
+      "neighborhoods": [
+        "Cueto",
+        "El Villar",
+        "Balparda",
+        "Cercamar",
+        "Tocedo",
+        "El Calero"
+      ],
+      "source": "eustat"
+    },
+    "Sestao": {
+      "code": "48084",
+      "streets": [
+        "Calle Chavarri",
+        "Calle Gran Vía de Jose Antonio Agirre y Lekube",
+        "Calle Los Baños",
+        "Calle Blas de Otero",
+        "Calle La Iberia",
+        "Calle Alameda las Llanas",
+        "Calle Miguel Servet",
+        "Avenida Kaiku"
+      ],
+      "neighborhoods": [],
+      "source": "eustat"
+    },
+    "Erandio": {
+      "code": "48902",
+      "streets": [
+        "Calle Meso",
+        "Calle Tartanga",
+        "Avenida Axpeko Erribera",
+        "Avenida Zirgariak",
+        "Calle Obieta",
+        "Calle Jado",
+        "Calle Etxegorri",
+        "Plaza J.A. Agirre eta Lekube"
+      ],
+      "neighborhoods": [
+        "Elexalde",
+        "Erandiogoikoko San Jose",
+        "Faoeta",
+        "Luis Landetxo",
+        "Sanpablomendi",
+        "Lutxanako San Jose"
+      ],
+      "source": "eustat"
+    },
+    "Leioa": {
+      "code": "48054",
+      "streets": [
+        "Paseo Landabarri",
+        "Avenida Sabino Arana",
+        "Calle Independentzia",
+        "Calle Langileria",
+        "Avenida Iparragirre",
+        "Calle Basañese",
+        "Calle Kandelazubieta",
+        "Plaza Errekalde"
+      ],
+      "neighborhoods": [
+        "Sarriena",
+        "Aldekoena",
+        "Txorierri",
+        "Peruri",
+        "Santi Mami",
+        "Santsoena"
+      ],
+      "source": "eustat"
+    },
+    "Basauri": {
+      "code": "48015",
+      "streets": [
+        "Avenida Agirre Lehendakaria",
+        "Calle Kareaga Goikoa",
+        "Avenida Landa Doktorren etorbidea",
+        "Calle Kale Nagusia",
+        "Calle Gernika",
+        "Calle Catalunya",
+        "Calle Axular",
+        "Plaza Arizgoitiko plaza"
+      ],
+      "neighborhoods": [
+        "Zabalandi",
+        "Finaga",
+        "Ariz Torrea",
+        "Luzarre",
+        "Atxikorre",
+        "Iruaretxeta"
+      ],
+      "source": "eustat"
+    },
+    "Galdakao": {
+      "code": "48036",
+      "streets": [
+        "Calle Txomin Egileor",
+        "Calle Bizkai",
+        "Calle Ibaizabal",
+        "Calle Juan Bautista Uriarte",
+        "Calle Lapurdi",
+        "Calle Ibarluze",
+        "Calle Gernika",
+        "Plaza Zabalgane"
+      ],
+      "neighborhoods": [
+        "Tximelarrabekoa",
+        "Bekea",
+        "Aperribai",
+        "Zabalea",
+        "Olabarrieta",
+        "Elexalde"
+      ],
+      "source": "eustat"
+    },
+    "Etxebarri": {
+      "code": "48029",
+      "streets": [
+        "Calle Santa Marina",
+        "Avenida San Antonio",
+        "Calle Navarra",
+        "Calle Euskal Herria",
+        "Calle Andalucía",
+        "Calle Tomás Meabe",
+        "Calle Castilla",
+        "Plaza Euskaltzaleak"
+      ],
+      "neighborhoods": [
+        "Kukullaga"
+      ],
+      "source": "eustat"
+    },
+    "Arrigorriaga": {
+      "code": "48011",
+      "streets": [
+        "Calle Padura",
+        "Paseo Urgoiti",
+        "Calle Severo Ochoa",
+        "Calle Jose Mª Makua",
+        "Calle Santa Isabel",
+        "Calle Pedro Muro",
+        "Calle Arandia",
+        "Avenida Axarte"
+      ],
+      "neighborhoods": [
+        "Osasun eta Higiene",
+        "Larrasko",
+        "Brisketa",
+        "Zubiondo",
+        "Martiartu",
+        "Beretxa"
+      ],
+      "source": "eustat"
+    },
+    "Trapagaran": {
+      "code": "48080",
+      "streets": [
+        "Avenida Maiatzaren Lehena/Primero de Mayo",
+        "Calle Funikular",
+        "Calle Gipuzkoa",
+        "Calle Pérez Galdós",
+        "Calle Campa del Asturiano",
+        "Calle José Rufino Olaso",
+        "Calle María Magdalena",
+        "Plaza Donibane/San Juan"
+      ],
+      "neighborhoods": [
+        "Larreineta",
+        "La Ronda",
+        "Elguero",
+        "Parkotxa-Barrionuevo",
+        "Escontrilla Alta",
+        "Zaballa"
+      ],
+      "source": "eustat"
+    },
+    "Ortuella": {
+      "code": "48083",
+      "streets": [
+        "Avenida Bilbao",
+        "Calle La Llana",
+        "Avenida La Estación",
+        "Avenida Minero",
+        "Avenida Lasagabaster",
+        "Calle Catalina Gibaja",
+        "Calle Etxezuri",
+        "Plaza Primero de Mayo"
+      ],
+      "neighborhoods": [
+        "Urioste",
+        "Nocedal",
+        "Ralera",
+        "Saugal",
+        "Bañales",
+        "Golifar"
+      ],
+      "source": "eustat"
+    },
+    "Muskiz": {
+      "code": "48071",
+      "streets": [
+        "Calle Las Acacias",
+        "Calle Errota Zahar",
+        "Avenida Antonio Trueba",
+        "Avenida Fuente Vieja",
+        "Calle Giba Fregenal",
+        "Calle Ibaigane",
+        "Calle Gurugu Memerea",
+        "Calle Artekale"
+      ],
+      "neighborhoods": [
+        "Cobarón",
+        "San Julián",
+        "Santelices",
+        "Pobeña",
+        "El Crucero",
+        "San Juan"
+      ],
+      "source": "eustat"
+    },
+    "Abanto-Zierbena": {
+      "code": "48002",
+      "streets": [
+        "Avenida Ambrosio de los Heros",
+        "Avenida Los Chopos",
+        "Avenida El Minero",
+        "Calle El Cerro",
+        "Calle Artekale",
+        "Avenida El Campón",
+        "Calle Iturrigoiti",
+        "Plaza Bizkaia"
+      ],
+      "neighborhoods": [
+        "El Campillo",
+        "Cotarro",
+        "Cotorrio",
+        "Putxeta",
+        "Loredo",
+        "Santa Juliana"
+      ],
+      "source": "eustat"
+    },
+    "Sopela": {
+      "code": "48085",
+      "streets": [
+        "Calle Zabalbide",
+        "Calle Urkisuondo",
+        "Calle Gatzarrine",
+        "Calle Loiola Ander Deuna",
+        "Calle Sabino Arana",
+        "Calle Kukullu",
+        "Calle Goikoetxe",
+        "Avenida Arriatera"
+      ],
+      "neighborhoods": [],
+      "source": "eustat"
+    },
+    "Berango": {
+      "code": "48016",
+      "streets": [
+        "Avenida Simon Otxandategi",
+        "Calle Berangotxu Bidea",
+        "Calle Lukategitxu Bidea",
+        "Calle Jesus Maria Leizaola",
+        "Calle Errekagana",
+        "Calle Sabino Arana",
+        "Calle Berangoeta Bidea",
+        "Plaza Elexalde"
+      ],
+      "neighborhoods": [
+        "Axgane",
+        "Lantzarte",
+        "Karabigane",
+        "Basotxu",
+        "Karabiazpi",
+        "Kurtze"
+      ],
+      "source": "eustat"
+    },
+    "Urduliz": {
+      "code": "48089",
+      "streets": [
+        "Calle Krutzekada",
+        "Calle Aita Gotzon",
+        "Calle Antsonekoa",
+        "Calle Elortza",
+        "Calle Elexalde",
+        "Calle Torre",
+        "Calle Goieta",
+        "Avenida Bizkaiko etorbidea"
+      ],
+      "neighborhoods": [
+        "Mendiondo",
+        "Dobaran",
+        "Zalbidea",
+        "Elortza",
+        "Mauratza"
+      ],
+      "source": "eustat"
+    },
+    "Mungia": {
+      "code": "48069",
+      "streets": [
+        "Calle Ametzabide",
+        "Calle Urbide",
+        "Calle Bermeo Bidea",
+        "Calle Aritz Bidea",
+        "Calle Gamiz Bidea",
+        "Calle Lauaxeta Olerkari",
+        "Calle Karmelo Etxegarai",
+        "Plaza Goietako Plaza"
+      ],
+      "neighborhoods": [],
+      "source": "eustat"
+    },
+    "Derio": {
+      "code": "48901",
+      "streets": [
+        "Calle Goiri",
+        "Paseo Larrabarri",
+        "Calle Gastañatxu",
+        "Avenida Mungialde",
+        "Avenida Gernikako Arbola",
+        "Calle Ganbe",
+        "Calle Lainomendi",
+        "Plaza Jardinetxe"
+      ],
+      "neighborhoods": [
+        "Aldekona (San Isidro)",
+        "Arteaga",
+        "San Kristobal",
+        "San Esteban",
+        "Aranoltza (San Antolin)",
+        "Txosna"
+      ],
+      "source": "eustat"
+    },
+    "Zamudio": {
+      "code": "48905",
+      "streets": [
+        "Avenida Txorierriko etorbidea",
+        "Calle Enara",
+        "Calle Txinbo",
+        "Calle Arbolantxa",
+        "Calle Gorbeia",
+        "Calle Oiz",
+        "Calle Pago",
+        "Plaza Sabino Arana"
+      ],
+      "neighborhoods": [
+        "Arteaga",
+        "Aranoltza",
+        "Geldo",
+        "Santi Mami",
+        "Galbarriartu",
+        "Lekunbiz"
+      ],
+      "source": "eustat"
+    },
+    "Sondika": {
+      "code": "48904",
+      "streets": [
+        "Calle Ibaiondo",
+        "Avenida Jose Antonio Agirre Lehendakari",
+        "Avenida Txori Erri",
+        "Calle Errementeria",
+        "Calle Gesuraga",
+        "Calle Cestero",
+        "Calle Goiri",
+        "Plaza Asua"
+      ],
+      "neighborhoods": [],
+      "source": "eustat"
+    },
+    "Loiu": {
+      "code": "48903",
+      "streets": [
+        "Calle Landatxueta",
+        "Calle Larrauri",
+        "Avenida Lauroeta",
+        "Avenida Txorierri",
+        "Calle Lastetxe",
+        "Avenida Zabaloetxe",
+        "Calle Larrondo",
+        "Plaza Larrakoetxe"
+      ],
+      "neighborhoods": [
+        "Zamarripa",
+        "Elorritxu",
+        "Gaztañaga"
+      ],
+      "source": "eustat"
+    },
+    "Lezama": {
+      "code": "48081",
+      "streets": [],
+      "neighborhoods": [
+        "Garaioltza",
+        "Aretxalde",
+        "Goitioltza"
+      ],
+      "source": "eustat"
+    },
+    "Plentzia": {
+      "code": "48077",
+      "streets": [
+        "Avenida Areatza",
+        "Calle Artekale",
+        "Calle Barrenkale",
+        "Calle Erribera",
+        "Calle Goienkale",
+        "Calle Ibaiaga",
+        "Plaza Eleiz",
+        "Calle Labasture"
+      ],
+      "neighborhoods": [
+        "Isuskitza",
+        "Saratxaga",
+        "Gandia",
+        "Berreaga"
+      ],
+      "source": "eustat"
+    },
+    "Gorliz": {
+      "code": "48043",
+      "streets": [
+        "Calle Kinpulena",
+        "Calle Itsasbide",
+        "Calle Tribiñu",
+        "Calle Sagasti",
+        "Calle Talaia Bidea",
+        "Calle Eloisa Artaza",
+        "Calle Axpe",
+        "Plaza Iberre Barri"
+      ],
+      "neighborhoods": [],
+      "source": "eustat"
+    },
+    "Bakio": {
+      "code": "48012",
+      "streets": [
+        "Calle Basigoko Bide Nagusia",
+        "Calle San Pelaioko Bide Nagusia",
+        "Calle Goienkale",
+        "Calle Ibarreta",
+        "Calle Urzabal",
+        "Calle Atxagako Bidea",
+        "Calle Errementeria",
+        "Avenida Sabino Arana"
+      ],
+      "neighborhoods": [
+        "Gibelorratzagako San Pelaio",
+        "Zubiaurrealde",
+        "Goitisoloalde",
+        "Urkitzaurrealde",
+        "Elexalde",
+        "Artzalde"
+      ],
+      "source": "eustat"
+    },
+    "Bermeo": {
+      "code": "48017",
+      "streets": [
+        "Calle Zubiaurtar Kepa",
+        "Calle Nardiztar Jon",
+        "Avenida Askatasun Bidea",
+        "Calle Erremedio",
+        "Calle Arresi",
+        "Calle Bizkaiko Jaurerria",
+        "Calle Aurrekoetxea",
+        "Plaza Prantzisko Deuna Atea"
+      ],
+      "neighborhoods": [
+        "Arane",
+        "Artika",
+        "Mañu",
+        "Agirre",
+        "Almika",
+        "San Migel"
+      ],
+      "source": "eustat"
+    },
+    "Gernika-Lumo": {
+      "code": "48046",
+      "streets": [
+        "Calle Juan Calzada",
+        "Calle Fray Martín de Murua",
+        "Calle Carlos Gangoiti",
+        "Calle Lurgorri",
+        "Calle Goikoibarra",
+        "Calle Mestikabaso",
+        "Calle Don Tello",
+        "Avenida Allendesalazar"
+      ],
+      "neighborhoods": [
+        "Agirregana",
+        "San Pedro",
+        "Arana",
+        "Zallo",
+        "Santa Ana",
+        "Txaporta"
+      ],
+      "source": "eustat"
+    },
+    "Mundaka": {
+      "code": "48068",
+      "streets": [
+        "Calle Goiko kalea",
+        "Calle Florentino Larrinaga",
+        "Calle Raimundo Abaroa",
+        "Calle Basamortu",
+        "Calle Lorategi",
+        "Calle Juan Bautista Longa",
+        "Calle Barria",
+        "Plaza Santa Kataliña"
+      ],
+      "neighborhoods": [
+        "Erreka",
+        "Agirre",
+        "Ondartza",
+        "Arrosak",
+        "Arketa",
+        "Berastegi"
+      ],
+      "source": "eustat"
+    },
+    "Lekeitio": {
+      "code": "48057",
+      "streets": [
+        "Avenida Paskual Abaroa",
+        "Calle Dendari",
+        "Avenida Santa Katalina",
+        "Calle Ezpeleta",
+        "Calle Eusebio Maria de Azkue",
+        "Calle Beheko kalea",
+        "Calle Bergara",
+        "Plaza Arranegiko Zabala"
+      ],
+      "neighborhoods": [
+        "Artadi",
+        "Larrotegi",
+        "San Antolin",
+        "San Andres",
+        "Merzed",
+        "Errenteria"
+      ],
+      "source": "eustat"
+    },
+    "Ondarroa": {
+      "code": "48073",
+      "streets": [
+        "Calle Kamiñazpi",
+        "Calle Kaleandi",
+        "Calle San Ignazio",
+        "Calle Artabide",
+        "Calle Iparkale",
+        "Calle Egidazu Kaia",
+        "Calle Erribera",
+        "Plaza Itsasaurre"
+      ],
+      "neighborhoods": [
+        "Errenteria",
+        "Goimendia",
+        "Gorozika"
+      ],
+      "source": "eustat"
+    },
+    "Markina-Xemein": {
+      "code": "48060",
+      "streets": [
+        "Calle Iderraga",
+        "Avenida Erdotza",
+        "Calle Artibai",
+        "Calle Abesua",
+        "Avenida Arretxinaga",
+        "Calle Bekobenta",
+        "Calle Kaleokerra",
+        "Plaza Frai Bartolome"
+      ],
+      "neighborhoods": [
+        "Barinaga",
+        "Larruskain-Amalloa",
+        "Ubilla-Urberuaga",
+        "Iluntzar",
+        "Iturreta",
+        "Atxondoa"
+      ],
+      "source": "eustat"
+    },
+    "Durango": {
+      "code": "48027",
+      "streets": [
+        "Avenida Askatasun",
+        "Alameda Antso Estegiz",
+        "Calle Barrenkalea",
+        "Calle Kurutziaga",
+        "Calle Tabirabide",
+        "Avenida Hegoalde",
+        "Calle Artekalea",
+        "Plaza Durangoko Plateruen plaza"
+      ],
+      "neighborhoods": [
+        "Muruetatorre",
+        "San Ignazio",
+        "Etxezurioste",
+        "Eguzkitza",
+        "Santi Kurutz",
+        "Errotaritxuena"
+      ],
+      "source": "eustat"
+    },
+    "Amorebieta-Etxano": {
+      "code": "48003",
+      "streets": [
+        "Calle Ugarte Bidea",
+        "Calle San Pedro",
+        "Calle Aita Roman Urtiaga",
+        "Calle Gudari",
+        "Calle Karmen",
+        "Calle Luis Urrengoetxea",
+        "Calle Santiago Onaindia",
+        "Avenida Jose Antonio Agirre"
+      ],
+      "neighborhoods": [
+        "San Miguel Dudea",
+        "Boroa",
+        "Dudea",
+        "Euba",
+        "San Antonio Elgezabal",
+        "Gumuzio"
+      ],
+      "source": "eustat"
+    },
+    "Ermua": {
+      "code": "48034",
+      "streets": [
+        "Avenida Gipuzkoa",
+        "Calle Zubiaurre",
+        "Calle San Pelayo",
+        "Calle Zearkale",
+        "Calle Mallamendi",
+        "Calle Izelaieta",
+        "Calle Goienkale",
+        "Plaza Orbe Kardinala/Cardenal Orbe"
+      ],
+      "neighborhoods": [
+        "Okinzuri"
+      ],
+      "source": "eustat"
+    },
+    "Iurreta": {
+      "code": "48910",
+      "streets": [
+        "Calle Orozketa",
+        "Calle Iturburu",
+        "Calle Maspe",
+        "Calle Bixente Kapanaga",
+        "Calle Zubiaurre",
+        "Calle Bidebarrieta",
+        "Calle Olaburu",
+        "Plaza Aita San Migel"
+      ],
+      "neighborhoods": [
+        "Fauste",
+        "Arriandi",
+        "San Marko",
+        "Goiuria",
+        "Santa Maña",
+        "Iurreta"
+      ],
+      "source": "eustat"
+    },
+    "Elorrio": {
+      "code": "48032",
+      "streets": [
+        "Calle Arestiortu",
+        "Calle Berrio-Otxoa",
+        "Calle San Pio",
+        "Calle Goieta",
+        "Calle Nizeto Urkizu",
+        "Calle Elizburu",
+        "Calle Errekakale",
+        "Avenida Argiñeta"
+      ],
+      "neighborhoods": [
+        "San Agustin",
+        "Leiz-Miñota",
+        "Berrio",
+        "Gazeta",
+        "Zenita",
+        "Iguria"
+      ],
+      "source": "eustat"
+    },
+    "Berriz": {
+      "code": "48019",
+      "streets": [
+        "Calle Iturritza",
+        "Avenida Margarita Maturana",
+        "Calle Learreta-Markina",
+        "Calle Juan Vicente Zengotitabengoa",
+        "Plaza Elizondo",
+        "Calle Legaño",
+        "Calle Geltoki",
+        "Calle Gabiola"
+      ],
+      "neighborhoods": [
+        "Okango",
+        "Sallobente",
+        "Sarria",
+        "Andikoa",
+        "Eitua",
+        "Murgoitio"
+      ],
+      "source": "eustat"
+    },
+    "Abadiño": {
+      "code": "48001",
+      "streets": [
+        "Calle Arrankurri",
+        "Calle Iturritxo",
+        "Avenida Trañabarren",
+        "Avenida Alfredo Baeschlin",
+        "Calle Laubideta",
+        "Calle Arzubia",
+        "Calle Murueta",
+        "Plaza Txanporta"
+      ],
+      "neighborhoods": [
+        "Muntsaratz",
+        "Astola",
+        "Mendiola",
+        "Gerediaga",
+        "Gaztelua",
+        "Urkiola"
+      ],
+      "source": "eustat"
+    },
+    "Igorre": {
+      "code": "48094",
+      "streets": [
+        "Calle Elexalde",
+        "Plaza Sabino Arana",
+        "Calle Udea",
+        "Calle Garbe",
+        "Avenida Lehendakari Agirre",
+        "Calle Monseñor Hilario Soloeta",
+        "Calle Luis Iruarrizaga",
+        "Calle Argiñatx"
+      ],
+      "neighborhoods": [
+        "Urkizu",
+        "Santa Lutzia",
+        "San Juan",
+        "Basauntz",
+        "Mikele",
+        "Olabarri"
+      ],
+      "source": "eustat"
+    },
+    "Lemoa": {
+      "code": "48055",
+      "streets": [
+        "Calle Lehendakari Agirre",
+        "Calle Juan B. Eguskiza Meabe",
+        "Calle Juan de Ajuriagerra",
+        "Calle Bikandi Alkatea",
+        "Avenida Arlonagusia",
+        "Calle Atutxa Sailburua",
+        "Calle Arraibi Alkatea"
+      ],
+      "neighborhoods": [
+        "Mendieta",
+        "Lemorieta",
+        "Arraibi",
+        "Txiriboketa",
+        "Errekalde",
+        "Arraño"
+      ],
+      "source": "eustat"
+    },
+    "Zalla": {
+      "code": "48096",
+      "streets": [
+        "Avenida Lehendakari Agirre",
+        "Avenida Lanzagorta",
+        "Avenida Los Trabajadores",
+        "Avenida Labrador",
+        "Calle Maestra Consuelo Robredo",
+        "Calle Nuestra Señora del Rosario",
+        "Calle Particular del Cadagua",
+        "Plaza Euskadi"
+      ],
+      "neighborhoods": [
+        "Mendialde",
+        "San Pedro",
+        "Gallardi",
+        "Artebizkarra",
+        "Landarondo",
+        "La Inmaculada"
+      ],
+      "source": "eustat"
+    },
+    "Balmaseda": {
+      "code": "48090",
+      "streets": [
+        "Avenida Encartaciones",
+        "Calle Correría",
+        "Avenida La Calzada",
+        "Calle Cuesta",
+        "Paseo La Magdalena",
+        "Calle Virgen de Gracia",
+        "Calle Pio Bermejillo",
+        "Plaza San Severino"
+      ],
+      "neighborhoods": [
+        "Arbiz y Barrios",
+        "Las Laceras"
+      ],
+      "source": "eustat"
+    },
+    "Güeñes": {
+      "code": "48045",
+      "streets": [
+        "Avenida Mendiona",
+        "Calle Iorgi",
+        "Calle Allende Zelaia",
+        "Calle Gallarraga",
+        "Calle Estarta",
+        "Calle Padura",
+        "Calle Lambarri",
+        "Plaza Euskadi"
+      ],
+      "neighborhoods": [
+        "Elubarri",
+        "Lasier",
+        "Sologutxi",
+        "Santxosolo",
+        "Iorgi Ibarra",
+        "Saratxo"
+      ],
+      "source": "eustat"
+    },
+    "Sopuerta": {
+      "code": "48086",
+      "streets": [
+        "Calle Los Cotarros",
+        "Calle La Arcilla",
+        "Calle La Via",
+        "Calle Lehendakari Agirre",
+        "Calle Benito Luis Hurtado",
+        "Plaza Carmen Quintana Zabala",
+        "Calle San Pedro",
+        "Calle Tremoral"
+      ],
+      "neighborhoods": [
+        "Mercadillo",
+        "La Baluga",
+        "Bezi",
+        "Carral",
+        "Avellaneda",
+        "Olabarrieta (Labarrieta)"
+      ],
+      "source": "eustat"
+    },
+    "Gordexola": {
+      "code": "48042",
+      "streets": [
+        "Calle La Llana de Ibarra",
+        "Plaza Molinar",
+        "Plaza Jose Antonio Garay Eguia",
+        "Calle Indautxu"
+      ],
+      "neighborhoods": [
+        "Zubiete",
+        "Sandamendi",
+        "Berdugal-Ibardugain",
+        "Llano de Zaldu",
+        "Ugarte",
+        "Las Llanas de Iratzagorria"
+      ],
+      "source": "eustat"
+    },
+    "Karrantza Harana / Valle de Carranza": {
+      "code": "48022",
+      "streets": [],
+      "neighborhoods": [
+        "Concha",
+        "Ambasaguas",
+        "Soscaño",
+        "San Esteban",
+        "Biáñez",
+        "Matienzo"
+      ],
+      "source": "eustat"
+    },
+    "Ajangiz": {
+      "code": "48911",
+      "streets": [
+        "Calle Maloste",
+        "Calle Arratzu"
+      ],
+      "neighborhoods": [
+        "Kanpantxu",
+        "Mendieta"
+      ],
+      "source": "eustat"
+    },
+    "Alonsotegi": {
+      "code": "48912",
+      "streets": [
+        "Calle Koskojales",
+        "Calle Loibeberri",
+        "Calle Lasao",
+        "Calle Camino de Errota",
+        "Calle Barrenkale",
+        "Calle Loibe",
+        "Calle Arbuio",
+        "Plaza Andra Mari"
+      ],
+      "neighborhoods": [
+        "Azordoiaga",
+        "Sasia",
+        "Bazteita",
+        "La Barranca",
+        "Zamundi",
+        "San Martín"
+      ],
+      "source": "eustat"
+    },
+    "Amoroto": {
+      "code": "48004",
+      "streets": [],
+      "neighborhoods": [
+        "Elexalde",
+        "Odiaga",
+        "Ugaran",
+        "Urrutia"
+      ],
+      "source": "eustat"
+    },
+    "Arakaldo": {
+      "code": "48005",
+      "streets": [],
+      "neighborhoods": [
+        "Madariaga",
+        "La Isla de Ugarriza",
+        "Elexalde",
+        "Goikiri",
+        "Ibarretxe",
+        "Eperretxe"
+      ],
+      "source": "eustat"
+    },
+    "Arantzazu": {
+      "code": "48006",
+      "streets": [],
+      "neighborhoods": [
+        "Zelaia",
+        "Olarra",
+        "Arantzazugoiti",
+        "Zalbide",
+        "Oilakorbe"
+      ],
+      "source": "eustat"
+    },
+    "Areatza": {
+      "code": "48093",
+      "streets": [
+        "Calle Askatasun",
+        "Calle Iturrimaur Pasealekua",
+        "Calle Goikokalea",
+        "Calle Errukiñe",
+        "Calle Bekokalea",
+        "Calle Javier Uria",
+        "Calle Ospitaloste",
+        "Plaza Gudarien plaza"
+      ],
+      "neighborhoods": [
+        "Iturrimorro",
+        "Asterria",
+        "Uparan",
+        "Launtzain",
+        "Karpo",
+        "Ugunaga"
+      ],
+      "source": "eustat"
+    },
+    "Arrankudiaga-Zollo": {
+      "code": "48009",
+      "streets": [],
+      "neighborhoods": [
+        "Elexalde",
+        "Uribarri",
+        "Garondo",
+        "Arene",
+        "Aspiuntza",
+        "Atxeta"
+      ],
+      "source": "eustat"
+    },
+    "Arratzu": {
+      "code": "48914",
+      "streets": [],
+      "neighborhoods": [
+        "Loiola",
+        "Zabala-Belendiz",
+        "Uarka",
+        "Barrutia",
+        "Elexalde",
+        "Gorozika"
+      ],
+      "source": "eustat"
+    },
+    "Arrieta": {
+      "code": "48010",
+      "streets": [],
+      "neighborhoods": [
+        "Libao",
+        "Agirre",
+        "Jainko",
+        "Goiri",
+        "Mendiguren",
+        "Oxiñaga"
+      ],
+      "source": "eustat"
+    },
+    "Artea": {
+      "code": "48023",
+      "streets": [
+        "Plaza Herriko plaza",
+        "Calle Infante"
+      ],
+      "neighborhoods": [
+        "Astuibekoa",
+        "Ugarte",
+        "Calleja",
+        "Esparta",
+        "Astui",
+        "Elexabeitia"
+      ],
+      "source": "eustat"
+    },
+    "Artzentales": {
+      "code": "48008",
+      "streets": [
+        "Avenida Lehendakari Agirre"
+      ],
+      "neighborhoods": [
+        "San Miguel de Linares",
+        "Santa Cruz",
+        "Traslosheros",
+        "Laureta",
+        "Rebollar",
+        "La Reneja"
+      ],
+      "source": "eustat"
+    },
+    "Atxondo": {
+      "code": "48091",
+      "streets": [
+        "Calle Anboto",
+        "Calle Barrencalle",
+        "Calle Artecalle",
+        "Calle Jose Antonio Aguirre Lekube",
+        "Calle Bentabarri",
+        "Calle Jauregui",
+        "Plaza Santiago",
+        "Plaza Los Fueros"
+      ],
+      "neighborhoods": [
+        "San Juan",
+        "San Pedro",
+        "Olazabal",
+        "Arranturriaga",
+        "Goyerria",
+        "Santiago"
+      ],
+      "source": "eustat"
+    },
+    "Aulesti": {
+      "code": "48070",
+      "streets": [
+        "Calle Aulestia",
+        "Calle Eleizkale",
+        "Calle Alegi",
+        "Plaza Donibane",
+        "Paseo Gernika",
+        "Calle Sololuzia"
+      ],
+      "neighborhoods": [
+        "Ibarrola",
+        "Malats",
+        "Solaguren",
+        "Narea",
+        "San Anton",
+        "Urriola"
+      ],
+      "source": "eustat"
+    },
+    "Barrika": {
+      "code": "48014",
+      "streets": [
+        "Calle Abadenesolo",
+        "Calle Yonakone",
+        "Calle Particular Mendieta"
+      ],
+      "neighborhoods": [
+        "Musaurieta",
+        "Artepeta",
+        "Arriaga",
+        "Mendieta",
+        "San Telmo",
+        "Larretxe"
+      ],
+      "source": "eustat"
+    },
+    "Bedia": {
+      "code": "48092",
+      "streets": [
+        "Calle Jauregizuria",
+        "Calle Sabino Arana",
+        "Calle Kaltzadagana",
+        "Calle Errekaondo",
+        "Calle Jandoniz"
+      ],
+      "neighborhoods": [
+        "Murtatza",
+        "Eroso-Ugarte",
+        "Bidekoetxea",
+        "Ibarra",
+        "Elexalde",
+        "Asteitza"
+      ],
+      "source": "eustat"
+    },
+    "Berriatua": {
+      "code": "48018",
+      "streets": [
+        "Calle Zelaieta",
+        "Calle Erribera",
+        "Calle Zeharbide",
+        "Calle Artape",
+        "Calle Aransolo",
+        "Calle Etxepintxo",
+        "Plaza Urepel",
+        "Plaza Zubiaurre"
+      ],
+      "neighborhoods": [
+        "Erribera",
+        "Asterrika",
+        "Magdalena",
+        "Merelludi"
+      ],
+      "source": "eustat"
+    },
+    "Busturia": {
+      "code": "48021",
+      "streets": [],
+      "neighborhoods": [
+        "Axpe",
+        "Altamira",
+        "San Kristobal",
+        "San Bartolome",
+        "Abiña-Andoni Deuna"
+      ],
+      "source": "eustat"
+    },
+    "Dima": {
+      "code": "48026",
+      "streets": [
+        "Calle Telleri",
+        "Calle Elexalde",
+        "Calle Landaburu",
+        "Calle Zubimakurre",
+        "Calle Errementeriondo",
+        "Calle Iturrigorri"
+      ],
+      "neighborhoods": [
+        "Artaun",
+        "Aroztegieta",
+        "Bargondia",
+        "Olazabal",
+        "Bikarregi",
+        "Iturriotz Barrena"
+      ],
+      "source": "eustat"
+    },
+    "Ea": {
+      "code": "48028",
+      "streets": [
+        "Calle Kale Nagusia",
+        "Calle Altxikar",
+        "Calle Bidebarria",
+        "Calle Kalebarria",
+        "Calle Aritza",
+        "Calle Jesus",
+        "Calle Belen",
+        "Plaza Aboitiz eta Kortazar"
+      ],
+      "neighborhoods": [
+        "Elexalde-Natxitua",
+        "Angelutxu",
+        "Elexalde-Bedaroa",
+        "Urtzaga",
+        "Mendiola",
+        "Olagorta"
+      ],
+      "source": "eustat"
+    },
+    "Elantxobe": {
+      "code": "48031",
+      "streets": [
+        "Calle Kale Nagusia",
+        "Calle Portu",
+        "Calle Andima Ibinagabeitia",
+        "Calle Bidekalea",
+        "Calle Aita Arriandiaga",
+        "Calle Atalaia",
+        "Plaza Eleizabarri",
+        "Calle Matadero Zarra"
+      ],
+      "neighborhoods": [
+        "Bermokiz",
+        "Olaeta",
+        "Leunbe"
+      ],
+      "source": "eustat"
+    },
+    "Ereño": {
+      "code": "48033",
+      "streets": [],
+      "neighborhoods": [
+        "Elexalde-Zeeta",
+        "Gabika",
+        "Basetxeta-Atxoste",
+        "Akorda-Bollar"
+      ],
+      "source": "eustat"
+    },
+    "Errigoiti": {
+      "code": "48079",
+      "streets": [],
+      "neighborhoods": [
+        "Olabarri",
+        "Uria",
+        "Elexalde",
+        "Metxika",
+        "Errekalde",
+        "Sallobente"
+      ],
+      "source": "eustat"
+    },
+    "Etxebarria": {
+      "code": "48030",
+      "streets": [
+        "Calle Erbera",
+        "Plaza Peñanekua"
+      ],
+      "neighborhoods": [
+        "Galartza",
+        "Altzaa",
+        "Aulesti",
+        "Unamuntzaga"
+      ],
+      "source": "eustat"
+    },
+    "Forua": {
+      "code": "48906",
+      "streets": [
+        "Calle Carlos Gangoiti",
+        "Plaza Atxeta",
+        "Calle Torre-Barri",
+        "Plaza Dantzarien plaza"
+      ],
+      "neighborhoods": [
+        "Elexalde",
+        "Atxondoa",
+        "Armotxerria",
+        "Gaitoka",
+        "Baldatika",
+        "Urberuaga"
+      ],
+      "source": "eustat"
+    },
+    "Fruiz": {
+      "code": "48035",
+      "streets": [],
+      "neighborhoods": [
+        "Aldai",
+        "Botiola",
+        "Mandaluiz",
+        "Andeko",
+        "Batiz",
+        "Olalde"
+      ],
+      "source": "eustat"
+    },
+    "Galdames": {
+      "code": "48037",
+      "streets": [
+        "Calle Geltoki"
+      ],
+      "neighborhoods": [
+        "Llano",
+        "San Pedro",
+        "Atxuriaga/La Aceña",
+        "Montellano-Las Casas",
+        "San Esteban",
+        "Zubiaga"
+      ],
+      "source": "eustat"
+    },
+    "Gamiz-Fika": {
+      "code": "48038",
+      "streets": [],
+      "neighborhoods": [
+        "Ergoien",
+        "Elexalde",
+        "Ibarra",
+        "Mendotza"
+      ],
+      "source": "eustat"
+    },
+    "Garai": {
+      "code": "48039",
+      "streets": [],
+      "neighborhoods": [
+        "San Migel",
+        "Momoitio",
+        "Goierri"
+      ],
+      "source": "eustat"
+    },
+    "Gatika": {
+      "code": "48040",
+      "streets": [],
+      "neighborhoods": [
+        "Sertutxa",
+        "Zurbao",
+        "Garai",
+        "Ugarte",
+        "Butroe",
+        "Gorordo"
+      ],
+      "source": "eustat"
+    },
+    "Gautegiz Arteaga": {
+      "code": "48041",
+      "streets": [
+        "Calle Zelaieta",
+        "Calle Eleizalde",
+        "Calle Gaztelubide",
+        "Calle Iturribide",
+        "Calle Kaltzaondo",
+        "Calle Ikusalai",
+        "Plaza Herriko plaza",
+        "Calle Ponpone"
+      ],
+      "neighborhoods": [
+        "Kanala",
+        "Isla Bekoa",
+        "Mendialdua",
+        "Orueta",
+        "Basetxeta",
+        "Muretagane"
+      ],
+      "source": "eustat"
+    },
+    "Gizaburuaga": {
+      "code": "48047",
+      "streets": [
+        "Calle Larraigana"
+      ],
+      "neighborhoods": [
+        "Okamika",
+        "Lariz",
+        "Eguen",
+        "Laxier"
+      ],
+      "source": "eustat"
+    },
+    "Ibarrangelu": {
+      "code": "48048",
+      "streets": [],
+      "neighborhoods": [
+        "Elexalde",
+        "Ibaeta",
+        "Antzora",
+        "Ibinaga",
+        "Arboliz",
+        "Akorda"
+      ],
+      "source": "eustat"
+    },
+    "Ispaster": {
+      "code": "48049",
+      "streets": [
+        "Calle Agarretxu",
+        "Calle Erkiaga",
+        "Calle Bentakale",
+        "Plaza Iñigo Egiluz"
+      ],
+      "neighborhoods": [
+        "Artika",
+        "Kortazar",
+        "Kurtziaga",
+        "Larrinaga",
+        "Barainka",
+        "Gardata"
+      ],
+      "source": "eustat"
+    },
+    "Izurtza": {
+      "code": "48050",
+      "streets": [],
+      "neighborhoods": [
+        "Elizalde",
+        "Etxano",
+        "Ortuzar",
+        "Bitaño",
+        "Lexartza"
+      ],
+      "source": "eustat"
+    },
+    "Kortezubi": {
+      "code": "48907",
+      "streets": [],
+      "neighborhoods": [
+        "Enderika",
+        "Terlegiz",
+        "Barrutia",
+        "Idokiliz",
+        "Basondo",
+        "Santa Ana"
+      ],
+      "source": "eustat"
+    },
+    "Lanestosa": {
+      "code": "48051",
+      "streets": [
+        "Calle Manuela Sainz de Rozas",
+        "Calle Lehendakari Agirre",
+        "Calle Gutierrez Martinez",
+        "Calle Real",
+        "Calle Correo",
+        "Calle Arena",
+        "Calle Fuente",
+        "Plaza Balcón de Bizkaia"
+      ],
+      "neighborhoods": [
+        "Polvorín",
+        "Ventilla",
+        "Casa Blanca"
+      ],
+      "source": "eustat"
+    },
+    "Larrabetzu": {
+      "code": "48052",
+      "streets": [
+        "Calle Andra Mari",
+        "Calle Jauregi Apezpikua",
+        "Calle Errebale",
+        "Calle Amboto",
+        "Avenida Aita Patxi Ugalde",
+        "Calle Basagurenalde",
+        "Calle Mikel Zarate",
+        "Plaza Askatasuna"
+      ],
+      "neighborhoods": [
+        "Sarrikola",
+        "Gaztelu",
+        "Basara",
+        "Berrezoaga",
+        "Zubitalde",
+        "Astoreka"
+      ],
+      "source": "eustat"
+    },
+    "Laukiz": {
+      "code": "48053",
+      "streets": [
+        "Calle Gaztedi",
+        "Calle Lauaxeta",
+        "Calle Eulea",
+        "Plaza Lauaxeta"
+      ],
+      "neighborhoods": [
+        "Mendiondo",
+        "Mentxaketa",
+        "Elexalde",
+        "Aurrekoetxea",
+        "Agirre"
+      ],
+      "source": "eustat"
+    },
+    "Lemoiz": {
+      "code": "48056",
+      "streets": [
+        "Calle Landeta",
+        "Calle Portugane",
+        "Calle Portubidea",
+        "Calle Armintzekalde",
+        "Calle Atalaia",
+        "Calle Erbera",
+        "Calle Etxeaaurrekosolo",
+        "Calle Amorraga"
+      ],
+      "neighborhoods": [
+        "Urizar",
+        "Armintza",
+        "Andraka"
+      ],
+      "source": "eustat"
+    },
+    "Mallabia": {
+      "code": "48058",
+      "streets": [
+        "Calle Goitondo",
+        "Calle Mallazpi",
+        "Calle Kalbario",
+        "Avenida Urtiaga",
+        "Calle Askaldea",
+        "Calle Mikel Zarate",
+        "Calle Arteiz",
+        "Plaza Elizaldea"
+      ],
+      "neighborhoods": [
+        "Goita",
+        "Gerea",
+        "Areitio",
+        "Osma",
+        "Berano Nagusia",
+        "Arandoño"
+      ],
+      "source": "eustat"
+    },
+    "Mañaria": {
+      "code": "48059",
+      "streets": [
+        "Calle Ebaristo Bustinza Kirikiño",
+        "Calle Andra Mari",
+        "Plaza Herriko plaza"
+      ],
+      "neighborhoods": [
+        "Aldegoiena",
+        "Arrueta",
+        "Aldebarrena",
+        "Aldebaraieta"
+      ],
+      "source": "eustat"
+    },
+    "Maruri-Jatabe": {
+      "code": "48061",
+      "streets": [],
+      "neighborhoods": [
+        "Erdigune",
+        "Goieta",
+        "Erribera",
+        "Sakalde",
+        "Ibarra",
+        "Larreta"
+      ],
+      "source": "eustat"
+    },
+    "Mendata": {
+      "code": "48062",
+      "streets": [],
+      "neighborhoods": [
+        "Elexalde",
+        "Albiz",
+        "Olabe",
+        "Marmiz"
+      ],
+      "source": "eustat"
+    },
+    "Mendexa": {
+      "code": "48063",
+      "streets": [],
+      "neighborhoods": [
+        "Likoa",
+        "Zelaia",
+        "Iturreta",
+        "Leagi"
+      ],
+      "source": "eustat"
+    },
+    "Meñaka": {
+      "code": "48064",
+      "streets": [],
+      "neighborhoods": [
+        "Meñakabarrena",
+        "Mesterika",
+        "Emerando",
+        "Ametzaga"
+      ],
+      "source": "eustat"
+    },
+    "Morga": {
+      "code": "48066",
+      "streets": [
+        "Calle Athletic",
+        "Calle Eleiz-Ondo",
+        "Plaza Lehendakari Agirre"
+      ],
+      "neighborhoods": [
+        "Ganbe",
+        "Oñarte",
+        "Eskerika",
+        "Meaka",
+        "Morgakoene",
+        "Meakaur"
+      ],
+      "source": "eustat"
+    },
+    "Munitibar-Arbatzegi Gerrikaitz": {
+      "code": "48007",
+      "streets": [
+        "Calle Gillistegi Behekoa",
+        "Calle Aldaka Bidea",
+        "Plaza Herriko plaza",
+        "Calle Gillistegi Goikoa",
+        "Calle Olabarri"
+      ],
+      "neighborhoods": [
+        "Gerrikaitz",
+        "Munitibar",
+        "Berreño",
+        "Totorika",
+        "Gerrika"
+      ],
+      "source": "eustat"
+    },
+    "Murueta": {
+      "code": "48908",
+      "streets": [],
+      "neighborhoods": [
+        "Larrabe",
+        "Goierria",
+        "Kanpantxua"
+      ],
+      "source": "eustat"
+    },
+    "Muxika": {
+      "code": "48067",
+      "streets": [
+        "Calle Kurtzero-Alaibegira"
+      ],
+      "neighborhoods": [
+        "Kurtzero",
+        "Gorozika",
+        "San Roman",
+        "Maume",
+        "Ugarte",
+        "Astelarra"
+      ],
+      "source": "eustat"
+    },
+    "Nabarniz": {
+      "code": "48909",
+      "streets": [],
+      "neighborhoods": [
+        "Elexalde",
+        "Merika",
+        "Uribarri-Zabaleta",
+        "Ikazurieta",
+        "Lekerika",
+        "Intxaurraga"
+      ],
+      "source": "eustat"
+    },
+    "Orozko": {
+      "code": "48075",
+      "streets": [
+        "Calle Burruzkale",
+        "Calle Gorbeia",
+        "Calle Santa María",
+        "Avenida Zubieta",
+        "Calle Santa Marina",
+        "Calle Francisco Muñoz",
+        "Plaza Lehendakari Jose Antonio Agirre",
+        "Calle Untzueta"
+      ],
+      "neighborhoods": [
+        "Beraza",
+        "Urigoiti",
+        "Bengoetxea",
+        "Ibarra",
+        "Zaloa",
+        "Gallartu"
+      ],
+      "source": "eustat"
+    },
+    "Otxandio": {
+      "code": "48072",
+      "streets": [
+        "Calle Urigoiena",
+        "Calle Artekale",
+        "Calle Uribarrena",
+        "Calle Ospital",
+        "Calle Basogai",
+        "Plaza Nagusia",
+        "Calle Sagasti",
+        "Calle Carnecería"
+      ],
+      "neighborhoods": [
+        "Andaparaluzeta",
+        "Mekoleta",
+        "Mainondo",
+        "San Antonio",
+        "Morgaola",
+        "Kerixara"
+      ],
+      "source": "eustat"
+    },
+    "Sukarrieta": {
+      "code": "48076",
+      "streets": [
+        "Travesía Arana Goiritar Sabin",
+        "Calle Porturas",
+        "Plaza Ander Deuna",
+        "Calle Arrospe",
+        "Paseo Agirre Lekubetar Joseba Andoni"
+      ],
+      "neighborhoods": [
+        "Kanala",
+        "Abaroa",
+        "Munitiz",
+        "Txatxarramendi"
+      ],
+      "source": "eustat"
+    },
+    "Trucios-Turtzioz": {
+      "code": "48087",
+      "streets": [
+        "Avenida Lehendakari Agirre",
+        "Calle Esteban Terreros y Pando",
+        "Calle Particular Lehendakari Agirre"
+      ],
+      "neighborhoods": [
+        "Pando",
+        "Cueto",
+        "Romaña",
+        "Loredo",
+        "Aguanaz",
+        "Basinagre"
+      ],
+      "source": "eustat"
+    },
+    "Ubide": {
+      "code": "48088",
+      "streets": [],
+      "neighborhoods": [
+        "San Juan",
+        "Madalen"
+      ],
+      "source": "eustat"
+    },
+    "Ugao-Miraballes": {
+      "code": "48065",
+      "streets": [
+        "Calle Udiarraga",
+        "Calle Torre de Ugao",
+        "Calle Arana y Lupardo",
+        "Calle San Bartolome",
+        "Paseo El Jaro",
+        "Calle Barrena",
+        "Calle Goikiri",
+        "Plaza Tres Caños"
+      ],
+      "neighborhoods": [
+        "Iturrigorrialde",
+        "Usila",
+        "Markio",
+        "Udiarraga",
+        "Arandia",
+        "Lupardo"
+      ],
+      "source": "eustat"
+    },
+    "Urduña / Orduña": {
+      "code": "48074",
+      "streets": [
+        "Paseo La Antigua",
+        "Calle Kale Barria",
+        "Calle Kantarranas",
+        "Calle Frankos",
+        "Calle Kale Zaharra",
+        "Calle Donibane",
+        "Calle Orruño",
+        "Avenida Otxomaio"
+      ],
+      "neighborhoods": [
+        "Basaldua",
+        "Agua Salada",
+        "Ibazurra",
+        "Eras de Polanko",
+        "San Francisco",
+        "Santa Klara/Santa Clara"
+      ],
+      "source": "eustat"
+    },
+    "Usansolo": {
+      "code": "48916",
+      "streets": [
+        "Calle Oletxe",
+        "Calle Ander Deuna",
+        "Calle Maria Nieves Gallastegi Galarza",
+        "Calle Torreondo",
+        "Calle Bidezabal",
+        "Calle Iturritxu",
+        "Calle Baroja",
+        "Plaza Arlo Baltza"
+      ],
+      "neighborhoods": [
+        "Gorosibai",
+        "Labeaga",
+        "Ordañe",
+        "Arteta",
+        "Lekue",
+        "Uraska"
+      ],
+      "source": "eustat"
+    },
+    "Zaldibar": {
+      "code": "48095",
+      "streets": [
+        "Calle Zalduaran",
+        "Calle Miren Maortua",
+        "Avenida San Andres",
+        "Avenida Bilbo",
+        "Avenida Euskal Herria",
+        "Calle Arantzamendi",
+        "Calle Autonomía",
+        "Plaza Zaldua Elizateko plaza"
+      ],
+      "neighborhoods": [
+        "Goierri",
+        "Gazaga",
+        "Eitzaga",
+        "Olaerreaga",
+        "Sallabente",
+        "Aranguren"
+      ],
+      "source": "eustat"
+    },
+    "Zaratamo": {
+      "code": "48097",
+      "streets": [],
+      "neighborhoods": [
+        "Arkotxa",
+        "Elexalde",
+        "Gurutzalde",
+        "Moiordin",
+        "Iragorri",
+        "Barrondo"
+      ],
+      "source": "eustat"
+    },
+    "Zeanuri": {
+      "code": "48024",
+      "streets": [
+        "Calle San Isidro"
+      ],
+      "neighborhoods": [
+        "Altzusta",
+        "Ipiñaburu",
+        "Asterria",
+        "Otzerinmendi",
+        "Uribe",
+        "Undurraga"
+      ],
+      "source": "eustat"
+    },
+    "Zeberio": {
+      "code": "48025",
+      "streets": [
+        "Calle Sautuolabarri"
+      ],
+      "neighborhoods": [
+        "Zubialde",
+        "Areiltza",
+        "Arkulanda",
+        "Saldarian",
+        "Ermitabarri",
+        "Uriondo"
+      ],
+      "source": "eustat"
+    },
+    "Zierbena": {
+      "code": "48913",
+      "streets": [
+        "Calle Virgen del Puerto",
+        "Calle Refradigas",
+        "Calle Punta Sollana",
+        "Calle Punta Ceballos",
+        "Calle Residencial Atxiga-Egoitzaldea",
+        "Calle Punta Lucero",
+        "Calle Portu Txiki",
+        "Calle Kalero"
+      ],
+      "neighborhoods": [
+        "La Cuesta",
+        "El Puerto",
+        "San Mamés",
+        "Valle",
+        "Kardeo",
+        "La Arena"
+      ],
+      "source": "eustat"
+    },
+    "Ziortza-Bolibar": {
+      "code": "48915",
+      "streets": [
+        "Calle Beko kalea",
+        "Calle Domingo Ugartetxea",
+        "Plaza Simon Bolibar",
+        "Calle Beresipe",
+        "Calle Boni Agarre",
+        "Calle Urezandi"
+      ],
+      "neighborhoods": [
+        "Zeinka-Zearregi",
+        "Arta",
+        "Iruzubieta",
+        "Goierria Ziortza",
+        "Bolibar"
+      ],
+      "source": "eustat"
+    },
+    "Donostia / San Sebastián": {
+      "code": "20069",
+      "streets": [
+        "Calle Urbieta",
+        "Calle San Martin/San Martín",
+        "Calle Mirakruz/Miracruz",
+        "Avenida Askatasuna/La Libertad",
+        "Paseo Colón",
+        "Calle Caracasko Errege Konpainia Gipuzkoarra/Real Compañia Guipuzcoana de Caracas",
+        "Alameda Boulevard",
+        "Avenida Jose Elosegi Alkatea/Alcalde Jose Elosegi"
+      ],
+      "neighborhoods": [],
+      "source": "eustat"
+    },
+    "Irun": {
+      "code": "20045",
+      "streets": [
+        "Calle Gabiria",
+        "Avenida Letxunborro",
+        "Calle Jose Mari Iparraguirre",
+        "Calle Burniola",
+        "Calle Karobiaga",
+        "Avenida Elizatxo",
+        "Avenida Iparralde",
+        "Plaza Juan Vollmer"
+      ],
+      "neighborhoods": [
+        "Katea / Ventas",
+        "Meaka-Izq. Carretera Ibarla",
+        "Meaka-Carretera Ibarla Dcha",
+        "Olaberria-Izq. Carr. Olaberria",
+        "Behobia",
+        "Bidasoa"
+      ],
+      "source": "eustat"
+    },
+    "Hondarribia": {
+      "code": "20036",
+      "streets": [
+        "Avenida Baserritar",
+        "Calle San Pedro",
+        "Calle Kosta",
+        "Calle Nestor Basterretxea",
+        "Calle Santiago",
+        "Calle Donostia",
+        "Calle Mendelu",
+        "Plaza Arma plaza"
+      ],
+      "neighborhoods": [
+        "Jaitzubia",
+        "Arkolla",
+        "Zimizarga",
+        "Gornutz (Montaña)",
+        "Akartegi",
+        "Amute"
+      ],
+      "source": "eustat"
+    },
+    "Errenteria": {
+      "code": "20067",
+      "streets": [
+        "Avenida Galtzaraborda",
+        "Calle Lousada",
+        "Calle Miguel Alduntzin",
+        "Calle Parke",
+        "Calle Sagardiburu",
+        "Calle Biteri",
+        "Avenida Nafarroa/Navarra",
+        "Plaza Koldo Mitxelena"
+      ],
+      "neighborhoods": [
+        "Gaztaño",
+        "Lartzabal",
+        "Olibet"
+      ],
+      "source": "eustat"
+    },
+    "Pasaia": {
+      "code": "20064",
+      "streets": [
+        "Calle Donibane",
+        "Avenida Euskadi",
+        "Calle San Pedro",
+        "Calle Arrandegi",
+        "Calle Bordalaborda",
+        "Calle Azkuene",
+        "Calle Hamarretxeta",
+        "Plaza Herriko plaza"
+      ],
+      "neighborhoods": [],
+      "source": "eustat"
+    },
+    "Lezo": {
+      "code": "20053",
+      "streets": [
+        "Calle Irurtzun-Sagasti",
+        "Calle Iturrin",
+        "Calle Urune-Sagasti",
+        "Calle Txatxamendi",
+        "Avenida Jaizkibel",
+        "Calle Plazeta",
+        "Calle Abendaño",
+        "Plaza Gurutze Santuaren plaza"
+      ],
+      "neighborhoods": [
+        "Gaintxurizketagoikoa",
+        "Errekalde",
+        "Erriondo",
+        "Donibanealdea",
+        "Sagasti",
+        "Iturrin"
+      ],
+      "source": "eustat"
+    },
+    "Oiartzun": {
+      "code": "20063",
+      "streets": [
+        "Calle Zuaznabar",
+        "Calle Karaez",
+        "Calle Zelaimusu",
+        "Calle Zilarkale",
+        "Avenida Rafael Pikabea",
+        "Calle Elorrondo",
+        "Calle Tornola",
+        "Plaza Done Eztebe"
+      ],
+      "neighborhoods": [],
+      "source": "eustat"
+    },
+    "Hernani": {
+      "code": "20040",
+      "streets": [
+        "Calle Kale Nagusia",
+        "Calle Andre",
+        "Calle Tellerigain",
+        "Calle Iturregi",
+        "Calle Atzieta",
+        "Calle Orkolaga",
+        "Calle Lizeaga",
+        "Plaza Gudarien plaza"
+      ],
+      "neighborhoods": [
+        "Ereñotzu",
+        "Florida",
+        "Santa Barbara",
+        "Antziola",
+        "Zikuñaga",
+        "Jauregi"
+      ],
+      "source": "eustat"
+    },
+    "Astigarraga": {
+      "code": "20903",
+      "streets": [
+        "Calle Kale Nagusia",
+        "Calle Santio Zeharra",
+        "Paseo Donostia",
+        "Calle Galtzaur",
+        "Paseo Ubarburu",
+        "Plaza Ergobia",
+        "Paseo Tranbia",
+        "Calle Aiotzategi"
+      ],
+      "neighborhoods": [],
+      "source": "eustat"
+    },
+    "Lasarte-Oria": {
+      "code": "20902",
+      "streets": [
+        "Calle Kale Nagusia/Calle Mayor",
+        "Calle Tribunak",
+        "Calle Loidi",
+        "Calle Tellerigaña",
+        "Avenida Oria",
+        "Calle Geltoki",
+        "Calle Goikale",
+        "Plaza Jaizkibel"
+      ],
+      "neighborhoods": [
+        "Antxisu Bailara",
+        "Basaundi",
+        "Irubide Bailara"
+      ],
+      "source": "eustat"
+    },
+    "Usurbil": {
+      "code": "20073",
+      "streets": [
+        "Calle Arsuaga",
+        "Calle Kale Nagusia",
+        "Calle Muna Lurra",
+        "Calle Puntapax",
+        "Calle Errekatxiki",
+        "Calle Elutx",
+        "Calle Txaramunto",
+        "Plaza Arrantzale"
+      ],
+      "neighborhoods": [
+        "Aginaga",
+        "Kalezar",
+        "Urdaiaga",
+        "Santuenea",
+        "Zubieta",
+        "Txikierdi"
+      ],
+      "source": "eustat"
+    },
+    "Urnieta": {
+      "code": "20072",
+      "streets": [
+        "Calle Langarda",
+        "Calle Belandi",
+        "Calle Idiazabal",
+        "Calle San Juan",
+        "Calle Akan",
+        "Calle Dendaldegi",
+        "Calle M. Yurramendi",
+        "Plaza Etxeberri"
+      ],
+      "neighborhoods": [
+        "Goiburu",
+        "Oztaran",
+        "Ergoien",
+        "Lategi"
+      ],
+      "source": "eustat"
+    },
+    "Andoain": {
+      "code": "20009",
+      "streets": [
+        "Calle Kale Nagusia",
+        "Avenida Gudarien etorbidea",
+        "Calle Kale Berria",
+        "Calle Plazaola",
+        "Calle Doktor Huizi",
+        "Calle Aita Larramendi",
+        "Avenida Ama Kandida",
+        "Plaza Manuel Lekuona"
+      ],
+      "neighborhoods": [
+        "Sorabilla",
+        "Leizotz",
+        "Buruntza",
+        "Goiburu",
+        "Ubilluts",
+        "Olagain"
+      ],
+      "source": "eustat"
+    },
+    "Zarautz": {
+      "code": "20079",
+      "streets": [
+        "Calle Herrikosoro",
+        "Calle Nafarroa",
+        "Calle Gipuzkoa",
+        "Calle Mitxelena",
+        "Calle Bizkaia",
+        "Calle Zigordia",
+        "Calle Araba",
+        "Plaza Zelai Ondo"
+      ],
+      "neighborhoods": [
+        "Aitza",
+        "Asti",
+        "Urteta",
+        "Argoin",
+        "Santa Barbara",
+        "Abendaño"
+      ],
+      "source": "eustat"
+    },
+    "Getaria": {
+      "code": "20039",
+      "streets": [
+        "Calle Herrerieta",
+        "Calle Kale Nagusia",
+        "Calle Elkano",
+        "Calle Portua",
+        "Calle Sahatsaga",
+        "Calle San Roke",
+        "Calle Aldamar",
+        "Avenida Cristóbal Balenciaga"
+      ],
+      "neighborhoods": [
+        "Askizu",
+        "Meaga",
+        "Eitzaga",
+        "San Prudentzio",
+        "Akerregi"
+      ],
+      "source": "eustat"
+    },
+    "Zumaia": {
+      "code": "20081",
+      "streets": [
+        "Calle Juan Belmonte",
+        "Calle San Jose",
+        "Calle San Telmo",
+        "Calle Erribera",
+        "Calle Arritokieta",
+        "Calle Harategi",
+        "Calle Hego Kalea",
+        "Avenida Victoriano Arrate"
+      ],
+      "neighborhoods": [
+        "Oikia",
+        "Aita Mari",
+        "Santiago",
+        "Ardantzabidea",
+        "Artadi",
+        "Basadi"
+      ],
+      "source": "eustat"
+    },
+    "Orio": {
+      "code": "20061",
+      "streets": [
+        "Calle Abaromendi",
+        "Calle Eusko Gudari",
+        "Calle Arrantzale",
+        "Calle Aita Lertxundi",
+        "Calle Kale Nagusia",
+        "Calle Estropalari",
+        "Calle Iturbide",
+        "Plaza Endaia"
+      ],
+      "neighborhoods": [
+        "San Martin"
+      ],
+      "source": "eustat"
+    },
+    "Aia": {
+      "code": "20016",
+      "streets": [
+        "Calle Armendi Gain",
+        "Paseo Maria Aurizenea",
+        "Plaza Gozategi",
+        "Calle Iturri",
+        "Calle Joan Etorle",
+        "Calle Sartalde",
+        "Calle Aitzpea",
+        "Calle Mahastisoro"
+      ],
+      "neighborhoods": [
+        "Santio Erreka",
+        "Laurgain",
+        "Arratola Aldea",
+        "Olaskoegia",
+        "Elkano",
+        "Arrutiegia"
+      ],
+      "source": "eustat"
+    },
+    "Zestoa": {
+      "code": "20027",
+      "streets": [
+        "Calle San Isidro",
+        "Calle Asuntzio",
+        "Calle San Joan",
+        "Calle Olaizola eta Uria",
+        "Calle Gesalaga",
+        "Calle Lasao",
+        "Calle Santakurutz",
+        "Plaza Santa Ana"
+      ],
+      "neighborhoods": [
+        "Arteaga",
+        "Narruondo",
+        "Lizarraitz",
+        "Idiazpi"
+      ],
+      "source": "eustat"
+    },
+    "Azpeitia": {
+      "code": "20018",
+      "streets": [
+        "Avenida Loiolako Ignazio",
+        "Calle Euskal Herria",
+        "Calle Enparan",
+        "Avenida Landeta",
+        "Avenida Artzubia",
+        "Calle Elizkale",
+        "Calle Iñaki Azpiazu",
+        "Plaza Olazko Andre Maria"
+      ],
+      "neighborhoods": [
+        "Izarraitz",
+        "Urrestilla",
+        "Oñatz",
+        "Elosiaga",
+        "Arriaga",
+        "Odria"
+      ],
+      "source": "eustat"
+    },
+    "Azkoitia": {
+      "code": "20017",
+      "streets": [
+        "Calle Kale Nagusia",
+        "Calle Santa Klara",
+        "Avenida Julio Urkixo",
+        "Calle Idiakez",
+        "Avenida Altzibar",
+        "Calle Aingeru",
+        "Alameda Trenbidearen zumardia",
+        "Plaza Bizkargi"
+      ],
+      "neighborhoods": [
+        "Martirieta",
+        "Urrategi",
+        "Izarraitz",
+        "Madariaga",
+        "Ubaiar",
+        "Aizpurutxo"
+      ],
+      "source": "eustat"
+    },
+    "Deba": {
+      "code": "20029",
+      "streets": [
+        "Calle Lersundi",
+        "Calle Hondartza",
+        "Calle Mutxiarte",
+        "Calle Astillero",
+        "Calle Mogel",
+        "Calle Prozesio",
+        "Calle Ifar",
+        "Plaza San Nikolas"
+      ],
+      "neighborhoods": [
+        "Itsaspe",
+        "Elorriaga",
+        "Mardari",
+        "Egia",
+        "Lastur Goia",
+        "Arbiskoa"
+      ],
+      "source": "eustat"
+    },
+    "Mutriku": {
+      "code": "20056",
+      "streets": [
+        "Avenida Tenientes Txurruka",
+        "Calle Erdikokale",
+        "Calle Almirante Gaztañeta",
+        "Calle Conde de Motrico",
+        "Paseo Sanmikolla",
+        "Avenida Jose M. Alcibar",
+        "Calle Tranpakale",
+        "Plaza Txurruka"
+      ],
+      "neighborhoods": [
+        "Laranga",
+        "Ibiri",
+        "Astigarribia",
+        "Artzainerreka",
+        "Magdalena",
+        "Urazamendik"
+      ],
+      "source": "eustat"
+    },
+    "Eibar": {
+      "code": "20030",
+      "streets": [
+        "Calle Bidebarrieta",
+        "Calle Txonta",
+        "Calle Barrena",
+        "Calle Jardiñeta",
+        "Avenida Otaola",
+        "Calle Tiburzio Anitua",
+        "Calle Isasi",
+        "Plaza Untzaga"
+      ],
+      "neighborhoods": [
+        "Arrate",
+        "Aginaga",
+        "Maltzaga"
+      ],
+      "source": "eustat"
+    },
+    "Elgoibar": {
+      "code": "20032",
+      "streets": [
+        "Calle San Frantzisko",
+        "Calle Urazandi",
+        "Calle Toletxe",
+        "Calle San Bartolome",
+        "Calle Errosario",
+        "Calle Basarte",
+        "Calle Santa Ana",
+        "Plaza Ubitarte"
+      ],
+      "neighborhoods": [
+        "Sallobente-Ermuaran",
+        "Aiastia (San Migel)",
+        "Idotorbe (San Pedro)",
+        "Azkue (San Roke)",
+        "Urruzuno",
+        "Arriaga"
+      ],
+      "source": "eustat"
+    },
+    "Soraluze / Placencia de las Armas": {
+      "code": "20065",
+      "streets": [
+        "Calle Gabolats",
+        "Calle Santa Ana",
+        "Calle Errekalde",
+        "Calle Errabal",
+        "Calle Baltegieta",
+        "Calle Kalebarren",
+        "Avenida Ezozibidea",
+        "Calle Sagarrerreka"
+      ],
+      "neighborhoods": [
+        "Irure",
+        "San Andres",
+        "Ezozia",
+        "Txurruka",
+        "Txurruken auzunea"
+      ],
+      "source": "eustat"
+    },
+    "Bergara": {
+      "code": "20074",
+      "streets": [
+        "Avenida Ibargarai",
+        "Calle Zubieta",
+        "Calle Amillaga",
+        "Calle Barrenkalea",
+        "Calle Bidekurutzeta",
+        "Calle Matxiategi",
+        "Calle Aranerreka",
+        "Plaza Fraiskozuri"
+      ],
+      "neighborhoods": [
+        "San Juan",
+        "Elorregi",
+        "Ubera",
+        "Elosua",
+        "Basalgo",
+        "Buruñao"
+      ],
+      "source": "eustat"
+    },
+    "Arrasate / Mondragón": {
+      "code": "20055",
+      "streets": [
+        "Calle Ferrerías",
+        "Calle Erdiko kalea",
+        "Avenida Gipuzkoa",
+        "Calle Olarte",
+        "Calle Iturriotz",
+        "Calle Erguin",
+        "Calle Zarugalde",
+        "Plaza Euskal Herria"
+      ],
+      "neighborhoods": [
+        "Garagartza",
+        "Gesalibar",
+        "San Andres",
+        "Meatzerreka",
+        "Uribarri",
+        "Bedoña"
+      ],
+      "source": "eustat"
+    },
+    "Oñati": {
+      "code": "20059",
+      "streets": [
+        "Calle Kale Zaharra",
+        "Calle Kale Barria",
+        "Calle San Juan",
+        "Calle Auzabarri",
+        "Calle Bidebarrieta",
+        "Calle Atzeko kalea",
+        "Calle Arantzazuko Ama",
+        "Avenida Euskadi"
+      ],
+      "neighborhoods": [
+        "Zubillaga",
+        "Olabarrieta",
+        "Araotz",
+        "Arantzazu",
+        "San Lorentzo",
+        "Berezao"
+      ],
+      "source": "eustat"
+    },
+    "Aretxabaleta": {
+      "code": "20013",
+      "streets": [
+        "Paseo Txarapea",
+        "Calle Durana",
+        "Calle Otalora",
+        "Paseo Araba",
+        "Calle Santakurtz",
+        "Calle Solohandi",
+        "Calle Lausitta",
+        "Plaza Iralabarri"
+      ],
+      "neighborhoods": [
+        "Markole",
+        "Goroeta Elizaurrea",
+        "Aozaratza Elizaurrea",
+        "Galartza Elizaurrea",
+        "Belorrieta",
+        "Bedarretako San Migel"
+      ],
+      "source": "eustat"
+    },
+    "Eskoriatza": {
+      "code": "20034",
+      "streets": [
+        "Calle Aranburuzabala",
+        "Paseo Aingeru Guarda",
+        "Calle Hidalga",
+        "Calle Gaztañadui",
+        "Calle Jose Arana",
+        "Calle San Juan",
+        "Paseo Torrebaso",
+        "Plaza Olaeta"
+      ],
+      "neighborhoods": [
+        "Kuatruena",
+        "Bolibar Elizatea",
+        "Intxaurtxueta",
+        "Mazmela Elizatea",
+        "Elorreta",
+        "Zarimutz Elizatea"
+      ],
+      "source": "eustat"
+    },
+    "Tolosa": {
+      "code": "20071",
+      "streets": [
+        "Paseo Iurramendi",
+        "Calle Usabal",
+        "Calle Korreo",
+        "Calle Larramendi",
+        "Calle Rondilla",
+        "Calle Kale Nagusia",
+        "Paseo San Frantzisko",
+        "Avenida Donostia"
+      ],
+      "neighborhoods": [
+        "San Esteban",
+        "Bedaio",
+        "Aldaba",
+        "San Blas",
+        "Amarotz",
+        "Auzotxikia"
+      ],
+      "source": "eustat"
+    },
+    "Villabona": {
+      "code": "20075",
+      "streets": [
+        "Calle Kale Berria",
+        "Calle Kale Nagusia",
+        "Calle Txermin",
+        "Paseo Arantzalde",
+        "Calle Aldapeta",
+        "Plaza Amasako plaza",
+        "Calle Errota",
+        "Calle Erniobea"
+      ],
+      "neighborhoods": [
+        "Amasa",
+        "Larrea",
+        "Otelarre",
+        "Arroa",
+        "Legarreta",
+        "Otsabi"
+      ],
+      "source": "eustat"
+    },
+    "Ibarra": {
+      "code": "20042",
+      "streets": [
+        "Calle Euskal Herria",
+        "Calle Emeterio Arrese",
+        "Calle Julian Gaiarre",
+        "Calle San Bartolome",
+        "Calle Azkue",
+        "Calle Jesus Guridi",
+        "Calle Apaterreka",
+        "Plaza Idoiaga"
+      ],
+      "neighborhoods": [
+        "Egialde",
+        "Izaskunburu",
+        "Orietape",
+        "San Inazio",
+        "Argindegi",
+        "Zaldune"
+      ],
+      "source": "eustat"
+    },
+    "Beasain": {
+      "code": "20019",
+      "streets": [
+        "Calle Foru",
+        "Calle Oriamendi",
+        "Calle Errekarte",
+        "Avenida Nafarroa",
+        "Calle Kale Nagusia",
+        "Calle Erauskin",
+        "Calle Andre Mari",
+        "Plaza Dulce Maria Loinaz"
+      ],
+      "neighborhoods": [
+        "Beasainmendi",
+        "Arriaran",
+        "Astigarreta",
+        "Gudugarreta",
+        "Loinatz",
+        "Aratz-Matxinbenta"
+      ],
+      "source": "eustat"
+    },
+    "Ordizia": {
+      "code": "20076",
+      "streets": [
+        "Calle Urdaneta",
+        "Paseo Gernikako Arbola",
+        "Calle Filipinak",
+        "Calle Mallutz",
+        "Calle Arramendi",
+        "Calle Santa Maria-Andre Maria",
+        "Calle Kale Nagusia",
+        "Avenida Nafarroa"
+      ],
+      "neighborhoods": [
+        "Aita Urdaneta",
+        "San Joan"
+      ],
+      "source": "eustat"
+    },
+    "Lazkao": {
+      "code": "20049",
+      "streets": [
+        "Calle Zubizkitza",
+        "Calle Antzalde",
+        "Calle Hirigoien",
+        "Calle Elosegi",
+        "Calle San Prudentzio",
+        "Calle Mikelar",
+        "Calle San Jose Obrero",
+        "Avenida Jose Lasa"
+      ],
+      "neighborhoods": [
+        "Lazkaomendi",
+        "Zubierreka",
+        "Senpere"
+      ],
+      "source": "eustat"
+    },
+    "Zumarraga": {
+      "code": "20080",
+      "streets": [
+        "Avenida Beloki",
+        "Calle Hiri Lorategia",
+        "Calle San Gregorio",
+        "Calle Sekundino Esnaola",
+        "Plaza Esteban Orbegozo",
+        "Avenida Antziñe",
+        "Avenida Urdaneta",
+        "Calle Piedad"
+      ],
+      "neighborhoods": [
+        "Artiz",
+        "Urtubi",
+        "Aginaga",
+        "Bidaurreta"
+      ],
+      "source": "eustat"
+    },
+    "Urretxu": {
+      "code": "20077",
+      "streets": [
+        "Calle Labeaga",
+        "Calle Lilibaso",
+        "Calle Jauregi",
+        "Calle Iparragirre",
+        "Calle Ipeñarrieta",
+        "Calle Matxinporta",
+        "Calle Elizalde",
+        "Plaza Gernikako Arbola"
+      ],
+      "neighborhoods": [
+        "Pagoeta",
+        "Gurutze",
+        "Aparicio"
+      ],
+      "source": "eustat"
+    },
+    "Legazpi": {
+      "code": "20051",
+      "streets": [
+        "Calle Bikuña",
+        "Calle Plazaola",
+        "Calle Santikutz",
+        "Calle Aizkorri",
+        "Calle Kale Nagusia",
+        "Calle Nafarroa",
+        "Calle Urola",
+        "Avenida Lanaren etorbidea"
+      ],
+      "neighborhoods": [
+        "Urtatza",
+        "San Ignazio",
+        "San Juan",
+        "Elbarrena",
+        "Urtatza-Egialdea",
+        "Laubide"
+      ],
+      "source": "eustat"
+    },
+    "Abaltzisketa": {
+      "code": "20001",
+      "streets": [],
+      "neighborhoods": [
+        "Larraitz",
+        "Ipintza-Garmendi",
+        "Sasiain-Arandi",
+        "Iriondo-Altun",
+        "Pildain-Gasastegi",
+        "Azaldegi-Estanga"
+      ],
+      "source": "eustat"
+    },
+    "Aduna": {
+      "code": "20002",
+      "streets": [
+        "Calle Amalkor",
+        "Plaza Herriko plaza",
+        "Plaza Elordi",
+        "Calle Elutse",
+        "Calle Allapur",
+        "Calle Altamira"
+      ],
+      "neighborhoods": [
+        "Elbarrena",
+        "Goiburu",
+        "Lardi"
+      ],
+      "source": "eustat"
+    },
+    "Aizarnazabal": {
+      "code": "20003",
+      "streets": [
+        "Calle Gaiko",
+        "Calle Mikel",
+        "Calle Baltasar Etxabe",
+        "Plaza Herriko plaza",
+        "Calle Erribera",
+        "Calle Euskal Herria",
+        "Plaza Atarisoro",
+        "Calle Zelaitxo"
+      ],
+      "neighborhoods": [
+        "Zubialdea",
+        "Mugitzagaina",
+        "Saiatz",
+        "Etxabe"
+      ],
+      "source": "eustat"
+    },
+    "Albiztur": {
+      "code": "20004",
+      "streets": [],
+      "neighborhoods": [
+        "Ergoena",
+        "Aizkorri Txiki",
+        "Aizkorri Handi",
+        "Santa Marina",
+        "Urreta",
+        "Olateaga"
+      ],
+      "source": "eustat"
+    },
+    "Alegia": {
+      "code": "20005",
+      "streets": [
+        "Calle San Juan",
+        "Calle Bideberrieta",
+        "Calle Hegoalde"
+      ],
+      "neighborhoods": [
+        "Beistin",
+        "Larraitz",
+        "Errotaldea",
+        "Errota",
+        "Auzo Txikia"
+      ],
+      "source": "eustat"
+    },
+    "Alkiza": {
+      "code": "20006",
+      "streets": [
+        "Plaza Alkiza",
+        "Calle Perualdea"
+      ],
+      "neighborhoods": [
+        "Arana",
+        "Azaldegi",
+        "Hernio",
+        "Aldapa",
+        "Sakamidra"
+      ],
+      "source": "eustat"
+    },
+    "Altzaga": {
+      "code": "20906",
+      "streets": [],
+      "neighborhoods": [],
+      "source": "eustat"
+    },
+    "Altzo": {
+      "code": "20007",
+      "streets": [],
+      "neighborhoods": [
+        "Altzomuño"
+      ],
+      "source": "eustat"
+    },
+    "Amezketa": {
+      "code": "20008",
+      "streets": [
+        "Calle Bartolome Deuna",
+        "Calle Eliz Kalea",
+        "Calle Joxean Tolosa",
+        "Calle Erreka Alde",
+        "Plaza Fernando Amezketarraren plaza",
+        "Calle Urbizi",
+        "Plaza Beltzaren plaza"
+      ],
+      "neighborhoods": [
+        "Altunegi",
+        "Urkulaparte",
+        "Arrondo",
+        "Zubillaga",
+        "Toledoaldea",
+        "Ola"
+      ],
+      "source": "eustat"
+    },
+    "Anoeta": {
+      "code": "20010",
+      "streets": [
+        "Calle San Juan",
+        "Plaza Herriko plaza",
+        "Calle Idiakaitz",
+        "Calle Etxaburu",
+        "Calle Hozpel",
+        "Calle Solkorre",
+        "Calle Iturtxulo",
+        "Calle Lasarbe"
+      ],
+      "neighborhoods": [
+        "Ergoien",
+        "Goiballara",
+        "Elbarren"
+      ],
+      "source": "eustat"
+    },
+    "Antzuola": {
+      "code": "20011",
+      "streets": [
+        "Calle Kalebarren",
+        "Calle Kalegoi",
+        "Calle Buztinzuri",
+        "Plaza Herriko plaza",
+        "Calle Mañarieta",
+        "Plaza Ondarre",
+        "Calle Iruetxeta Sallabente",
+        "Avenida Lizarraga"
+      ],
+      "neighborhoods": [
+        "Irimoegigoena",
+        "Lizarraga",
+        "Antigua",
+        "Galartza",
+        "Irimoegibarrena",
+        "Uzarraga"
+      ],
+      "source": "eustat"
+    },
+    "Arama": {
+      "code": "20012",
+      "streets": [
+        "Calle Iriarte",
+        "Plaza Arama",
+        "Calle Kale Nagusia",
+        "Calle Atari"
+      ],
+      "neighborhoods": [],
+      "source": "eustat"
+    },
+    "Asteasu": {
+      "code": "20014",
+      "streets": [
+        "Calle Mayor-Nagusia",
+        "Calle Obaba",
+        "Calle Juan Bautista Agirre",
+        "Calle Nueva-Berria",
+        "Calle Hipólito Usabiaga",
+        "Calle Mikaela Elizegi",
+        "Calle Plateria-Zilar",
+        "Calle Iglesia-Eliz"
+      ],
+      "neighborhoods": [
+        "Elizmendi",
+        "Goiballara",
+        "Beballara",
+        "Errekaballara",
+        "Upazan"
+      ],
+      "source": "eustat"
+    },
+    "Ataun": {
+      "code": "20015",
+      "streets": [
+        "Calle Zubikoeta Industrigunea"
+      ],
+      "neighborhoods": [
+        "Elbarrena",
+        "San Gregorio",
+        "Aia",
+        "Arrondo",
+        "Ergoiena",
+        "Astigarraga"
+      ],
+      "source": "eustat"
+    },
+    "Baliarrain": {
+      "code": "20904",
+      "streets": [
+        "Calle Malkor",
+        "Plaza Andra Mari Zeruratzearen plaza",
+        "Calle Muino Gain"
+      ],
+      "neighborhoods": [],
+      "source": "eustat"
+    },
+    "Beizama": {
+      "code": "20020",
+      "streets": [
+        "Calle Olanoegi"
+      ],
+      "neighborhoods": [
+        "Aginamendi",
+        "Urdanpileta",
+        "Ilarraldea",
+        "Nuarbe",
+        "Amenabar",
+        "Baztarkalealdea"
+      ],
+      "source": "eustat"
+    },
+    "Belauntza": {
+      "code": "20021",
+      "streets": [],
+      "neighborhoods": [
+        "Beotibar",
+        "Okobio"
+      ],
+      "source": "eustat"
+    },
+    "Berastegi": {
+      "code": "20022",
+      "streets": [
+        "Calle Arandia",
+        "Avenida Leitza-Tolosa",
+        "Calle Beheko kalea",
+        "Calle Kale Nagusi",
+        "Calle Danbolingo Iturri",
+        "Calle Goiko kalea",
+        "Calle Matxiku Erreka",
+        "Calle Sastixar"
+      ],
+      "neighborhoods": [
+        "Izotzalde",
+        "Eldua",
+        "Eguzkialde",
+        "Leitzalde",
+        "Elduainalde",
+        "Aintzerga"
+      ],
+      "source": "eustat"
+    },
+    "Berrobi": {
+      "code": "20023",
+      "streets": [
+        "Calle Jose Maria Goikoetxea",
+        "Calle Errezpe",
+        "Calle Upelategi",
+        "Calle Arkaitz",
+        "Calle Errota",
+        "Calle Atseden",
+        "Calle Ibai-Gain",
+        "Calle Erbaita"
+      ],
+      "neighborhoods": [
+        "Egutera",
+        "Ospela"
+      ],
+      "source": "eustat"
+    },
+    "Bidania-Goiatz": {
+      "code": "20024",
+      "streets": [
+        "Calle Agerre-Azpi"
+      ],
+      "neighborhoods": [
+        "Elbarren",
+        "Eliz",
+        "Erreka",
+        "Elola",
+        "Santa Marina"
+      ],
+      "source": "eustat"
+    },
+    "Elduain": {
+      "code": "20031",
+      "streets": [],
+      "neighborhoods": [],
+      "source": "eustat"
+    },
+    "Elgeta": {
+      "code": "20033",
+      "streets": [
+        "Calle Domingo Iturbe",
+        "Calle San Roke",
+        "Calle Salbador",
+        "Calle Torrealdea",
+        "Calle Artekale",
+        "Calle Lasao",
+        "Plaza Mendizaleen plaza",
+        "Travesía Salbador"
+      ],
+      "neighborhoods": [
+        "Uriarte",
+        "Larragibel",
+        "Aranzeta",
+        "Egotxeaga",
+        "Goimendi",
+        "Anzuategi"
+      ],
+      "source": "eustat"
+    },
+    "Errezil": {
+      "code": "20066",
+      "streets": [],
+      "neighborhoods": [
+        "Artzalluz",
+        "Ibarbia",
+        "Letea",
+        "Ezama",
+        "Erdoizta",
+        "Argisain (Santa Marina)"
+      ],
+      "source": "eustat"
+    },
+    "Ezkio-Itsaso": {
+      "code": "20035",
+      "streets": [
+        "Calle Etxeberrialde",
+        "Calle Iturgain",
+        "Calle Oria",
+        "Calle Errekabarrena"
+      ],
+      "neighborhoods": [],
+      "source": "eustat"
+    },
+    "Gabiria": {
+      "code": "20038",
+      "streets": [
+        "Calle Frontoi-Azpi",
+        "Calle Alkain Barren"
+      ],
+      "neighborhoods": [
+        "Aztiria",
+        "Alegia",
+        "Zuazola",
+        "Madariaga",
+        "Orbeldegi",
+        "Ugarana Bekoa"
+      ],
+      "source": "eustat"
+    },
+    "Gaintza": {
+      "code": "20037",
+      "streets": [],
+      "neighborhoods": [],
+      "source": "eustat"
+    },
+    "Gaztelu": {
+      "code": "20907",
+      "streets": [],
+      "neighborhoods": [
+        "Gaztelu"
+      ],
+      "source": "eustat"
+    },
+    "Hernialde": {
+      "code": "20041",
+      "streets": [
+        "Calle Agamuño",
+        "Calle Agiña",
+        "Calle Elizburu",
+        "Plaza Santa Cruz Apaiza"
+      ],
+      "neighborhoods": [
+        "Olotza",
+        "Enparantza",
+        "San Migel",
+        "Txingurri",
+        "Izarre"
+      ],
+      "source": "eustat"
+    },
+    "Idiazabal": {
+      "code": "20043",
+      "streets": [
+        "Calle Kale Nagusia",
+        "Calle Zepai",
+        "Calle Bikuña",
+        "Calle Zigor",
+        "Calle Eduardo Irizar",
+        "Calle Iparra",
+        "Calle Gurutze-Berri",
+        "Plaza Nagusia"
+      ],
+      "neighborhoods": [
+        "Urtsuaran",
+        "Labealde",
+        "Bere Nahia"
+      ],
+      "source": "eustat"
+    },
+    "Ikaztegieta": {
+      "code": "20044",
+      "streets": [
+        "Calle Errotagain",
+        "Plaza Herriko plaza"
+      ],
+      "neighborhoods": [
+        "San Lorentzo"
+      ],
+      "source": "eustat"
+    },
+    "Irura": {
+      "code": "20046",
+      "streets": [
+        "Calle Kale Nagusia",
+        "Calle Nekazari",
+        "Calle Gurdi",
+        "Plaza San Migel",
+        "Calle Eguzkialde",
+        "Calle Etxezarreta",
+        "Calle Zillar",
+        "Calle Txiki"
+      ],
+      "neighborhoods": [
+        "Ibaiondo",
+        "Katategi",
+        "Laskibar",
+        "Agirre"
+      ],
+      "source": "eustat"
+    },
+    "Itsasondo": {
+      "code": "20047",
+      "streets": [
+        "Calle Kale Nagusia",
+        "Calle Goiko kalea",
+        "Calle Beko kalea",
+        "Calle Beiti"
+      ],
+      "neighborhoods": [
+        "Goierri"
+      ],
+      "source": "eustat"
+    },
+    "Larraul": {
+      "code": "20048",
+      "streets": [],
+      "neighborhoods": [],
+      "source": "eustat"
+    },
+    "Leaburu": {
+      "code": "20050",
+      "streets": [
+        "Calle Apatta-Belabieta",
+        "Calle Apatta-Zelai"
+      ],
+      "neighborhoods": [
+        "Leaburu",
+        "Txarama"
+      ],
+      "source": "eustat"
+    },
+    "Legorreta": {
+      "code": "20052",
+      "streets": [
+        "Calle Kale Nagusia",
+        "Calle Joxe Iturrioz",
+        "Plaza Korta eta Zapas",
+        "Paseo Ibaiondo",
+        "Paseo Harripila"
+      ],
+      "neighborhoods": [
+        "Etxezarreta",
+        "Koroate",
+        "Guadalupe",
+        "Zubiaurre",
+        "San Miguel",
+        "Berostegi"
+      ],
+      "source": "eustat"
+    },
+    "Leintz-Gatzaga": {
+      "code": "20068",
+      "streets": [
+        "Calle Rosario",
+        "Calle Pilar",
+        "Calle Santiago",
+        "Plaza San Miguel",
+        "Calle San Ignacio"
+      ],
+      "neighborhoods": [],
+      "source": "eustat"
+    },
+    "Lizartza": {
+      "code": "20054",
+      "streets": [
+        "Calle Kale Nagusia",
+        "Calle Urondoa",
+        "Calle Elbarrena",
+        "Plaza Askatasunaren plaza",
+        "Calle Gurutz Bidea",
+        "Calle Illarratsu"
+      ],
+      "neighborhoods": [
+        "Plaza Soro",
+        "Lezialde",
+        "Lartzalde",
+        "Basaitzaldea",
+        "Elizondo",
+        "Ermitalde"
+      ],
+      "source": "eustat"
+    },
+    "Mendaro": {
+      "code": "20901",
+      "streets": [
+        "Avenida Andoneikua",
+        "Calle Garagartza",
+        "Avenida Kilimon",
+        "Calle Azpilgoeta",
+        "Calle Mendarozabal",
+        "Calle Herriko Enparantza",
+        "Calle Jose Maria Linazasoro",
+        "Plaza Zelaikua"
+      ],
+      "neighborhoods": [
+        "Mendarozabal-Idiazabaltxo",
+        "Azpilgoeta",
+        "Mendarozabal-Igartu"
+      ],
+      "source": "eustat"
+    },
+    "Mutiloa": {
+      "code": "20057",
+      "streets": [
+        "Calle Zelaialde"
+      ],
+      "neighborhoods": [
+        "Lenkaran",
+        "Elbarrena",
+        "Lierni",
+        "Ergoena",
+        "Murgiondo Aldea",
+        "Urbizuaran"
+      ],
+      "source": "eustat"
+    },
+    "Olaberria": {
+      "code": "20058",
+      "streets": [
+        "Calle Cari de La Cruz",
+        "Calle Galarregi",
+        "Calle Belakasoro",
+        "Calle Zebazelai",
+        "Calle San Juan",
+        "Calle Jose Maria Aristrain",
+        "Calle Santa Luzia",
+        "Calle Elizondo"
+      ],
+      "neighborhoods": [
+        "Errekalde",
+        "Arangurenalde",
+        "Irantzuagalde"
+      ],
+      "source": "eustat"
+    },
+    "Orendain": {
+      "code": "20905",
+      "streets": [
+        "Calle Ozketa Aldea-Kasko Gain",
+        "Calle Kale Soro-Kasko Gain",
+        "Calle Orendaingo Plaza-Kasko Gain",
+        "Calle Ibiur Aldea-Kasko Gain",
+        "Calle Ormain Aldea-Kasko Gain",
+        "Calle Olardi Aldea-Kasko Gain",
+        "Calle Gerbile Aldea-Kasko Gain"
+      ],
+      "neighborhoods": [
+        "Astizalde",
+        "Egileor",
+        "Baldanalde"
+      ],
+      "source": "eustat"
+    },
+    "Orexa": {
+      "code": "20060",
+      "streets": [
+        "Plaza Errebote"
+      ],
+      "neighborhoods": [
+        "Intxaurpe",
+        "Urrutxugain",
+        "Elbarrene",
+        "Belizturri",
+        "Narbaitzu Aldea"
+      ],
+      "source": "eustat"
+    },
+    "Ormaiztegi": {
+      "code": "20062",
+      "streets": [
+        "Calle Ibaialde",
+        "Calle San Andres",
+        "Calle Gabirialde",
+        "Avenida Zumalakarregi",
+        "Calle Zumarralde",
+        "Calle Muxika Egurastokia",
+        "Avenida Monseñor Irizar",
+        "Plaza Berjaldegi"
+      ],
+      "neighborhoods": [
+        "Telleri",
+        "Mendizabal",
+        "Aranguren"
+      ],
+      "source": "eustat"
+    },
+    "Segura": {
+      "code": "20070",
+      "streets": [
+        "Calle Kale Nagusia",
+        "Calle Akelarre",
+        "Calle Zurbano",
+        "Calle Andraitz",
+        "Calle Bekosoroa",
+        "Calle Lardizabal",
+        "Calle Unzurrunzaga",
+        "Calle Beheko Arrabal"
+      ],
+      "neighborhoods": [
+        "Aizkorri"
+      ],
+      "source": "eustat"
+    },
+    "Zaldibia": {
+      "code": "20078",
+      "streets": [
+        "Calle Santa Fe",
+        "Calle Urreta",
+        "Calle Lizardi",
+        "Calle Artxanberri",
+        "Calle Ibarrazpi"
+      ],
+      "neighborhoods": [
+        "Elbarrena",
+        "Arruegi",
+        "Aiestaranerreka",
+        "Egileor",
+        "Olaeta",
+        "Urtesabel"
+      ],
+      "source": "eustat"
+    },
+    "Zegama": {
+      "code": "20025",
+      "streets": [
+        "Calle Olaberria",
+        "Avenida Askatasunaren etorbidea",
+        "Calle San Bartolome",
+        "Calle Beruntze Txikia",
+        "Calle Olaran",
+        "Calle Etxeraia",
+        "Calle Santa Barbara",
+        "Plaza Urgain Berri"
+      ],
+      "neighborhoods": [
+        "Ondarraldea",
+        "Arrietaldea",
+        "Olanaldea",
+        "Barrenaldea",
+        "Iruetxetaaldea",
+        "Goialdea"
+      ],
+      "source": "eustat"
+    },
+    "Zerain": {
+      "code": "20026",
+      "streets": [],
+      "neighborhoods": [
+        "Aizpea",
+        "Otatza",
+        "Laiotz-Lasusti",
+        "Irukarate-Gain",
+        "Gorosmendi",
+        "Errekaldea"
+      ],
+      "source": "eustat"
+    },
+    "Zizurkil": {
+      "code": "20028",
+      "streets": [
+        "Avenida Beldarrain",
+        "Calle Muñoa",
+        "Plaza Azkenportu",
+        "Calle Hernandorena",
+        "Calle Altziturri bidea",
+        "Plaza Pedro Maria Otaño",
+        "Plaza Aurrera",
+        "Calle Oakaztegi"
+      ],
+      "neighborhoods": [
+        "Mendibailara",
+        "Akezkobailara",
+        "Buztinbailara",
+        "Ugare",
+        "Pagamuño",
+        "Elbarrena"
+      ],
+      "source": "eustat"
+    },
+    "Madrid": {
+      "code": "28079",
+      "streets": [
+        "Calle de Alcalá",
+        "Calle de Bravo Murillo",
+        "Paseo de la Castellana",
+        "Avenida de la Gran Vía de Hortaleza",
+        "Calle de Serrano",
+        "Calle de Goya",
+        "Plaza de Castilla",
+        "Paseo de las Delicias"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Alcobendas": {
+      "code": "28006",
+      "streets": [
+        "Calle de la Azalea",
+        "Paseo de la Chopera",
+        "Calle de Cuestablanca",
+        "Calle del Camino de Hoyarrasa",
+        "Calle del Camino Nuevo",
+        "Calle del Camino Alto",
+        "Paseo del Conde de los Gaitanes",
+        "Avenida de la Zaporra"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "San Sebastián de los Reyes": {
+      "code": "28134",
+      "streets": [
+        "Avenida de Castilla La Mancha",
+        "Paseo del Embajador",
+        "Calle del Real",
+        "Avenida Antonio Machado",
+        "Paseo Guadalajara",
+        "Paseo de Albacete",
+        "Paseo del Perú",
+        "Plaza Comercio"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Tres Cantos": {
+      "code": "28903",
+      "streets": [
+        "Avenida de los Artesanos",
+        "Calle de la Violeta",
+        "Calle de Ciudad de Columbia",
+        "Calle Púrpura",
+        "Calle de Buenos Aires",
+        "Calle Siena",
+        "Calle del Girasol",
+        "Plaza del Padre Llanos"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Colmenar Viejo": {
+      "code": "28045",
+      "streets": [
+        "Calle del Cerro de San Pedro",
+        "Calle de los Frailes",
+        "Calle de Gimialcón",
+        "Calle de las Islas Canarias",
+        "Avenida de la Libertad",
+        "Calle de Alba de Tormes",
+        "Calle de los Tintes",
+        "Plaza de los Arcos"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Pozuelo de Alarcón": {
+      "code": "28115",
+      "streets": [
+        "Avenida Roque Nublo",
+        "Calle Pinar de Somosaguas",
+        "Calle Saliente",
+        "Calle Arquitectura",
+        "Calle María Benítez",
+        "Calle Poniente",
+        "Calle Burgos",
+        "Plaza de la Coronación"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Majadahonda": {
+      "code": "28080",
+      "streets": [
+        "Calle Huerta de la Sacedilla",
+        "Calle Norias",
+        "Avenida España",
+        "Calle Rigoletto",
+        "Calle Traviata",
+        "Calle Pinar de Doña Consuelo",
+        "Avenida Oliva",
+        "Plaza Juan Sanz"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Las Rozas de Madrid": {
+      "code": "28127",
+      "streets": [
+        "Avenida Lazarejo",
+        "Avenida España",
+        "Calle Gerifalte",
+        "Calle Micenas",
+        "Calle Encinar",
+        "Avenida Marsil",
+        "Calle Rufino Sánchez",
+        "Plaza Ferrocarril"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Boadilla del Monte": {
+      "code": "28022",
+      "streets": [
+        "Calle de Enrique Granados",
+        "Calle Río Tajo",
+        "Avenida del Monte Segovia",
+        "Calle Valle del Roncal",
+        "Calle de la Comunidad de Madrid",
+        "Avenida de las Lomas",
+        "Avenida del Monte Olivar",
+        "Plaza Virgen del Rosario"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Villaviciosa de Odón": {
+      "code": "28181",
+      "streets": [
+        "Avenida Príncipe de Asturias",
+        "Calle Duero",
+        "Calle Zamora",
+        "Calle Miño",
+        "Calle Guadiana",
+        "Calle Pedraza",
+        "Calle Miravalles",
+        "Plaza Humilladero"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Alcalá de Henares": {
+      "code": "28005",
+      "streets": [
+        "Calle de la Aviación Española",
+        "Calle Vía Complutense",
+        "Calle Ramón María del Valle Inclán",
+        "Calle Mayor",
+        "Calle Camilo José Cela",
+        "Calle Ávila",
+        "Calle Núñez de Guzmán",
+        "Avenida de Madrid"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Torrejón de Ardoz": {
+      "code": "28148",
+      "streets": [
+        "Avenida Constitución",
+        "Calle Solana",
+        "Calle Cristo",
+        "Calle Magdalena",
+        "Calle Duque",
+        "Calle Plata",
+        "Calle Circunvalación",
+        "Plaza Europa"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Coslada": {
+      "code": "28049",
+      "streets": [
+        "Avenida de la Constitución",
+        "Avenida de España",
+        "Calle Honduras",
+        "Calle Uruguay",
+        "Calle Chile",
+        "Avenida de Vicálvaro",
+        "Plaza del Mar Egeo",
+        "Calle de Santiago"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "San Fernando de Henares": {
+      "code": "28130",
+      "streets": [
+        "Avenida de Zarauz",
+        "Avenida de Algorta",
+        "Calle Motrico",
+        "Plaza de España",
+        "Calle de la Libertad",
+        "Calle de la Huerta",
+        "Avenida del Somorrostro",
+        "Calle de la Sierra de Guadarrama"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Mejorada del Campo": {
+      "code": "28084",
+      "streets": [
+        "Avenida de la Concordia",
+        "Calle de Moscú",
+        "Calle de Aragón",
+        "Avenida de Europa",
+        "Calle de Estocolmo",
+        "Calle de Berna",
+        "Calle del Duero",
+        "Plaza del Primero de Mayo"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Velilla de San Antonio": {
+      "code": "28167",
+      "streets": [
+        "Calle Mayor",
+        "Avenida de la Ilustración",
+        "Calle Jacaranda",
+        "Calle Olivar",
+        "Calle Luxemburgo",
+        "Calle de Paz Camacho",
+        "Calle los Madroños",
+        "Plaza de la Cultura"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Loeches": {
+      "code": "28075",
+      "streets": [
+        "Avenida María Moliner",
+        "Calle Gloria Fuertes",
+        "Calle San Lorenzo",
+        "Calle Chile",
+        "Calle Colombia",
+        "Calle Berlín",
+        "Avenida del Olivar",
+        "Plaza Fuente Amarga"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Rivas-Vaciamadrid": {
+      "code": "28123",
+      "streets": [
+        "Avenida de Levante",
+        "Calle Lago Constanza",
+        "Avenida de la Zarzuela",
+        "Avenida de los Almendros",
+        "Calle Fernando Fernán Gómez",
+        "Calle Mortadelo y Filemón",
+        "Avenida Campillo de San Isidro",
+        "Plaza de Europa"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Arganda del Rey": {
+      "code": "28014",
+      "streets": [
+        "Avenida de Madrid",
+        "Calle Real",
+        "Calle Oropéndola",
+        "Calle Siete Vientos",
+        "Calle Cóndor",
+        "Paseo de la Democracia",
+        "Calle Presidente José María Aznar",
+        "Plaza de la Solanilla"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Paracuellos de Jarama": {
+      "code": "28104",
+      "streets": [
+        "Calle la Tierra",
+        "Avenida de Circunvalación",
+        "Calle Océano Índico",
+        "Avenida de la Retamosa",
+        "Avenida Príncipe de Asturias",
+        "Calle Océano Atlántico",
+        "Calle las Panzas",
+        "Plaza de la Constitución"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Daganzo de Arriba": {
+      "code": "28053",
+      "streets": [
+        "Avenida del Conde de Coruña",
+        "Calle los Frailes",
+        "Calle Valdeciprián",
+        "Avenida Circunvalación",
+        "Calle de la Paz",
+        "Calle Oriente",
+        "Calle de la Constitución",
+        "Plaza de la Villa"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Ajalvir": {
+      "code": "28002",
+      "streets": [
+        "Avenida Juan Carlos I",
+        "Calle Real",
+        "Calle Soria",
+        "Calle Zaragoza",
+        "Calle San Sebastián",
+        "Calle Fuente",
+        "Calle Calvario",
+        "Plaza de la Villa"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Getafe": {
+      "code": "28065",
+      "streets": [
+        "Avenida de Europa",
+        "Calle de las Islas Canarias",
+        "Calle Madrid",
+        "Calle Piedras Preciosas",
+        "Calle de Francisco Chico Mendes",
+        "Calle de las Secuoyas",
+        "Calle Terebinto",
+        "Plaza Mayor"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Leganés": {
+      "code": "28074",
+      "streets": [
+        "Calle Rioja",
+        "Avenida Fuenlabrada",
+        "Calle Francisco Largo Caballero",
+        "Avenida María Guerrero",
+        "Avenida Rey Juan Carlos I",
+        "Calle Antonio Cánovas del Castillo",
+        "Calle Haya",
+        "Plaza Mayor"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Alcorcón": {
+      "code": "28007",
+      "streets": [
+        "Avenida las Flores",
+        "Calle de Polvoranca",
+        "Calle de Valdemorillo",
+        "Avenida de Retamas",
+        "Calle Estocolmo",
+        "Calle Vereda de los Barros",
+        "Calle las Hayas",
+        "Plaza de San Juan de Covas"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Móstoles": {
+      "code": "28092",
+      "streets": [
+        "Avenida de Esteban García",
+        "Paseo de los Olivos",
+        "Calle de los Fresnos",
+        "Calle del Castaño",
+        "Avenida de los Rosales",
+        "Calle de la Haya",
+        "Calle Piscis",
+        "Plaza de los Arces"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Fuenlabrada": {
+      "code": "28058",
+      "streets": [
+        "Calle de la Constitución",
+        "Calle Luis Sauquillo",
+        "Calle Torrente",
+        "Calle de Móstoles",
+        "Calle Villa Magna",
+        "Calle León",
+        "Calle de Lima",
+        "Avenida del Voluntariado"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Parla": {
+      "code": "28106",
+      "streets": [
+        "Calle Lago de Sanabria",
+        "Calle Lagunas de Ruidera",
+        "Calle Constelación de Perseo",
+        "Calle Lago de Bañolas",
+        "Calle Laguna de Peñalara",
+        "Calle Alfonso X El Sabio",
+        "Avenida del Leguario",
+        "Plaza las Labores"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Pinto": {
+      "code": "28113",
+      "streets": [
+        "Calle Federico Chueca",
+        "Calle Sisones",
+        "Calle Fuentevieja",
+        "Calle Juana Francés",
+        "Calle Bélgica",
+        "Calle del Real",
+        "Calle Málaga",
+        "Avenida de España"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Valdemoro": {
+      "code": "28161",
+      "streets": [
+        "Avenida de Andalucía",
+        "Avenida del Mar Mediterráneo",
+        "Calle Illescas",
+        "Calle Marte",
+        "Avenida de Europa",
+        "Calle de Creta",
+        "Calle Islas Bermudas",
+        "Plaza de Autos"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Aranjuez": {
+      "code": "28013",
+      "streets": [
+        "Calle de Abastos",
+        "Calle de Stuart",
+        "Calle del Capitán Angosto Gómez Castrillón",
+        "Calle del Almíbar",
+        "Calle de San Cristóbal de La Laguna",
+        "Calle de las Moreras",
+        "Avenida de las Artes",
+        "Plaza del Conde de Elda"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Navalcarnero": {
+      "code": "28096",
+      "streets": [
+        "Calle de la Constitución",
+        "Calle de Camilo José Cela",
+        "Avenida de los Cinco Siglos",
+        "Avenida de la Jura de Santa Gadea",
+        "Calle de la Libertad",
+        "Calle Galileo",
+        "Calle de San Roque",
+        "Plaza de Segovia"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Arroyomolinos": {
+      "code": "28015",
+      "streets": [
+        "Avenida de Portugal",
+        "Avenida del Cantábrico",
+        "Calle de Valencia",
+        "Calle de Holanda",
+        "Avenida de Italia",
+        "Calle de Santander",
+        "Avenida de Francia",
+        "Plaza Mayor"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Humanes de Madrid": {
+      "code": "28073",
+      "streets": [
+        "Avenida de la Industria",
+        "Avenida de Fuenlabrada",
+        "Avenida de España",
+        "Calle Madrid",
+        "Calle Fuensalida",
+        "Calle del Pico Almanzor",
+        "Avenida de la Unión Europea",
+        "Plaza de la Constitución"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Griñón": {
+      "code": "28066",
+      "streets": [
+        "Calle Mayor",
+        "Paseo del Carraperal",
+        "Avenida de Humanes",
+        "Avenida de los Andaluces",
+        "Calle de los Alcázares",
+        "Calle de los Olivos",
+        "Calle Hermano Andrés Hibernón",
+        "Plaza Mayor"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "San Martín de la Vega": {
+      "code": "28132",
+      "streets": [
+        "Avenida del Doctor Manuel Jarabo",
+        "Calle Enrique Tierno Galván",
+        "Calle Ocho de Marzo",
+        "Calle de la Virgen de la Paloma",
+        "Calle de San Marcos",
+        "Calle San Cristóbal",
+        "Calle de San José de Calasanz",
+        "Plaza de Miguel de Unamuno"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Ciempozuelos": {
+      "code": "28040",
+      "streets": [
+        "Calle Cañadas del Teide",
+        "Calle de Jerónimo del Moral",
+        "Avenida de Belén",
+        "Calle Palomero",
+        "Calle de la Virgen",
+        "Calle de San Francisco",
+        "Calle Vereda del Prado",
+        "Plaza de Ventura Rodríguez"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Collado Villalba": {
+      "code": "28047",
+      "streets": [
+        "Calle Isla de Sálvora",
+        "Calle Calibre",
+        "Calle Isla de Lobeira",
+        "Calle Abetos",
+        "Calle Azuela",
+        "Calle Pardo de Santallana",
+        "Calle el Águila",
+        "Avenida Juan Carlos I"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Galapagar": {
+      "code": "28061",
+      "streets": [
+        "Avenida de los Voluntarios",
+        "Calle Guadarrama",
+        "Calle Colmenarejo",
+        "Calle de San Gregorio",
+        "Avenida Portugal",
+        "Calle Mayor",
+        "Calle de la Pedriza",
+        "Plaza del Caño"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Torrelodones": {
+      "code": "28152",
+      "streets": [
+        "Calle Monte Alto",
+        "Avenida del Monte",
+        "Avenida del Rodeo",
+        "Avenida de Torrelodones",
+        "Avenida de la Dehesa",
+        "Calle Vicente Téllez",
+        "Calle Arroyo del Coronel",
+        "Plaza de la Constitución"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Guadarrama": {
+      "code": "28068",
+      "streets": [
+        "Calle Guadarrama",
+        "Calle María Verónica",
+        "Calle Valle del Alberche",
+        "Calle Pico del Oso",
+        "Paseo de la Alameda",
+        "Calle Alfonso Senra",
+        "Calle Virgen del Valle",
+        "Avenida Bola del Mundo"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Alpedrete": {
+      "code": "28010",
+      "streets": [
+        "Calle Miguel de Cervantes",
+        "Calle Sancho Panza",
+        "Avenida de los Catedráticos",
+        "Calle de Santiago Rodríguez Conde",
+        "Calle de la Primavera",
+        "Calle de San José",
+        "Calle de Navacerrada",
+        "Plaza del Caño"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "El Escorial": {
+      "code": "28054",
+      "streets": [
+        "Calle Principal",
+        "Avenida de la Constitución",
+        "Calle Sotomora",
+        "Avenida de Castilla",
+        "Calle Diez",
+        "Calle Tres",
+        "Calle Cinco",
+        "Plaza de España"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "San Lorenzo de El Escorial": {
+      "code": "28131",
+      "streets": [
+        "Calle Lepanto",
+        "Calle las Pozas",
+        "Calle Luquetto",
+        "Calle Francisco de Goya",
+        "Calle Francisco de Rivera",
+        "Calle Juan de Villanueva",
+        "Calle Cañada Nueva",
+        "Avenida Carlos Ruiz"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Cercedilla": {
+      "code": "28038",
+      "streets": [
+        "Calle de San Andrés",
+        "Avenida de la Sierra del Guadarrama",
+        "Calle Mayor",
+        "Calle de Emilio Serrano",
+        "Calle Registros",
+        "Avenida de Manuel González Amezua",
+        "Calle Pontezuela",
+        "Plaza Mayor"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Hoyo de Manzanares": {
+      "code": "28072",
+      "streets": [
+        "Avenida de Asturias",
+        "Calle Cándamo",
+        "Calle Zarrazín",
+        "Calle del Río Sella",
+        "Calle Hurtada",
+        "Avenida de Madrid",
+        "Calle del Nalón",
+        "Plaza Hontanilla"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Manzanares el Real": {
+      "code": "28082",
+      "streets": [
+        "Avenida de la Pedriza",
+        "Calle de las Peñas",
+        "Calle de las Cuatro Peñas",
+        "Avenida de Maderuelo",
+        "Calle Camino de Peña Sacra",
+        "Calle de la Cañada",
+        "Calle Suerte del Palomar",
+        "Plaza del Pueblo"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Soto del Real": {
+      "code": "28144",
+      "streets": [
+        "Calle de la Sierra Madre",
+        "Calle de la Sierra de Guadalupe",
+        "Avenida Ermita",
+        "Calle de la Serranía de Ronda",
+        "Calle de la Peña Grande",
+        "Calle del Barco de Ávila",
+        "Avenida de los Apóstoles",
+        "Plaza de la Villa"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "San Agustín del Guadalix": {
+      "code": "28129",
+      "streets": [
+        "Calle del Camino de Colmenar",
+        "Calle del Búho Real",
+        "Calle Ricardo Clemares",
+        "Calle Euskadi",
+        "Calle Gran Cardenal Mendoza",
+        "Calle Canarias",
+        "Calle de los Olmos",
+        "Avenida de Madrid"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Algete": {
+      "code": "28009",
+      "streets": [
+        "Calle Ronda de la Constitución",
+        "Avenida del Guadalix",
+        "Calle del Parque",
+        "Calle del Río Tormes",
+        "Avenida del Monte",
+        "Calle de Valdeamor",
+        "Calle Libertad",
+        "Plaza de la Constitución"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "La Acebeda": {
+      "code": "28001",
+      "streets": [
+        "Calle del Puerto",
+        "Calle de la Plazuela",
+        "Calle del Encerradero",
+        "Calle Plaza",
+        "Plaza Nicasio González Moreno",
+        "Calle los Chorrillos",
+        "Calle la Callejuela",
+        "Calle del Cementerio"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Alameda del Valle": {
+      "code": "28003",
+      "streets": [
+        "Calle Grande",
+        "Calle del Río",
+        "Calle del Romero",
+        "Calle de las Huertas",
+        "Calle de la Fragua",
+        "Calle de la Taberna",
+        "Calle de la Iglesia",
+        "Plaza de Santa Marina"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "El Álamo": {
+      "code": "28004",
+      "streets": [
+        "Calle de Juan Carlos I",
+        "Avenida de Madrid",
+        "Calle Infanta Cristina",
+        "Paseo del Olivar",
+        "Calle de los Mártires",
+        "Calle del Río Carrión",
+        "Calle de Luis López Oliveros",
+        "Plaza de la Constitución"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Aldea del Fresno": {
+      "code": "28008",
+      "streets": [
+        "Calle Principal",
+        "Calle San Rafael",
+        "Avenida Cañada Segoviana",
+        "Calle Mayor",
+        "Calle Marquesa de Manzanedo",
+        "Calle Navayuncosa",
+        "Calle Ferrocarril",
+        "Plaza San Pedro"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Ambite": {
+      "code": "28011",
+      "streets": [
+        "Calle del Olmo",
+        "Calle de Jesús  Mauro de Madariaga",
+        "Calle del Olivo",
+        "Calle del Abeto",
+        "Calle Altillo",
+        "Calle del Cerezo",
+        "Calle del Alcornoque",
+        "Avenida de Madrid"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Anchuelo": {
+      "code": "28012",
+      "streets": [
+        "Avenida de las Arreñas",
+        "Calle del Coso",
+        "Calle del Agua",
+        "Calle de Alcalá",
+        "Avenida de la Plaza",
+        "Calle de los Almendros",
+        "Plaza de la Constitución",
+        "Avenida Río Henares"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "El Atazar": {
+      "code": "28016",
+      "streets": [
+        "Avenida Presa del Atazar",
+        "Calle Fraguas",
+        "Calle de la Iglesia",
+        "Calle Mayor",
+        "Calle Cuesta",
+        "Calle Nogal",
+        "Calle de las Eras",
+        "Plaza de la Constitución"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Batres": {
+      "code": "28017",
+      "streets": [
+        "Calle de Garcilaso de la Vega",
+        "Calle del Gavilán",
+        "Avenida del Valle",
+        "Calle del Águila Real",
+        "Calle de la Rosa",
+        "Calle del Molino",
+        "Calle de la Cruz de Batres",
+        "Plaza del Arenal"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Becerril de la Sierra": {
+      "code": "28018",
+      "streets": [
+        "Avenida de José Antonio",
+        "Avenida de Calvo Sotelo",
+        "Calle de Majada de las Monjas",
+        "Paseo de San Sebastián",
+        "Paseo de la Ermita",
+        "Calle de Madrid",
+        "Calle del Real",
+        "Plaza de las Adelinas"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Belmonte de Tajo": {
+      "code": "28019",
+      "streets": [
+        "Calle Carrera Honda",
+        "Calle Juan Carlos I Rey de España",
+        "Calle Barrio Alto",
+        "Calle de Emilio Salcedo",
+        "Calle Cara al Cierzo",
+        "Calle Plazuela",
+        "Calle Escarchada",
+        "Avenida de Felipe Serrano"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "El Berrueco": {
+      "code": "28021",
+      "streets": [
+        "Calle Real",
+        "Calle de las Eras",
+        "Avenida de España",
+        "Calle de los Prados",
+        "Calle de la Peña",
+        "Calle Cortada",
+        "Calle Lanchar de Losa Morilla",
+        "Plaza de la Picota"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Berzosa del Lozoya": {
+      "code": "28020",
+      "streets": [
+        "Calle Real",
+        "Calle Reguera",
+        "Calle Campillo",
+        "Calle Villar",
+        "Calle Balcón",
+        "Calle de la Viña",
+        "Calle Manzano",
+        "Plaza Campillo"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "El Boalo": {
+      "code": "28023",
+      "streets": [
+        "Calle Goya",
+        "Calle de Murillo",
+        "Calle del Laurel",
+        "Avenida de los Canteros",
+        "Avenida de los Linares",
+        "Avenida de la Madroñera",
+        "Calle de los Linares",
+        "Plaza de la Constitución"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Braojos": {
+      "code": "28024",
+      "streets": [
+        "Calle de Cantarranas",
+        "Calle del Carmen",
+        "Calle del Pozo",
+        "Calle del Viento",
+        "Calle Don Florencio",
+        "Calle del Buen Suceso",
+        "Calle del Mediodía",
+        "Plaza del Sol"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Brea de Tajo": {
+      "code": "28025",
+      "streets": [
+        "Calle de Cervantes",
+        "Calle del Azor",
+        "Calle Mayor",
+        "Calle de las Amapolas",
+        "Calle de Guadalajara",
+        "Calle del Águila",
+        "Calle del Olivar",
+        "Plaza de Felipe VI"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Brunete": {
+      "code": "28026",
+      "streets": [
+        "Calle de las Eras",
+        "Calle Escorial",
+        "Calle de los Mártires",
+        "Calle Real de San Sebastián",
+        "Calle Madrid",
+        "Calle Pozo",
+        "Calle San Juan de la Cruz",
+        "Avenida Villanueva de la Cañada"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Buitrago del Lozoya": {
+      "code": "28027",
+      "streets": [
+        "Avenida de Madrid",
+        "Calle de San Lázaro",
+        "Calle Real",
+        "Calle de la Dehesa",
+        "Calle de la Villa",
+        "Paseo del Río Lozoya",
+        "Calle de la Tahona",
+        "Plaza de la Constitución"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Bustarviejo": {
+      "code": "28028",
+      "streets": [
+        "Calle Peña Rubia",
+        "Calle Real",
+        "Calle Mayor",
+        "Avenida Navalengua",
+        "Calle Encinarejo",
+        "Calle Berrocal",
+        "Calle de San Sebastián",
+        "Plaza del Cerrillo"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Cabanillas de la Sierra": {
+      "code": "28029",
+      "streets": [
+        "Calle Real",
+        "Calle del Madroño",
+        "Calle de las Eras",
+        "Calle del Romero",
+        "Calle del Aliso",
+        "Calle del Tomillar",
+        "Avenida de los Arrieros",
+        "Plaza de la Viña"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "La Cabrera": {
+      "code": "28030",
+      "streets": [
+        "Avenida de la Cabrera",
+        "Calle de la Encerrada",
+        "Calle Costa Rica",
+        "Calle Rey Carlos III",
+        "Calle de las Azucenas",
+        "Calle de la Poesía",
+        "Calle del Hornillo",
+        "Plaza del Mediodía"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Cadalso de los Vidrios": {
+      "code": "28031",
+      "streets": [
+        "Avenida Francisco Caballero",
+        "Calle San Antón",
+        "Calle Real",
+        "Avenida de la Constitución",
+        "Calle Fuente La Peluquera",
+        "Calle de la Sangre",
+        "Avenida Prado Higuera",
+        "Plaza de la Corredera"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Camarma de Esteruelas": {
+      "code": "28032",
+      "streets": [
+        "Calle de Nuestra Señora del Pilar",
+        "Calle del Jilguero",
+        "Calle los Almendros",
+        "Calle del Zorzal",
+        "Calle de la Ronda",
+        "Calle de la Noria",
+        "Calle de la Bodega",
+        "Avenida de la Complutense"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Campo Real": {
+      "code": "28033",
+      "streets": [
+        "Calle Vilches",
+        "Calle Geranios",
+        "Avenida de Alcalá de Henares",
+        "Avenida del Pinar",
+        "Calle Cruz de Caballo",
+        "Calle Santa Ana",
+        "Calle Estaño",
+        "Plaza Sabia"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Canencia": {
+      "code": "28034",
+      "streets": [
+        "Calle Real",
+        "Calle de Santo Domingo",
+        "Calle de Pablo Gasco",
+        "Calle del Vaquerizo",
+        "Calle de los Toriles",
+        "Calle de la Ermita del Santo Cristo",
+        "Calle de la Fuente",
+        "Plaza de la Constitución"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Carabaña": {
+      "code": "28035",
+      "streets": [
+        "Calle de la Sierra",
+        "Calle del Real",
+        "Calle Madrid",
+        "Avenida de Tielmes",
+        "Calle de Santa Bárbara",
+        "Calle de San Juan",
+        "Calle Alcalá Baja",
+        "Plaza de España"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Casarrubuelos": {
+      "code": "28036",
+      "streets": [
+        "Avenida de María de las Mercedes",
+        "Calle Teide",
+        "Calle Moncayo",
+        "Calle José Saramago",
+        "Calle Mayor",
+        "Calle Rigoberta Menchú",
+        "Calle Mediodía",
+        "Plaza de la Constitución"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Cenicientos": {
+      "code": "28037",
+      "streets": [
+        "Calle de la Ronda del Sur",
+        "Calle de la Ronda del Este",
+        "Calle Larga",
+        "Calle Real",
+        "Avenida Claudio Sánchez Albornoz",
+        "Calle Miguel Ángel Moncholi",
+        "Avenida de Madrid",
+        "Plaza de la Constitución"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Cervera de Buitrago": {
+      "code": "28039",
+      "streets": [
+        "Calle de la Iglesia",
+        "Calle del Nogal",
+        "Calle del Pozo",
+        "Calle del Fresno",
+        "Calle Barrio Nuevo",
+        "Calle del Torrontero",
+        "Calle del Olmo",
+        "Plaza de las Arcas"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Chapinería": {
+      "code": "28051",
+      "streets": [
+        "Calle Marqués de Villanueva de la Sagra",
+        "Calle de Prudencio Melo",
+        "Calle Colmenar",
+        "Calle de San Martín",
+        "Calle Cigüeña",
+        "Calle Ángel",
+        "Calle de Madrid",
+        "Avenida de los Cañales"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Chinchón": {
+      "code": "28052",
+      "streets": [
+        "Avenida de la Virreina",
+        "Calle de los Huertos",
+        "Calle Grande",
+        "Calle de la Cueva",
+        "Calle de Morata",
+        "Calle de Vallejuelo",
+        "Calle Carretera de Madrid",
+        "Plaza Mayor"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Cobeña": {
+      "code": "28041",
+      "streets": [
+        "Calle de Miguel Hernández",
+        "Avenida Río Guadalquivir",
+        "Calle de Azorín",
+        "Avenida de la Constitución",
+        "Calle Ajalvir",
+        "Avenida de Guadalajara",
+        "Calle Pío Baroja",
+        "Plaza de las Eras de Arriba"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Collado Mediano": {
+      "code": "28046",
+      "streets": [
+        "Calle de la Dehesa",
+        "Calle de la Jara",
+        "Calle de Monte Redondo",
+        "Calle Real",
+        "Avenida del Pinar",
+        "Paseo de los Rosales",
+        "Avenida de Madrid",
+        "Plaza de las Viñuelas"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Colmenar de Oreja": {
+      "code": "28043",
+      "streets": [
+        "Calle Jarama",
+        "Avenida de las Naciones",
+        "Avenida Río Tajo",
+        "Calle Almonte",
+        "Calle Gualija",
+        "Calle Tiétar",
+        "Calle de Barranco",
+        "Plaza Mayor"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Colmenar del Arroyo": {
+      "code": "28042",
+      "streets": [
+        "Calle Encina",
+        "Avenida de Camilo José Cela",
+        "Avenida de Valdemorillo",
+        "Avenida de España",
+        "Calle del Rey",
+        "Calle Enebro",
+        "Calle San Roque",
+        "Plaza de España"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Colmenarejo": {
+      "code": "28044",
+      "streets": [
+        "Calle de la Cañada de las Merinas",
+        "Calle de la Campana",
+        "Calle Vistalegre",
+        "Calle Madrid",
+        "Calle del Tajo",
+        "Calle de Gregorio Panadero",
+        "Calle de San Lorenzo",
+        "Avenida de Federico García Lorca"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Corpa": {
+      "code": "28048",
+      "streets": [
+        "Calle Mayor",
+        "Calle las Cruces",
+        "Calle del Agua",
+        "Calle la Olivilla",
+        "Calle Romeral",
+        "Calle Alcalá",
+        "Calle del Viento",
+        "Plaza de la Constitución"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Cubas de la Sagra": {
+      "code": "28050",
+      "streets": [
+        "Calle Juan de Austria",
+        "Calle los Brezos",
+        "Avenida Acacias",
+        "Calle los Almendros",
+        "Calle Viñagrande",
+        "Calle Robles",
+        "Calle Don Juan Manuel",
+        "Plaza Constitución"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Estremera": {
+      "code": "28055",
+      "streets": [
+        "Calle del Río",
+        "Calle de Don Manuel Martínez-Aedo",
+        "Calle del Albollón",
+        "Calle del Terrero",
+        "Calle de San Miguel",
+        "Calle de Enmedio de las Eras",
+        "Calle de Salsipuedes",
+        "Avenida de la Constitución"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Fresnedillas de la Oliva": {
+      "code": "28056",
+      "streets": [
+        "Calle del Real",
+        "Calle Robledo",
+        "Calle Praderas Matías",
+        "Calle de la Fragua",
+        "Calle del Arroyo",
+        "Calle de la Oliva",
+        "Calle de San Bartolomé",
+        "Plaza de la Constitución"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Fresno de Torote": {
+      "code": "28057",
+      "streets": [
+        "Calle Principal",
+        "Avenida de los Prados",
+        "Calle del Infante García",
+        "Calle del Zorro",
+        "Calle de la Alondra",
+        "Calle del Lobo",
+        "Calle de Fernando el Católico",
+        "Plaza de España"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Fuente el Saz de Jarama": {
+      "code": "28059",
+      "streets": [
+        "Calle las Acacias",
+        "Calle Torrelaguna",
+        "Calle Madrid",
+        "Calle Almendralejos",
+        "Calle Embudo",
+        "Avenida del Pilar",
+        "Avenida Julián Sánchez",
+        "Plaza del Cristo"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Fuentidueña de Tajo": {
+      "code": "28060",
+      "streets": [
+        "Calle de la Rosaleda",
+        "Avenida de Elena Soriano",
+        "Calle de las Begonias",
+        "Calle de San Andrés",
+        "Calle de la Alameda",
+        "Calle de la Comunidad de Madrid",
+        "Calle Mayor",
+        "Plaza de la Constitución"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Garganta de los Montes": {
+      "code": "28062",
+      "streets": [
+        "Calle San Isidro",
+        "Calle Francisco de Piquer y Rudilla",
+        "Calle de Timoteo Díaz",
+        "Calle Nueva",
+        "Calle de Manuel Fernández del Pozo",
+        "Calle de las Cruces",
+        "Calle Quince de Mayo",
+        "Plaza de San Pedro"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Gargantilla del Lozoya y Pinilla de Buitrago": {
+      "code": "28063",
+      "streets": [
+        "Calle Buitrago (Pinilla)",
+        "Calle del Pino",
+        "Calle Carretas",
+        "Avenida de la Estación",
+        "Calle del Rincón de Abajo",
+        "Calle de las Eras",
+        "Calle de la Acacia",
+        "Plaza de Carlos Ruiz"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Gascones": {
+      "code": "28064",
+      "streets": [
+        "Calle Real",
+        "Calle de las Cantarranas",
+        "Calle de Carlos Ruiz",
+        "Plaza de la Constitución",
+        "Calle de los Pajarones",
+        "Calle de la Carretera",
+        "Plaza del Ángel",
+        "Avenida los Socorrales"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Guadalix de la Sierra": {
+      "code": "28067",
+      "streets": [
+        "Calle Mayor",
+        "Avenida Alejandro Rubio",
+        "Calle Caño",
+        "Calle Villas de Guadalix",
+        "Calle Fragua",
+        "Calle Carretas",
+        "Calle Miraflores",
+        "Plaza de Pío XII"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "La Hiruela": {
+      "code": "28069",
+      "streets": [
+        "Calle Pilón",
+        "Calle de Enmedio",
+        "Calle Herrería",
+        "Calle Reserva de la Biosfera",
+        "Calle del Corcho",
+        "Calle de la Dehesa",
+        "Calle del Cardoso",
+        "Plaza de San Miguel"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Horcajo de la Sierra-Aoslos": {
+      "code": "28070",
+      "streets": [
+        "Calle del Real",
+        "Calle de la Carretera",
+        "Travesía Cantarranas",
+        "Calle Mayor",
+        "Calle del Mediodía",
+        "Calle de los Madarcos",
+        "Calle Castillejos",
+        "Plaza del Gato"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Horcajuelo de la Sierra": {
+      "code": "28071",
+      "streets": [
+        "Calle Fuente",
+        "Calle Pozas",
+        "Calle Comunidad de Madrid",
+        "Calle Blanco",
+        "Calle Arenal",
+        "Travesía Pozas",
+        "Travesía Carretera",
+        "Plaza de la Comunidad"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Lozoya": {
+      "code": "28076",
+      "streets": [
+        "Calle de las Cuestas",
+        "Calle Norte",
+        "Calle de San Vicente",
+        "Calle Toril",
+        "Avenida de Lozoya",
+        "Calle Tercera",
+        "Calle Luna",
+        "Plaza del Marqués de Lozoya"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Lozoyuela-Navas-Sieteiglesias": {
+      "code": "28901",
+      "streets": [
+        "Avenida de Madrid",
+        "Calle del Real",
+        "Paseo de Velázquez",
+        "Calle de la Virgen de la Soledad",
+        "Calle de la Iglesia (Navas)",
+        "Calle Antonio Flores Martín",
+        "Calle de Santa Ana (Navas)",
+        "Plaza de San Quintín"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Madarcos": {
+      "code": "28078",
+      "streets": [
+        "Travesía de San Mateo",
+        "Calle de las Eras",
+        "Calle Horcajo",
+        "Calle de San Mateo",
+        "Calle de las Erillas",
+        "Calle Panza",
+        "Calle del Pozo",
+        "Plaza del Iglesia"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Meco": {
+      "code": "28083",
+      "streets": [
+        "Avenida Cervantes",
+        "Calle de Espronceda",
+        "Calle Jacinto Benavente",
+        "Calle Mayor",
+        "Calle España",
+        "Calle Poseidón",
+        "Calle del Yelmo",
+        "Plaza de España"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Miraflores de la Sierra": {
+      "code": "28085",
+      "streets": [
+        "Calle Paz de España",
+        "Avenida del Encinar",
+        "Calle de Eusebio Guadalix",
+        "Calle Federico García Lorca",
+        "Calle Padre Rivero",
+        "Calle San Pedro",
+        "Calle San Pablo",
+        "Plaza de España"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "El Molar": {
+      "code": "28086",
+      "streets": [
+        "Calle de Bruna Vázquez",
+        "Avenida de Madrid",
+        "Calle de la Fuente",
+        "Avenida de España",
+        "Calle Prado Redondo",
+        "Paseo del Camino de Francia",
+        "Calle de las Atalayas",
+        "Plaza de Pedro Gabriel"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Los Molinos": {
+      "code": "28087",
+      "streets": [
+        "Avenida de la Constitución",
+        "Calle del Chopo",
+        "Calle del Real",
+        "Calle del Enebro",
+        "Avenida de la Concordia",
+        "Calle Teide",
+        "Calle Molino de la Cruz",
+        "Plaza de España"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Montejo de la Sierra": {
+      "code": "28088",
+      "streets": [
+        "Calle Real",
+        "Avenida de Madrid",
+        "Calle de la Amargura",
+        "Calle del Pozo",
+        "Travesía de la Amargura",
+        "Calle Valdebenito",
+        "Avenida el Soto",
+        "Plaza de la Fuente"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Moraleja de Enmedio": {
+      "code": "28089",
+      "streets": [
+        "Calle Brunete",
+        "Calle el Escorial",
+        "Avenida 25 de Noviembre",
+        "Calle Arroyo de la Mangada",
+        "Calle Getafe",
+        "Calle Bronce",
+        "Calle Mirasierra",
+        "Plaza la Conda"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Moralzarzal": {
+      "code": "28090",
+      "streets": [
+        "Calle Pradillos",
+        "Calle Vía del Berrocal",
+        "Calle Barrio de Arriba",
+        "Calle Lago Ontario",
+        "Calle Antón",
+        "Calle Alfonso X El Sabio",
+        "Calle Portillo de la Mina",
+        "Avenida de la Salud"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Morata de Tajuña": {
+      "code": "28091",
+      "streets": [
+        "Calle de la Iglesia",
+        "Calle de Don Juan Carlos I",
+        "Calle de Domingo Rodelgo",
+        "Calle Real",
+        "Calle de la Carrera del Mediodía",
+        "Avenida de la Constitución",
+        "Calle de la Estrella",
+        "Plaza de Don Santiago"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Navacerrada": {
+      "code": "28093",
+      "streets": [
+        "Avenida del Rosal",
+        "Calle del Doctor J González Villasante",
+        "Avenida de Madrid",
+        "Calle del Presbítero Blanco",
+        "Calle de Prado Jerez",
+        "Calle San Sebastián",
+        "Calle de los Pradillos",
+        "Plaza del Gargantón"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Navalafuente": {
+      "code": "28094",
+      "streets": [
+        "Calle Real",
+        "Calle Sauce",
+        "Calle Santa Águeda",
+        "Calle Eras de Arriba",
+        "Calle Iglesia",
+        "Calle Rivero",
+        "Avenida Gargüera",
+        "Plaza de San Bartolomé"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Navalagamella": {
+      "code": "28095",
+      "streets": [
+        "Calle Paseo Mirador",
+        "Avenida de la Constitución",
+        "Calle San Sebastián",
+        "Calle Real",
+        "Calle Amargura",
+        "Calle Miralcampo",
+        "Calle Avenida de Madrid",
+        "Plaza de España"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Navarredonda y San Mamés": {
+      "code": "28097",
+      "streets": [
+        "Calle de las Casonas",
+        "Calle de la Fuente Vieja",
+        "Calle de las Eras",
+        "Calle de la Solana",
+        "Calle Camino de la Nava",
+        "Travesía de la Solana",
+        "Calle de la Fuente (San Mamés)",
+        "Plaza Mayor (San Mamés)"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Navas del Rey": {
+      "code": "28099",
+      "streets": [
+        "Avenida de Madrid",
+        "Calle Casa Blanca",
+        "Calle Adelfas",
+        "Calle del Real",
+        "Calle del Arroyo Salinera",
+        "Calle Roble",
+        "Calle Mayor",
+        "Plaza de España"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Nuevo Baztán": {
+      "code": "28100",
+      "streets": [
+        "Calle Ronda Hispano-Americana",
+        "Calle Ronda de Manchester",
+        "Avenida Jerez",
+        "Avenida Ibiza",
+        "Avenida la Haya",
+        "Avenida Glasgow",
+        "Calle Posada de Castilla I",
+        "Plaza de la Iglesia"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Olmeda de las Fuentes": {
+      "code": "28101",
+      "streets": [
+        "Calle Mayor",
+        "Calle Real",
+        "Calle Sol",
+        "Calle Fuente del Cura",
+        "Calle del Pintor Álvaro Delgado",
+        "Calle del Pintor Secundino Rivera",
+        "Calle de la Iglesia",
+        "Avenida de Valmores"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Orusco de Tajuña": {
+      "code": "28102",
+      "streets": [
+        "Calle Valle",
+        "Calle Gran Vía",
+        "Calle Ronda",
+        "Calle Comunidad de Madrid",
+        "Calle Nueva",
+        "Calle de la Peña del Tesoro",
+        "Calle Juan Carlos I",
+        "Avenida de la Paz"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Patones": {
+      "code": "28107",
+      "streets": [
+        "Avenida de Madrid",
+        "Avenida de Juan Prieto",
+        "Calle del Real",
+        "Calle de las Azas",
+        "Calle Buenavista",
+        "Calle Canal de Isabel II",
+        "Calle José Echegaray",
+        "Plaza del Llano"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Pedrezuela": {
+      "code": "28108",
+      "streets": [
+        "Calle de las Eras",
+        "Calle Mallorca",
+        "Calle Coruña",
+        "Calle Mayor",
+        "Paseo de la Ermita",
+        "Calle de la Fuente",
+        "Calle de los Parrales",
+        "Avenida de Madrid"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Pelayos de la Presa": {
+      "code": "28109",
+      "streets": [
+        "Avenida de Marcial Llorente",
+        "Avenida del Mirador",
+        "Avenida de San José",
+        "Calle Río Duero",
+        "Calle Pinos Verdes",
+        "Avenida Pinos Verdes",
+        "Calle Virgen de la Asunción",
+        "Plaza del Ayuntamiento"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Perales de Tajuña": {
+      "code": "28110",
+      "streets": [
+        "Calle Mayor Alta",
+        "Calle Mayor Baja",
+        "Calle de Enmedio",
+        "Calle de las Cuevas Altas",
+        "Calle Barrio Nuevo",
+        "Calle del Calvario",
+        "Calle del Castillo",
+        "Avenida de la Paz"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Pezuela de las Torres": {
+      "code": "28111",
+      "streets": [
+        "Calle Mayor",
+        "Calle de la Encina",
+        "Calle de Sergio Caballero",
+        "Calle del Cerezo",
+        "Calle Barrio Olmeda",
+        "Calle de la Callejuela",
+        "Calle de los Olmos",
+        "Plaza de Antonio Ocaña"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Pinilla del Valle": {
+      "code": "28112",
+      "streets": [
+        "Avenida de los Nogales",
+        "Avenida del Río",
+        "Calle de la Cruz",
+        "Calle de Canal Isabel II",
+        "Calle del Embalse",
+        "Travesía de la Cruz",
+        "Calle de las Eras",
+        "Plaza de la Constitución"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Piñuécar-Gandullas": {
+      "code": "28114",
+      "streets": [
+        "Calle Carretera",
+        "Calle de la Carretera Montejo-Buitrago",
+        "Calle Real",
+        "Calle de las Cantarranas",
+        "Calle de la Fragua (Gandullas)",
+        "Calle los Navares",
+        "Calle el Cura",
+        "Plaza de la Paz"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Pozuelo del Rey": {
+      "code": "28116",
+      "streets": [
+        "Calle La Flor de la Mancha",
+        "Calle de la Ronda de la Ermita",
+        "Calle del Real",
+        "Calle Nueva",
+        "Calle el Olmo",
+        "Calle de la Virgen de la Cabeza",
+        "Plaza de Santo Domingo",
+        "Calle el Roble"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Prádena del Rincón": {
+      "code": "28117",
+      "streets": [
+        "Calle Pizarro",
+        "Calle del Carbón",
+        "Calle de Carretera Prádena-Montejo de la Sierra",
+        "Calle Real",
+        "Calle de la Iglesia",
+        "Calle del Rosario",
+        "Calle de Carretera Prádena-Gandullas",
+        "Plaza de la Constitución"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Puebla de la Sierra": {
+      "code": "28118",
+      "streets": [
+        "Calle Mayor",
+        "Calle Pradillo Cimero",
+        "Calle de la Cruz",
+        "Calle del Prado",
+        "Calle de la Fuente de Abajo",
+        "Calle las Parras",
+        "Calle de la Pazuela",
+        "Plaza de la Acacia"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Puentes Viejas": {
+      "code": "28902",
+      "streets": [
+        "Avenida del Villar",
+        "Calle de la Fuente (Paredes de Buitrago)",
+        "Calle de la Luna (Paredes de Buitrago)",
+        "Calle el Cañuelo",
+        "Calle Norte (Manjirón)",
+        "Calle Baja",
+        "Calle de la Iglesia (Cinco Villas)",
+        "Plaza de la Soledad (Paredes de Buitrago)"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Quijorna": {
+      "code": "28119",
+      "streets": [
+        "Calle Real",
+        "Avenida de la Dehesa",
+        "Calle Camino del Olivar",
+        "Calle Lisboa",
+        "Calle Nápoles",
+        "Calle Quejigo",
+        "Calle Vitoria",
+        "Plaza de las Encinas"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Rascafría": {
+      "code": "28120",
+      "streets": [
+        "Avenida de Cascajales",
+        "Avenida del Valle",
+        "Calle Pintores de El Paular",
+        "Avenida del Paular",
+        "Calle de la Corrala",
+        "Avenida de José Salgado",
+        "Calle de los Reyes",
+        "Plaza de la Villa"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Redueña": {
+      "code": "28121",
+      "streets": [
+        "Calle Mayor",
+        "Calle de la Palma",
+        "Calle de la Luna",
+        "Calle de las Carretas",
+        "Calle de las Eras",
+        "Calle José Echegaray",
+        "Calle de las Tres Casas",
+        "Plaza de la Villa"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Ribatejada": {
+      "code": "28122",
+      "streets": [
+        "Calle Carrretera de Ajalvir",
+        "Calle de los Molinos",
+        "Calle del Paraíso",
+        "Paseo del Pinar",
+        "Calle Camino de Chivares",
+        "Calle Palencia",
+        "Calle Madrid",
+        "Avenida Principal"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Robledillo de la Jara": {
+      "code": "28124",
+      "streets": [
+        "Calle de las Domingo Ramírez",
+        "Calle de la Fuente",
+        "Calle de las Peñas",
+        "Calle del Frontón",
+        "Calle de Jesús del Valle",
+        "Calle del Balcón",
+        "Calle Peral",
+        "Avenida de Jesús del Valle"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Robledo de Chavela": {
+      "code": "28125",
+      "streets": [
+        "Calle Almenara",
+        "Calle de la Vía Láctea",
+        "Calle Berna",
+        "Avenida Central",
+        "Calle del Doctor Pérez Suárez",
+        "Calle Zurich",
+        "Calle Traspalacio",
+        "Plaza de la Piedita"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Robregordo": {
+      "code": "28126",
+      "streets": [
+        "Calle del Real",
+        "Calle Balagares",
+        "Calle del Corral",
+        "Calle de los Bolos",
+        "Calle de las Eras",
+        "Calle de la Iglesia",
+        "Calle Mariandola",
+        "Plaza de la Constitución"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Rozas de Puerto Real": {
+      "code": "28128",
+      "streets": [
+        "Avenida de la Constitución",
+        "Calle de Antonio Machado",
+        "Calle de Cervantes",
+        "Calle del Doctor Fleming",
+        "Calle de las Eras",
+        "Calle Jaén",
+        "Avenida Madrid",
+        "Plaza de España"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "San Martín de Valdeiglesias": {
+      "code": "28133",
+      "streets": [
+        "Calle del General Martínez Benito",
+        "Calle Colón",
+        "Avenida de Monterrey",
+        "Avenida del Galeón",
+        "Calle Lobera",
+        "Calle del Rosario",
+        "Calle de la Florida",
+        "Plaza de la Corredera"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Santa María de la Alameda": {
+      "code": "28135",
+      "streets": [
+        "Calle Duque de Alba",
+        "Avenida Cardenal Cisneros",
+        "Calle Navilla",
+        "Calle Practicante Olmeda",
+        "Avenida Rey Don Juan Carlos I",
+        "Calle Calderón de la Barca",
+        "Avenida Santa María",
+        "Plaza San Ramón Nonato"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Santorcaz": {
+      "code": "28136",
+      "streets": [
+        "Calle de Antonio González",
+        "Calle de Jesualdo Domínguez",
+        "Calle de las Callejuelas",
+        "Calle de Televisión Española",
+        "Calle de Carmen González",
+        "Calle de Rafael Sánchez",
+        "Calle de Pioz",
+        "Plaza de la Cruz del Pradillo"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Los Santos de la Humosa": {
+      "code": "28137",
+      "streets": [
+        "Calle de las Perdigueras",
+        "Avenida de Madrid",
+        "Calle Agustín Rodríguez Sahagún",
+        "Paseo de la Visera",
+        "Calle de Canal de Isabel II",
+        "Calle del Castillejo",
+        "Calle del Val",
+        "Plaza Mayor"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "La Serna del Monte": {
+      "code": "28138",
+      "streets": [
+        "Calle de los Peligros",
+        "Calle de las Huertas",
+        "Calle de Carlos Ruiz",
+        "Calle de las Delicias",
+        "Avenida Braojos",
+        "Calle del Arroyo",
+        "Calle del Corralón",
+        "Plaza del Corral"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Serranillos del Valle": {
+      "code": "28140",
+      "streets": [
+        "Calle Galicia",
+        "Calle Cantabria",
+        "Calle Madrid",
+        "Calle Mayor",
+        "Calle del Arroyo del Huerto",
+        "Calle del Río",
+        "Calle de los Almendros",
+        "Plaza de España"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Sevilla la Nueva": {
+      "code": "28141",
+      "streets": [
+        "Calle Sevillanos",
+        "Calle Fuente Roque",
+        "Calle los Llanos",
+        "Avenida del Guadarrama",
+        "Calle Fuente de la Bañuela",
+        "Calle Juan Carlos I",
+        "Calle Marqués de Villamanrique",
+        "Plaza de España"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Somosierra": {
+      "code": "28143",
+      "streets": [
+        "Calle Real",
+        "Calle de la Fuente",
+        "Calle Rabanal",
+        "Calle de la Cañada Real",
+        "Calle del Lavadero",
+        "Calle de las Eras",
+        "Calle de la Iglesia",
+        "Plaza de la Constitución"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Talamanca de Jarama": {
+      "code": "28145",
+      "streets": [
+        "Calle de la Fuente del Arca",
+        "Avenida de Alcalá",
+        "Calle de San Blas",
+        "Calle de las Huertas",
+        "Calle Máximo",
+        "Calle de Santa María",
+        "Calle Guadalajara",
+        "Plaza del Santo Ángel"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Tielmes": {
+      "code": "28146",
+      "streets": [
+        "Calle Real",
+        "Calle Carretera de Villarejo",
+        "Paseo de la Estación",
+        "Calle Carretera de Ambite",
+        "Calle del Oeste",
+        "Calle del Llano",
+        "Calle de las Huertas",
+        "Avenida del Ferrocarril"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Titulcia": {
+      "code": "28147",
+      "streets": [
+        "Calle del Palomar",
+        "Calle de la Soledad",
+        "Calle Grande",
+        "Calle del Calvario",
+        "Avenida del Soto",
+        "Calle de la Era",
+        "Calle del Pingarrón",
+        "Plaza Mayor"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Torrejón de la Calzada": {
+      "code": "28149",
+      "streets": [
+        "Calle Benito Pérez Galdós",
+        "Calle Joaquín Fernández-Cuervo",
+        "Calle Real",
+        "Avenida de Torrejón de Velasco",
+        "Calle Manuel Fraga Iribarne",
+        "Calle Cádiz",
+        "Calle Río Duero",
+        "Plaza de España"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Torrejón de Velasco": {
+      "code": "28150",
+      "streets": [
+        "Calle las Pozas",
+        "Calle Ronda del Norte",
+        "Calle Alcalde Luis Torrejón",
+        "Calle Esturión",
+        "Avenida de la Frontera",
+        "Calle los Montes",
+        "Calle Mariano Huerta García",
+        "Plaza de España"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Torrelaguna": {
+      "code": "28151",
+      "streets": [
+        "Calle Malacuera",
+        "Calle Mayor",
+        "Calle Real de los Merinos",
+        "Calle Ávila",
+        "Calle las Lomillas",
+        "Calle Viñagrande",
+        "Calle de la Cava",
+        "Avenida de los Tomillares"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Torremocha de Jarama": {
+      "code": "28153",
+      "streets": [
+        "Avenida de la Hispanidad",
+        "Avenida de Argentina",
+        "Calle Uceda",
+        "Calle del Canal de Isabel II",
+        "Calle de Méjico",
+        "Avenida de la Cerrada",
+        "Calle Torrearte",
+        "Plaza de Manuel Sanz Huerta"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Torres de la Alameda": {
+      "code": "28154",
+      "streets": [
+        "Calle Mayor",
+        "Calle Ancha",
+        "Calle Real",
+        "Paseo de los Pozos",
+        "Calle de la Alameda",
+        "Calle de Miguel de Cervantes",
+        "Calle de los Nogales",
+        "Avenida Arroyo Pantueña"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Valdaracete": {
+      "code": "28155",
+      "streets": [
+        "Calle Mayor",
+        "Calle Enmedio",
+        "Calle Soldellano",
+        "Calle Mercado",
+        "Calle de la Iglesia",
+        "Calle de la Ermita",
+        "Calle Verónica",
+        "Plaza del Mercado"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Valdeavero": {
+      "code": "28156",
+      "streets": [
+        "Calle Nogal",
+        "Calle Granado",
+        "Calle del Pobo",
+        "Calle de la Fragua",
+        "Calle Olivo",
+        "Calle Avellano",
+        "Calle de las Rosas",
+        "Avenida la Cardosa"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Valdelaguna": {
+      "code": "28157",
+      "streets": [
+        "Calle Carretera de Morata",
+        "Calle Carretera de Perales",
+        "Calle de las Conejeras",
+        "Calle de la Solana Alta",
+        "Calle de Nicolás Arespacochaga",
+        "Avenida de España",
+        "Calle Real",
+        "Plaza de la Fuente"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Valdemanco": {
+      "code": "28158",
+      "streets": [
+        "Avenida del Desvío",
+        "Calle Real",
+        "Calle del Arroyito",
+        "Calle del Mondalindo",
+        "Calle de la Peña del Hierro",
+        "Calle de la Peña del Viso",
+        "Calle del Llano",
+        "Plaza de las Eras"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Valdemaqueda": {
+      "code": "28159",
+      "streets": [
+        "Travesía Dos de Mayo",
+        "Calle San Ramón",
+        "Calle Umbría",
+        "Avenida Puente Romano",
+        "Calle San Marcos",
+        "Calle Petunia",
+        "Calle San Sebastián",
+        "Plaza España"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Valdemorillo": {
+      "code": "28160",
+      "streets": [
+        "Calle Infanta Beatriz",
+        "Avenida Monteros de Castilla",
+        "Calle Puerto de Arlabán",
+        "Avenida de El Escorial",
+        "Calle La Paz",
+        "Calle Puerto de Navacerrada",
+        "Calle San Juan",
+        "Plaza Constitución"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Valdeolmos-Alalpardo": {
+      "code": "28162",
+      "streets": [
+        "Calle de Carlos Martín Álvarez",
+        "Calle Aldebarán",
+        "Calle Alameda",
+        "Calle Orión",
+        "Calle Chopera",
+        "Calle Camino del Casar de Talamanca",
+        "Calle Ronda Norte",
+        "Avenida de la Paz"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Valdepiélagos": {
+      "code": "28163",
+      "streets": [
+        "Calle de los Mesones",
+        "Calle Mayor",
+        "Calle la Ecoaldea",
+        "Calle de las Parras",
+        "Calle Cubillo",
+        "Avenida de la Comunidad de Madrid",
+        "Calle Alta",
+        "Plaza de Julia Merodio Rico"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Valdetorres de Jarama": {
+      "code": "28164",
+      "streets": [
+        "Calle del Rosario",
+        "Calle Torrelaguna",
+        "Calle Madrid",
+        "Calle del Soto",
+        "Calle Calvario",
+        "Calle Valdelamiel",
+        "Calle Castilla",
+        "Avenida de España"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Valdilecha": {
+      "code": "28165",
+      "streets": [
+        "Calle Alcalá",
+        "Calle de la Ronda",
+        "Calle de las Cuevas",
+        "Calle del Agua",
+        "Paseo de las Choperas",
+        "Calle Mayor",
+        "Calle Cuatro Esquinas",
+        "Avenida de los Toreros"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Valverde de Alcalá": {
+      "code": "28166",
+      "streets": [
+        "Calle Anchuelo",
+        "Paseo de la Constitución",
+        "Calle Alcalá",
+        "Calle el Castro",
+        "Calle San Roque",
+        "Calle Torres de la Alameda",
+        "Calle de Ramón y Cajal",
+        "Plaza Mayor"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "El Vellón": {
+      "code": "28168",
+      "streets": [
+        "Calle de la Magdalena",
+        "Calle de la Picota",
+        "Avenida del Calvario",
+        "Calle Mayor (El Vellón)",
+        "Calle de los Huertos",
+        "Calle de San Blas",
+        "Calle Pedrezuela",
+        "Plaza de la Iglesia (El Vellón)"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Venturada": {
+      "code": "28169",
+      "streets": [
+        "Calle Puerto de Canencia",
+        "Avenida Somosierra",
+        "Avenida de los Pirineos",
+        "Avenida del Río Guadalquivir",
+        "Avenida de Sierra Nevada",
+        "Calle de la Venta",
+        "Calle Prados de la Casa",
+        "Plaza del Comercio"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Villa del Prado": {
+      "code": "28171",
+      "streets": [
+        "Calle del Infante",
+        "Calle de las Provincias",
+        "Calle Escalona",
+        "Calle Ciudad Real",
+        "Avenida de España",
+        "Avenida Valdeolivas",
+        "Avenida Reina Sofía",
+        "Plaza del Palacio"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Villaconejos": {
+      "code": "28170",
+      "streets": [
+        "Calle del Sur",
+        "Calle de los Huertos",
+        "Calle Alamillo",
+        "Calle Sevilla",
+        "Calle Barrio Alto",
+        "Calle Clérigos",
+        "Calle Cuesta",
+        "Avenida de Madrid"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Villalbilla": {
+      "code": "28172",
+      "streets": [
+        "Calle del Alto Tajo",
+        "Calle Peña de Francia",
+        "Calle Pinar de Abantos",
+        "Calle Alemania",
+        "Avenida del Robledal",
+        "Calle Noruega",
+        "Calle Tomillo",
+        "Plaza la Plazuela"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Villamanrique de Tajo": {
+      "code": "28173",
+      "streets": [
+        "Calle Madrid",
+        "Calle de la Concepción",
+        "Calle Toledo",
+        "Calle Vistalegre",
+        "Calle Villas de Manrique",
+        "Calle del Sol",
+        "Calle del Mirador del Tajo",
+        "Avenida de la Playa"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Villamanta": {
+      "code": "28174",
+      "streets": [
+        "Avenida de la Libertad",
+        "Calle del Caño",
+        "Calle Lope de Vega",
+        "Calle Roma",
+        "Calle Río Tajo",
+        "Calle Barrio Nuevo",
+        "Calle Diego de Esquivel",
+        "Plaza del Rey Juan Carlos I"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Villamantilla": {
+      "code": "28175",
+      "streets": [
+        "Calle Sierra de las Nieves",
+        "Calle Sierra de Guadarrama",
+        "Calle del Barranco del Moral",
+        "Calle de los Cedros",
+        "Calle Tomillar",
+        "Calle Doñana",
+        "Calle de la Carrera del Encierro",
+        "Plaza de España"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Villanueva de la Cañada": {
+      "code": "28176",
+      "streets": [
+        "Calle Piedras Vivas",
+        "Calle Castillo de Malpica",
+        "Calle Monasterio de Irache",
+        "Calle Santa Teresa de Jesús",
+        "Calle Castillo de Ponferrada",
+        "Calle Navarra",
+        "Calle Francisco Pizarro",
+        "Avenida Juan Gris"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Villanueva de Perales": {
+      "code": "28178",
+      "streets": [
+        "Calle Cervantes",
+        "Calle Federico García Lorca",
+        "Calle Carretas",
+        "Calle San Antonio",
+        "Calle Chapinería",
+        "Calle Benito Pérez Galdós",
+        "Calle Jardines",
+        "Avenida Julio Álvarez Álvarez"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Villanueva del Pardillo": {
+      "code": "28177",
+      "streets": [
+        "Calle Camilo José Cela",
+        "Calle de Paloma",
+        "Calle Félix de la Cruz",
+        "Calle Mario Vargas Llosa",
+        "Calle de Santa María",
+        "Avenida de Picos de Europa",
+        "Avenida de las Vegas",
+        "Plaza Mayor"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Villar del Olmo": {
+      "code": "28179",
+      "streets": [
+        "Avenida Roma",
+        "Calle Número 10",
+        "Avenida Ulster",
+        "Calle Número 08",
+        "Calle Número 05",
+        "Avenida Zamora",
+        "Calle Barrio Nuevo",
+        "Plaza Mayor"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Villarejo de Salvanés": {
+      "code": "28180",
+      "streets": [
+        "Calle de Samuel Baltes",
+        "Calle Mayor",
+        "Calle de la Encomienda",
+        "Calle Cañuelo",
+        "Calle del Pozo Marcos",
+        "Calle de la Fragata",
+        "Calle de Elena Fraile",
+        "Avenida Juan Carlos I Rey de España"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Villavieja del Lozoya": {
+      "code": "28182",
+      "streets": [
+        "Calle del Pino",
+        "Calle de los Gallegos (Los Llanos)",
+        "Calle del Pez",
+        "Calle la Jara (Las Cabezas)",
+        "Calle de las Nieves (Los Llanos)",
+        "Avenida de San Martín (Las Cabezas)",
+        "Calle Rebollar (Los Llanos)",
+        "Plaza del Acebo"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    },
+    "Zarzalejo": {
+      "code": "28183",
+      "streets": [
+        "Avenida de la Estación",
+        "Avenida de la Cruz Verde",
+        "Calle de los Caballetes",
+        "Calle Madrid",
+        "Travesía del Pico de la Machota",
+        "Calle Laguna",
+        "Calle del Guijo",
+        "Plaza del Llano del Soldado"
+      ],
+      "neighborhoods": [],
+      "source": "madrid"
+    }
+  }
+}

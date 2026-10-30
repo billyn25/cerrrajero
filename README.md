@@ -44,11 +44,13 @@ Hay **431 páginas municipales** en `/cerrajero/{provincia}/{municipio}/`: Álav
 
 Las páginas municipales son HTML estático completo, no anclas ni títulos creados solo con JavaScript. Cada una tiene title, descripción, H1, canonical cuando existe dominio, migas y `Service.areaServed` de su municipio. Todas permiten contactar directamente con el teléfono regional y preparar una consulta de WhatsApp con municipio, problema y acceso. El directorio provincial, el buscador y la portada enlazan a las URLs reales.
 
-Las fichas comparten estructura y explicaciones técnicas de los servicios: no se presenta esa parte común como contenido editorial único. Las siete localidades con contexto adicional contrastado tienen barrios o referencias municipales y fuentes en `data/local-context.json`. Las demás no incluyen barrios inventados ni supuestos sobre sus viviendas. Para ampliar información local, aportar datos verificables del servicio y trabajos reales autorizados; no añadir diferencias ficticias ni texto aleatorio para aparentar originalidad.
+Las fichas comparten estructura y explicaciones técnicas de los servicios: no se presenta esa parte común como contenido editorial único. Las siete localidades revisadas tienen contexto y preguntas propias; las demás incorporan referencias oficiales cuando están disponibles, sin inventar barrios ni supuestos sobre sus viviendas. Para ampliar información local, aportar datos verificables del servicio y trabajos reales autorizados; no añadir diferencias ficticias ni texto aleatorio para aparentar originalidad.
 
 El listado completo y los códigos se conservan en `data/municipios-ine.json`, con fuente y fecha de referencia. Se contrasta con el recuento del INE y se distribuye a partir del dataset de CodeForSpain. Las denominaciones bilingües se conservan en una sola URL; no se crean páginas duplicadas para sinónimos.
 
-Los sitemaps son un índice en `/sitemap.xml` con `/sitemap-paginas.xml` y cuatro ficheros provinciales (`sitemap-alava.xml`, `sitemap-bizkaia.xml`, `sitemap-gipuzkoa.xml`, `sitemap-madrid.xml`). Contienen 444 URLs de contenido, excluyendo las páginas auxiliares y 404. No se añaden fechas de actualización falsas.
+Los sitemaps son un índice en `/sitemap.xml` con cinco ficheros. La versión 2.1.0 permite indexar siete fichas revisadas y trece páginas principales: 20 URLs en total. Las otras 424 fichas conservan su URL y contacto, pero llevan `noindex,follow` y quedan fuera del sitemap. `data/local-indexing.json` controla la selección, con exclusión por defecto. Añadir nombres de calles no activa la indexación.
+
+Las referencias públicas se conservan en `data/local-references.json`, importadas con `scripts/import-local-references.py`. Incluyen 2.919 calles seleccionadas en 392 municipios y 1.000 barrios del registro en 206 municipios. Los barrios municipales adicionales mantienen su fuente en `data/local-context.json`; el texto revisado está en `data/local-editorial.json`. No se confunden distritos o entidades con barrios. La nueva ficha local concentra el contexto y la preparación del aviso; las explicaciones técnicas extensas están en las páginas de servicio.
 
 No se afirman sedes locales, reseñas, años de experiencia, precios, minutos de llegada ni trabajos de clientes no aportados. La apertura sin daños se describe de forma condicionada. No hay estrellas ficticias. Los datos estructurados no garantizan resultados enriquecidos. Tener páginas por municipio tampoco garantiza indexación o posiciones; la cobertura real, la calidad, la reputación y las políticas de Google siguen importando.
 
@@ -68,7 +70,7 @@ La versión única de `package.json` se añade a CSS, JavaScript, logo y datos d
 
 ## Auditoría SEO
 
-La revisión de contenido y técnica está en [AUDITORIA_SEO.md](AUDITORIA_SEO.md). La portada muestra 48 municipios, 12 por provincia, configurables en `data/home-municipalities.json`. `npm run audit:seo` mide patrones de artículo compartidos; los metadatos únicos no garantizan que Google indexe cada ficha.
+La revisión de contenido y técnica está en [AUDITORIA_SEO.md](AUDITORIA_SEO.md). La portada muestra 48 municipios, 12 por provincia, configurables en `data/home-municipalities.json`. `npm run audit:seo` informa de la revisión editorial y del alcance de los callejeros oficiales; los metadatos únicos no garantizan que Google indexe cada ficha.
 
 ## Verificación
 
