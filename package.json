@@ -1,1 +1,1 @@
-{"name":"cerrajeria-urgente","version":"1.0.0","private":true,"type":"module","scripts":{"build":"node build.mjs","check":"node scripts/check.mjs"}}
+{"name":"cerrajeria-urgente","version":"2.0.0","private":true,"type":"module","scripts":{"build":"node build.mjs","check":"node scripts/check.mjs"}}

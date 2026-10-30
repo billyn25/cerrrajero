@@ -1,6 +1,611 @@
 [
- {"slug":"alava","name":"Álava","alias":"Araba","capital":"Vitoria-Gasteiz","label":"De Vitoria a la Llanada y Rioja Alavesa","intro":"Cerrajería a domicilio en Álava para recuperar el acceso a tu vivienda, sustituir un bombín o reforzar una puerta. Al solicitar un aviso, indica el municipio y la localidad concreta: en los municipios con varios núcleos, esa información permite concretar el desplazamiento.","note":"Si el inmueble está en una localidad pequeña o en una vivienda aislada, facilita una referencia de acceso y confirma el punto de encuentro. El plazo de llegada se concreta para cada aviso, sin prometer un tiempo idéntico para toda la provincia.","groups":[{"name":"Vitoria-Gasteiz y Llanada Alavesa","towns":["Vitoria-Gasteiz","Agurain / Salvatierra","Alegría-Dulantzi","Asparrena","San Millán / Donemiliaga","Elburgo / Burgelu","Iruña de Oca / Iruña Oka","Legutio","Zigoitia","Zuia"]},{"name":"Ayala y entorno","towns":["Laudio / Llodio","Amurrio","Ayala / Aiara","Artziniega","Okondo","Urkabustaiz"]},{"name":"Rioja Alavesa y sur","towns":["Laguardia","Oyón-Oion","Labastida / Bastida","Elciego","Lapuebla de Labarca","Lanciego / Lantziego","Campezo / Kanpezu","Arraia-Maeztu","Valdegovía / Gaubea","Ribera Baja / Erribera Beitia"]}]},
- {"slug":"bizkaia","name":"Bizkaia","alias":"Vizcaya","capital":"Bilbao","label":"Bilbao, ambas márgenes y las comarcas","intro":"Aperturas y reparaciones de cerrajería en Bizkaia, desde el área de Bilbao hasta las localidades de costa e interior. Puedes solicitar atención por una puerta cerrada, una llave perdida o una cerradura que ha dejado de funcionar.","note":"Para una puerta de portal, distingue si el fallo está en la cerradura, en el resbalón o en el cierrapuertas. Si puedes entrar al edificio pero no a tu vivienda, explícalo al llamar: son dos intervenciones diferentes.","groups":[{"name":"Bilbao y ambas márgenes","towns":["Bilbao","Barakaldo","Getxo","Portugalete","Santurtzi","Sestao","Erandio","Leioa","Basauri","Galdakao","Etxebarri","Arrigorriaga","Trapagaran","Ortuella","Muskiz","Abanto-Zierbena","Sopela","Berango","Urduliz"]},{"name":"Uribe, costa y Lea-Artibai","towns":["Mungia","Derio","Zamudio","Sondika","Loiu","Lezama","Plentzia","Gorliz","Bakio","Bermeo","Gernika-Lumo","Mundaka","Lekeitio","Ondarroa","Markina-Xemein"]},{"name":"Durangaldea, Arratia y Encartaciones","towns":["Durango","Amorebieta-Etxano","Ermua","Iurreta","Elorrio","Berriz","Abadiño","Igorre","Lemoa","Zalla","Balmaseda","Güeñes","Sopuerta","Gordexola","Karrantza Harana / Valle de Carranza"]}]},
- {"slug":"gipuzkoa","name":"Gipuzkoa","alias":"Guipúzcoa","capital":"Donostia / San Sebastián","label":"Donostialdea, Bidasoa, costa y valles","intro":"Servicio de cerrajería urgente en Gipuzkoa para puertas de viviendas, accesos de comunidades y trasteros. Indica la localidad y qué ocurre al accionar la llave para preparar la asistencia adecuada.","note":"En viviendas con puerta de acceso al edificio y otra de vivienda, aclara cuál no abre. Si la puerta está expuesta al exterior y el cierre roza, comenta si el problema aparece siempre o cambia con el tiempo: no siempre se resuelve sustituyendo el bombín.","groups":[{"name":"Donostialdea y Bidasoa","towns":["Donostia / San Sebastián","Irun","Hondarribia","Errenteria","Pasaia","Lezo","Oiartzun","Hernani","Astigarraga","Lasarte-Oria","Usurbil","Urnieta","Andoain"]},{"name":"Costa y Urola","towns":["Zarautz","Getaria","Zumaia","Orio","Aia","Zestoa","Azpeitia","Azkoitia","Deba","Mutriku"]},{"name":"Debabarrena, Debagoiena, Tolosaldea y Goierri","towns":["Eibar","Elgoibar","Soraluze / Placencia de las Armas","Bergara","Arrasate / Mondragón","Oñati","Aretxabaleta","Eskoriatza","Tolosa","Villabona","Ibarra","Beasain","Ordizia","Lazkao","Zumarraga","Urretxu","Legazpi"]}]},
- {"slug":"madrid","name":"Madrid","alias":"Comunidad de Madrid","capital":"Madrid","label":"Capital, Corredor del Henares y municipios","intro":"Cerrajero urgente en Madrid para aperturas de puertas, cambio de bombines y cerrojos. La cobertura incluye la capital y municipios de la comunidad; al pedir asistencia, indica el municipio, la zona y el tipo de acceso.","note":"En Madrid capital, añade el distrito o barrio para localizar el aviso. En urbanizaciones o recintos con control de acceso, indica cómo se accede al portal y si hay conserjería. El presupuesto debe distinguir desplazamiento, mano de obra, materiales y posibles recargos nocturnos o festivos.","groups":[{"name":"Madrid y área metropolitana","towns":["Madrid","Alcobendas","San Sebastián de los Reyes","Tres Cantos","Colmenar Viejo","Pozuelo de Alarcón","Majadahonda","Las Rozas de Madrid","Boadilla del Monte","Villaviciosa de Odón"]},{"name":"Corredor del Henares y este","towns":["Alcalá de Henares","Torrejón de Ardoz","Coslada","San Fernando de Henares","Mejorada del Campo","Velilla de San Antonio","Loeches","Rivas-Vaciamadrid","Arganda del Rey","Paracuellos de Jarama","Daganzo de Arriba","Ajalvir"]},{"name":"Sur y oeste","towns":["Getafe","Leganés","Alcorcón","Móstoles","Fuenlabrada","Parla","Pinto","Valdemoro","Aranjuez","Navalcarnero","Arroyomolinos","Humanes de Madrid","Griñón","San Martín de la Vega","Ciempozuelos"]},{"name":"Sierra y norte","towns":["Collado Villalba","Galapagar","Torrelodones","Guadarrama","Alpedrete","El Escorial","San Lorenzo de El Escorial","Cercedilla","Hoyo de Manzanares","Manzanares el Real","Soto del Real","San Agustín del Guadalix","Algete"]}]}
+  {
+    "slug": "alava",
+    "name": "Álava",
+    "alias": "Araba",
+    "capital": "Vitoria-Gasteiz",
+    "label": "De Vitoria a la Llanada y Rioja Alavesa",
+    "intro": "Cerrajería a domicilio en Álava para recuperar el acceso a tu vivienda, sustituir un bombín o reforzar una puerta. Al solicitar un aviso, indica el municipio y la localidad concreta: en los municipios con varios núcleos, esa información permite concretar el desplazamiento.",
+    "note": "Si el inmueble está en una localidad pequeña o en una vivienda aislada, facilita una referencia de acceso y confirma el punto de encuentro. El plazo de llegada se concreta para cada aviso, sin prometer un tiempo idéntico para toda la provincia.",
+    "groups": [
+      {
+        "name": "Vitoria-Gasteiz y Llanada Alavesa",
+        "towns": [
+          "Vitoria-Gasteiz",
+          "Agurain / Salvatierra",
+          "Alegría-Dulantzi",
+          "Asparrena",
+          "San Millán / Donemiliaga",
+          "Elburgo / Burgelu",
+          "Iruña de Oca / Iruña Oka",
+          "Legutio",
+          "Zigoitia",
+          "Zuia"
+        ]
+      },
+      {
+        "name": "Ayala y entorno",
+        "towns": [
+          "Laudio / Llodio",
+          "Amurrio",
+          "Ayala / Aiara",
+          "Artziniega",
+          "Okondo",
+          "Urkabustaiz"
+        ]
+      },
+      {
+        "name": "Rioja Alavesa y sur",
+        "towns": [
+          "Laguardia",
+          "Oyón-Oion",
+          "Labastida / Bastida",
+          "Elciego",
+          "Lapuebla de Labarca",
+          "Lanciego / Lantziego",
+          "Campezo / Kanpezu",
+          "Arraia-Maeztu",
+          "Valdegovía / Gaubea",
+          "Ribera Baja / Erribera Beitia"
+        ]
+      },
+      {
+        "name": "Más municipios · A–Z",
+        "towns": [
+          "Añana",
+          "Aramaio",
+          "Armiñón",
+          "Arratzua-Ubarrundia",
+          "Baños de Ebro / Mañueta",
+          "Barrundia",
+          "Berantevilla",
+          "Bernedo",
+          "Elvillar / Bilar",
+          "Erriberagoitia / Ribera Alta",
+          "Harana / Valle de Arana",
+          "Iruraiz-Gauna",
+          "Kripan",
+          "Kuartango",
+          "Lagrán",
+          "Lantarón",
+          "Leza",
+          "Moreda de Álava / Moreda Araba",
+          "Navaridas",
+          "Peñacerrada-Urizaharra",
+          "Samaniego",
+          "Villabuena de Álava / Eskuernaga",
+          "Yécora / Iekora",
+          "Zalduondo"
+        ]
+      },
+      {
+        "name": "Más municipios · Z–Z",
+        "towns": [
+          "Zambrana"
+        ]
+      }
+    ],
+    "municipalityCount": 51
+  },
+  {
+    "slug": "bizkaia",
+    "name": "Bizkaia",
+    "alias": "Vizcaya",
+    "capital": "Bilbao",
+    "label": "Bilbao, ambas márgenes y las comarcas",
+    "intro": "Aperturas y reparaciones de cerrajería en Bizkaia, desde el área de Bilbao hasta las localidades de costa e interior. Puedes solicitar atención por una puerta cerrada, una llave perdida o una cerradura que ha dejado de funcionar.",
+    "note": "Para una puerta de portal, distingue si el fallo está en la cerradura, en el resbalón o en el cierrapuertas. Si puedes entrar al edificio pero no a tu vivienda, explícalo al llamar: son dos intervenciones diferentes.",
+    "groups": [
+      {
+        "name": "Bilbao y ambas márgenes",
+        "towns": [
+          "Bilbao",
+          "Barakaldo",
+          "Getxo",
+          "Portugalete",
+          "Santurtzi",
+          "Sestao",
+          "Erandio",
+          "Leioa",
+          "Basauri",
+          "Galdakao",
+          "Etxebarri",
+          "Arrigorriaga",
+          "Trapagaran",
+          "Ortuella",
+          "Muskiz",
+          "Abanto-Zierbena",
+          "Sopela",
+          "Berango",
+          "Urduliz"
+        ]
+      },
+      {
+        "name": "Uribe, costa y Lea-Artibai",
+        "towns": [
+          "Mungia",
+          "Derio",
+          "Zamudio",
+          "Sondika",
+          "Loiu",
+          "Lezama",
+          "Plentzia",
+          "Gorliz",
+          "Bakio",
+          "Bermeo",
+          "Gernika-Lumo",
+          "Mundaka",
+          "Lekeitio",
+          "Ondarroa",
+          "Markina-Xemein"
+        ]
+      },
+      {
+        "name": "Durangaldea, Arratia y Encartaciones",
+        "towns": [
+          "Durango",
+          "Amorebieta-Etxano",
+          "Ermua",
+          "Iurreta",
+          "Elorrio",
+          "Berriz",
+          "Abadiño",
+          "Igorre",
+          "Lemoa",
+          "Zalla",
+          "Balmaseda",
+          "Güeñes",
+          "Sopuerta",
+          "Gordexola",
+          "Karrantza Harana / Valle de Carranza"
+        ]
+      },
+      {
+        "name": "Más municipios · A–F",
+        "towns": [
+          "Ajangiz",
+          "Alonsotegi",
+          "Amoroto",
+          "Arakaldo",
+          "Arantzazu",
+          "Areatza",
+          "Arrankudiaga-Zollo",
+          "Arratzu",
+          "Arrieta",
+          "Artea",
+          "Artzentales",
+          "Atxondo",
+          "Aulesti",
+          "Barrika",
+          "Bedia",
+          "Berriatua",
+          "Busturia",
+          "Dima",
+          "Ea",
+          "Elantxobe",
+          "Ereño",
+          "Errigoiti",
+          "Etxebarria",
+          "Forua"
+        ]
+      },
+      {
+        "name": "Más municipios · F–M",
+        "towns": [
+          "Fruiz",
+          "Galdames",
+          "Gamiz-Fika",
+          "Garai",
+          "Gatika",
+          "Gautegiz Arteaga",
+          "Gizaburuaga",
+          "Ibarrangelu",
+          "Ispaster",
+          "Izurtza",
+          "Kortezubi",
+          "Lanestosa",
+          "Larrabetzu",
+          "Laukiz",
+          "Lemoiz",
+          "Mallabia",
+          "Mañaria",
+          "Maruri-Jatabe",
+          "Mendata",
+          "Mendexa",
+          "Meñaka",
+          "Morga",
+          "Munitibar-Arbatzegi Gerrikaitz",
+          "Murueta"
+        ]
+      },
+      {
+        "name": "Más municipios · M–Z",
+        "towns": [
+          "Muxika",
+          "Nabarniz",
+          "Orozko",
+          "Otxandio",
+          "Sukarrieta",
+          "Trucios-Turtzioz",
+          "Ubide",
+          "Ugao-Miraballes",
+          "Urduña / Orduña",
+          "Usansolo",
+          "Zaldibar",
+          "Zaratamo",
+          "Zeanuri",
+          "Zeberio",
+          "Zierbena",
+          "Ziortza-Bolibar"
+        ]
+      }
+    ],
+    "municipalityCount": 113
+  },
+  {
+    "slug": "gipuzkoa",
+    "name": "Gipuzkoa",
+    "alias": "Guipúzcoa",
+    "capital": "Donostia / San Sebastián",
+    "label": "Donostialdea, Bidasoa, costa y valles",
+    "intro": "Servicio de cerrajería urgente en Gipuzkoa para puertas de viviendas, accesos de comunidades y trasteros. Indica la localidad y qué ocurre al accionar la llave para preparar la asistencia adecuada.",
+    "note": "En viviendas con puerta de acceso al edificio y otra de vivienda, aclara cuál no abre. Si la puerta está expuesta al exterior y el cierre roza, comenta si el problema aparece siempre o cambia con el tiempo: no siempre se resuelve sustituyendo el bombín.",
+    "groups": [
+      {
+        "name": "Donostialdea y Bidasoa",
+        "towns": [
+          "Donostia / San Sebastián",
+          "Irun",
+          "Hondarribia",
+          "Errenteria",
+          "Pasaia",
+          "Lezo",
+          "Oiartzun",
+          "Hernani",
+          "Astigarraga",
+          "Lasarte-Oria",
+          "Usurbil",
+          "Urnieta",
+          "Andoain"
+        ]
+      },
+      {
+        "name": "Costa y Urola",
+        "towns": [
+          "Zarautz",
+          "Getaria",
+          "Zumaia",
+          "Orio",
+          "Aia",
+          "Zestoa",
+          "Azpeitia",
+          "Azkoitia",
+          "Deba",
+          "Mutriku"
+        ]
+      },
+      {
+        "name": "Debabarrena, Debagoiena, Tolosaldea y Goierri",
+        "towns": [
+          "Eibar",
+          "Elgoibar",
+          "Soraluze / Placencia de las Armas",
+          "Bergara",
+          "Arrasate / Mondragón",
+          "Oñati",
+          "Aretxabaleta",
+          "Eskoriatza",
+          "Tolosa",
+          "Villabona",
+          "Ibarra",
+          "Beasain",
+          "Ordizia",
+          "Lazkao",
+          "Zumarraga",
+          "Urretxu",
+          "Legazpi"
+        ]
+      },
+      {
+        "name": "Más municipios · A–E",
+        "towns": [
+          "Abaltzisketa",
+          "Aduna",
+          "Aizarnazabal",
+          "Albiztur",
+          "Alegia",
+          "Alkiza",
+          "Altzaga",
+          "Altzo",
+          "Amezketa",
+          "Anoeta",
+          "Antzuola",
+          "Arama",
+          "Asteasu",
+          "Ataun",
+          "Baliarrain",
+          "Beizama",
+          "Belauntza",
+          "Berastegi",
+          "Berrobi",
+          "Bidania-Goiatz",
+          "Elduain",
+          "Elgeta",
+          "Errezil",
+          "Ezkio-Itsaso"
+        ]
+      },
+      {
+        "name": "Más municipios · G–Z",
+        "towns": [
+          "Gabiria",
+          "Gaintza",
+          "Gaztelu",
+          "Hernialde",
+          "Idiazabal",
+          "Ikaztegieta",
+          "Irura",
+          "Itsasondo",
+          "Larraul",
+          "Leaburu",
+          "Legorreta",
+          "Leintz-Gatzaga",
+          "Lizartza",
+          "Mendaro",
+          "Mutiloa",
+          "Olaberria",
+          "Orendain",
+          "Orexa",
+          "Ormaiztegi",
+          "Segura",
+          "Zaldibia",
+          "Zegama",
+          "Zerain",
+          "Zizurkil"
+        ]
+      }
+    ],
+    "municipalityCount": 88
+  },
+  {
+    "slug": "madrid",
+    "name": "Madrid",
+    "alias": "Comunidad de Madrid",
+    "capital": "Madrid",
+    "label": "Capital, Corredor del Henares y municipios",
+    "intro": "Cerrajero urgente en Madrid para aperturas de puertas, cambio de bombines y cerrojos. La cobertura incluye la capital y municipios de la comunidad; al pedir asistencia, indica el municipio, la zona y el tipo de acceso.",
+    "note": "En Madrid capital, añade el distrito o barrio para localizar el aviso. En urbanizaciones o recintos con control de acceso, indica cómo se accede al portal y si hay conserjería. El presupuesto debe distinguir desplazamiento, mano de obra, materiales y posibles recargos nocturnos o festivos.",
+    "groups": [
+      {
+        "name": "Madrid y área metropolitana",
+        "towns": [
+          "Madrid",
+          "Alcobendas",
+          "San Sebastián de los Reyes",
+          "Tres Cantos",
+          "Colmenar Viejo",
+          "Pozuelo de Alarcón",
+          "Majadahonda",
+          "Las Rozas de Madrid",
+          "Boadilla del Monte",
+          "Villaviciosa de Odón"
+        ]
+      },
+      {
+        "name": "Corredor del Henares y este",
+        "towns": [
+          "Alcalá de Henares",
+          "Torrejón de Ardoz",
+          "Coslada",
+          "San Fernando de Henares",
+          "Mejorada del Campo",
+          "Velilla de San Antonio",
+          "Loeches",
+          "Rivas-Vaciamadrid",
+          "Arganda del Rey",
+          "Paracuellos de Jarama",
+          "Daganzo de Arriba",
+          "Ajalvir"
+        ]
+      },
+      {
+        "name": "Sur y oeste",
+        "towns": [
+          "Getafe",
+          "Leganés",
+          "Alcorcón",
+          "Móstoles",
+          "Fuenlabrada",
+          "Parla",
+          "Pinto",
+          "Valdemoro",
+          "Aranjuez",
+          "Navalcarnero",
+          "Arroyomolinos",
+          "Humanes de Madrid",
+          "Griñón",
+          "San Martín de la Vega",
+          "Ciempozuelos"
+        ]
+      },
+      {
+        "name": "Sierra y norte",
+        "towns": [
+          "Collado Villalba",
+          "Galapagar",
+          "Torrelodones",
+          "Guadarrama",
+          "Alpedrete",
+          "El Escorial",
+          "San Lorenzo de El Escorial",
+          "Cercedilla",
+          "Hoyo de Manzanares",
+          "Manzanares el Real",
+          "Soto del Real",
+          "San Agustín del Guadalix",
+          "Algete"
+        ]
+      },
+      {
+        "name": "Más municipios · L–C",
+        "towns": [
+          "La Acebeda",
+          "Alameda del Valle",
+          "El Álamo",
+          "Aldea del Fresno",
+          "Ambite",
+          "Anchuelo",
+          "El Atazar",
+          "Batres",
+          "Becerril de la Sierra",
+          "Belmonte de Tajo",
+          "El Berrueco",
+          "Berzosa del Lozoya",
+          "El Boalo",
+          "Braojos",
+          "Brea de Tajo",
+          "Brunete",
+          "Buitrago del Lozoya",
+          "Bustarviejo",
+          "Cabanillas de la Sierra",
+          "La Cabrera",
+          "Cadalso de los Vidrios",
+          "Camarma de Esteruelas",
+          "Campo Real",
+          "Canencia"
+        ]
+      },
+      {
+        "name": "Más municipios · C–H",
+        "towns": [
+          "Carabaña",
+          "Casarrubuelos",
+          "Cenicientos",
+          "Cervera de Buitrago",
+          "Chapinería",
+          "Chinchón",
+          "Cobeña",
+          "Collado Mediano",
+          "Colmenar de Oreja",
+          "Colmenar del Arroyo",
+          "Colmenarejo",
+          "Corpa",
+          "Cubas de la Sagra",
+          "Estremera",
+          "Fresnedillas de la Oliva",
+          "Fresno de Torote",
+          "Fuente el Saz de Jarama",
+          "Fuentidueña de Tajo",
+          "Garganta de los Montes",
+          "Gargantilla del Lozoya y Pinilla de Buitrago",
+          "Gascones",
+          "Guadalix de la Sierra",
+          "La Hiruela",
+          "Horcajo de la Sierra-Aoslos"
+        ]
+      },
+      {
+        "name": "Más municipios · H–P",
+        "towns": [
+          "Horcajuelo de la Sierra",
+          "Lozoya",
+          "Lozoyuela-Navas-Sieteiglesias",
+          "Madarcos",
+          "Meco",
+          "Miraflores de la Sierra",
+          "El Molar",
+          "Los Molinos",
+          "Montejo de la Sierra",
+          "Moraleja de Enmedio",
+          "Moralzarzal",
+          "Morata de Tajuña",
+          "Navacerrada",
+          "Navalafuente",
+          "Navalagamella",
+          "Navarredonda y San Mamés",
+          "Navas del Rey",
+          "Nuevo Baztán",
+          "Olmeda de las Fuentes",
+          "Orusco de Tajuña",
+          "Patones",
+          "Pedrezuela",
+          "Pelayos de la Presa",
+          "Perales de Tajuña"
+        ]
+      },
+      {
+        "name": "Más municipios · P–T",
+        "towns": [
+          "Pezuela de las Torres",
+          "Pinilla del Valle",
+          "Piñuécar-Gandullas",
+          "Pozuelo del Rey",
+          "Prádena del Rincón",
+          "Puebla de la Sierra",
+          "Puentes Viejas",
+          "Quijorna",
+          "Rascafría",
+          "Redueña",
+          "Ribatejada",
+          "Robledillo de la Jara",
+          "Robledo de Chavela",
+          "Robregordo",
+          "Rozas de Puerto Real",
+          "San Martín de Valdeiglesias",
+          "Santa María de la Alameda",
+          "Santorcaz",
+          "Los Santos de la Humosa",
+          "La Serna del Monte",
+          "Serranillos del Valle",
+          "Sevilla la Nueva",
+          "Somosierra",
+          "Talamanca de Jarama"
+        ]
+      },
+      {
+        "name": "Más municipios · T–V",
+        "towns": [
+          "Tielmes",
+          "Titulcia",
+          "Torrejón de la Calzada",
+          "Torrejón de Velasco",
+          "Torrelaguna",
+          "Torremocha de Jarama",
+          "Torres de la Alameda",
+          "Valdaracete",
+          "Valdeavero",
+          "Valdelaguna",
+          "Valdemanco",
+          "Valdemaqueda",
+          "Valdemorillo",
+          "Valdeolmos-Alalpardo",
+          "Valdepiélagos",
+          "Valdetorres de Jarama",
+          "Valdilecha",
+          "Valverde de Alcalá",
+          "El Vellón",
+          "Venturada",
+          "Villa del Prado",
+          "Villaconejos",
+          "Villalbilla",
+          "Villamanrique de Tajo"
+        ]
+      },
+      {
+        "name": "Más municipios · V–Z",
+        "towns": [
+          "Villamanta",
+          "Villamantilla",
+          "Villanueva de la Cañada",
+          "Villanueva de Perales",
+          "Villanueva del Pardillo",
+          "Villar del Olmo",
+          "Villarejo de Salvanés",
+          "Villavieja del Lozoya",
+          "Zarzalejo"
+        ]
+      }
+    ],
+    "municipalityCount": 179
+  }
 ]

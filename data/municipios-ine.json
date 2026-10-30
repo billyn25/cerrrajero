@@ -1,0 +1,3025 @@
+{
+  "source": "https://www.ine.es/daco/daco42/codmun/cod_num_muni_provincia_ccaa.htm",
+  "referenceDate": "2026-01-01",
+  "retrievedDate": "2026-10-30",
+  "distribution": "https://github.com/codeforspain/ds-organizacion-administrativa/blob/master/data/municipios.json",
+  "municipalities": [
+    {
+      "municipio_id": "01051",
+      "provincia_id": "01",
+      "cmun": "051",
+      "dc": "3",
+      "nombre": "Agurain/Salvatierra"
+    },
+    {
+      "municipio_id": "01001",
+      "provincia_id": "01",
+      "cmun": "001",
+      "dc": "4",
+      "nombre": "Alegría-Dulantzi"
+    },
+    {
+      "municipio_id": "01002",
+      "provincia_id": "01",
+      "cmun": "002",
+      "dc": "9",
+      "nombre": "Amurrio"
+    },
+    {
+      "municipio_id": "01049",
+      "provincia_id": "01",
+      "cmun": "049",
+      "dc": "3",
+      "nombre": "Añana"
+    },
+    {
+      "municipio_id": "01003",
+      "provincia_id": "01",
+      "cmun": "003",
+      "dc": "5",
+      "nombre": "Aramaio"
+    },
+    {
+      "municipio_id": "01006",
+      "provincia_id": "01",
+      "cmun": "006",
+      "dc": "6",
+      "nombre": "Armiñón"
+    },
+    {
+      "municipio_id": "01037",
+      "provincia_id": "01",
+      "cmun": "037",
+      "dc": "6",
+      "nombre": "Arraia-Maeztu"
+    },
+    {
+      "municipio_id": "01008",
+      "provincia_id": "01",
+      "cmun": "008",
+      "dc": "8",
+      "nombre": "Arratzua-Ubarrundia"
+    },
+    {
+      "municipio_id": "01004",
+      "provincia_id": "01",
+      "cmun": "004",
+      "dc": "0",
+      "nombre": "Artziniega"
+    },
+    {
+      "municipio_id": "01009",
+      "provincia_id": "01",
+      "cmun": "009",
+      "dc": "1",
+      "nombre": "Asparrena"
+    },
+    {
+      "municipio_id": "01010",
+      "provincia_id": "01",
+      "cmun": "010",
+      "dc": "5",
+      "nombre": "Ayala/Aiara"
+    },
+    {
+      "municipio_id": "01011",
+      "provincia_id": "01",
+      "cmun": "011",
+      "dc": "2",
+      "nombre": "Baños de Ebro/Mañueta"
+    },
+    {
+      "municipio_id": "01013",
+      "provincia_id": "01",
+      "cmun": "013",
+      "dc": "3",
+      "nombre": "Barrundia"
+    },
+    {
+      "municipio_id": "01014",
+      "provincia_id": "01",
+      "cmun": "014",
+      "dc": "8",
+      "nombre": "Berantevilla"
+    },
+    {
+      "municipio_id": "01016",
+      "provincia_id": "01",
+      "cmun": "016",
+      "dc": "4",
+      "nombre": "Bernedo"
+    },
+    {
+      "municipio_id": "01017",
+      "provincia_id": "01",
+      "cmun": "017",
+      "dc": "0",
+      "nombre": "Campezo/Kanpezu"
+    },
+    {
+      "municipio_id": "01021",
+      "provincia_id": "01",
+      "cmun": "021",
+      "dc": "0",
+      "nombre": "Elburgo/Burgelu"
+    },
+    {
+      "municipio_id": "01022",
+      "provincia_id": "01",
+      "cmun": "022",
+      "dc": "5",
+      "nombre": "Elciego"
+    },
+    {
+      "municipio_id": "01023",
+      "provincia_id": "01",
+      "cmun": "023",
+      "dc": "1",
+      "nombre": "Elvillar/Bilar"
+    },
+    {
+      "municipio_id": "01046",
+      "provincia_id": "01",
+      "cmun": "046",
+      "dc": "8",
+      "nombre": "Erriberagoitia/Ribera Alta"
+    },
+    {
+      "municipio_id": "01056",
+      "provincia_id": "01",
+      "cmun": "056",
+      "dc": "5",
+      "nombre": "Harana/Valle de Arana"
+    },
+    {
+      "municipio_id": "01901",
+      "provincia_id": "01",
+      "cmun": "901",
+      "dc": "5",
+      "nombre": "Iruña Oka/Iruña de Oca"
+    },
+    {
+      "municipio_id": "01027",
+      "provincia_id": "01",
+      "cmun": "027",
+      "dc": "8",
+      "nombre": "Iruraiz-Gauna"
+    },
+    {
+      "municipio_id": "01019",
+      "provincia_id": "01",
+      "cmun": "019",
+      "dc": "9",
+      "nombre": "Kripan"
+    },
+    {
+      "municipio_id": "01020",
+      "provincia_id": "01",
+      "cmun": "020",
+      "dc": "3",
+      "nombre": "Kuartango"
+    },
+    {
+      "municipio_id": "01028",
+      "provincia_id": "01",
+      "cmun": "028",
+      "dc": "4",
+      "nombre": "Labastida/Bastida"
+    },
+    {
+      "municipio_id": "01030",
+      "provincia_id": "01",
+      "cmun": "030",
+      "dc": "1",
+      "nombre": "Lagrán"
+    },
+    {
+      "municipio_id": "01031",
+      "provincia_id": "01",
+      "cmun": "031",
+      "dc": "8",
+      "nombre": "Laguardia"
+    },
+    {
+      "municipio_id": "01032",
+      "provincia_id": "01",
+      "cmun": "032",
+      "dc": "3",
+      "nombre": "Lanciego/Lantziego"
+    },
+    {
+      "municipio_id": "01902",
+      "provincia_id": "01",
+      "cmun": "902",
+      "dc": "0",
+      "nombre": "Lantarón"
+    },
+    {
+      "municipio_id": "01033",
+      "provincia_id": "01",
+      "cmun": "033",
+      "dc": "9",
+      "nombre": "Lapuebla de Labarca"
+    },
+    {
+      "municipio_id": "01036",
+      "provincia_id": "01",
+      "cmun": "036",
+      "dc": "0",
+      "nombre": "Laudio/Llodio"
+    },
+    {
+      "municipio_id": "01058",
+      "provincia_id": "01",
+      "cmun": "058",
+      "dc": "7",
+      "nombre": "Legutio"
+    },
+    {
+      "municipio_id": "01034",
+      "provincia_id": "01",
+      "cmun": "034",
+      "dc": "4",
+      "nombre": "Leza"
+    },
+    {
+      "municipio_id": "01039",
+      "provincia_id": "01",
+      "cmun": "039",
+      "dc": "5",
+      "nombre": "Moreda de Álava/Moreda Araba"
+    },
+    {
+      "municipio_id": "01041",
+      "provincia_id": "01",
+      "cmun": "041",
+      "dc": "6",
+      "nombre": "Navaridas"
+    },
+    {
+      "municipio_id": "01042",
+      "provincia_id": "01",
+      "cmun": "042",
+      "dc": "1",
+      "nombre": "Okondo"
+    },
+    {
+      "municipio_id": "01043",
+      "provincia_id": "01",
+      "cmun": "043",
+      "dc": "7",
+      "nombre": "Oyón-Oion"
+    },
+    {
+      "municipio_id": "01044",
+      "provincia_id": "01",
+      "cmun": "044",
+      "dc": "2",
+      "nombre": "Peñacerrada-Urizaharra"
+    },
+    {
+      "municipio_id": "01047",
+      "provincia_id": "01",
+      "cmun": "047",
+      "dc": "4",
+      "nombre": "Ribera Baja/Erriberabeitia"
+    },
+    {
+      "municipio_id": "01052",
+      "provincia_id": "01",
+      "cmun": "052",
+      "dc": "8",
+      "nombre": "Samaniego"
+    },
+    {
+      "municipio_id": "01053",
+      "provincia_id": "01",
+      "cmun": "053",
+      "dc": "4",
+      "nombre": "San Millán/Donemiliaga"
+    },
+    {
+      "municipio_id": "01054",
+      "provincia_id": "01",
+      "cmun": "054",
+      "dc": "9",
+      "nombre": "Urkabustaiz"
+    },
+    {
+      "municipio_id": "01055",
+      "provincia_id": "01",
+      "cmun": "055",
+      "dc": "2",
+      "nombre": "Valdegovía/Gaubea"
+    },
+    {
+      "municipio_id": "01057",
+      "provincia_id": "01",
+      "cmun": "057",
+      "dc": "1",
+      "nombre": "Villabuena de Álava/Eskuernaga"
+    },
+    {
+      "municipio_id": "01059",
+      "provincia_id": "01",
+      "cmun": "059",
+      "dc": "0",
+      "nombre": "Vitoria-Gasteiz"
+    },
+    {
+      "municipio_id": "01060",
+      "provincia_id": "01",
+      "cmun": "060",
+      "dc": "4",
+      "nombre": "Yécora/Iekora"
+    },
+    {
+      "municipio_id": "01061",
+      "provincia_id": "01",
+      "cmun": "061",
+      "dc": "1",
+      "nombre": "Zalduondo"
+    },
+    {
+      "municipio_id": "01062",
+      "provincia_id": "01",
+      "cmun": "062",
+      "dc": "6",
+      "nombre": "Zambrana"
+    },
+    {
+      "municipio_id": "01018",
+      "provincia_id": "01",
+      "cmun": "018",
+      "dc": "6",
+      "nombre": "Zigoitia"
+    },
+    {
+      "municipio_id": "01063",
+      "provincia_id": "01",
+      "cmun": "063",
+      "dc": "2",
+      "nombre": "Zuia"
+    },
+    {
+      "municipio_id": "20001",
+      "provincia_id": "20",
+      "cmun": "001",
+      "dc": "3",
+      "nombre": "Abaltzisketa"
+    },
+    {
+      "municipio_id": "20002",
+      "provincia_id": "20",
+      "cmun": "002",
+      "dc": "8",
+      "nombre": "Aduna"
+    },
+    {
+      "municipio_id": "20016",
+      "provincia_id": "20",
+      "cmun": "016",
+      "dc": "3",
+      "nombre": "Aia"
+    },
+    {
+      "municipio_id": "20003",
+      "provincia_id": "20",
+      "cmun": "003",
+      "dc": "4",
+      "nombre": "Aizarnazabal"
+    },
+    {
+      "municipio_id": "20004",
+      "provincia_id": "20",
+      "cmun": "004",
+      "dc": "9",
+      "nombre": "Albiztur"
+    },
+    {
+      "municipio_id": "20005",
+      "provincia_id": "20",
+      "cmun": "005",
+      "dc": "2",
+      "nombre": "Alegia"
+    },
+    {
+      "municipio_id": "20006",
+      "provincia_id": "20",
+      "cmun": "006",
+      "dc": "5",
+      "nombre": "Alkiza"
+    },
+    {
+      "municipio_id": "20906",
+      "provincia_id": "20",
+      "cmun": "906",
+      "dc": "6",
+      "nombre": "Altzaga"
+    },
+    {
+      "municipio_id": "20007",
+      "provincia_id": "20",
+      "cmun": "007",
+      "dc": "1",
+      "nombre": "Altzo"
+    },
+    {
+      "municipio_id": "20008",
+      "provincia_id": "20",
+      "cmun": "008",
+      "dc": "7",
+      "nombre": "Amezketa"
+    },
+    {
+      "municipio_id": "20009",
+      "provincia_id": "20",
+      "cmun": "009",
+      "dc": "0",
+      "nombre": "Andoain"
+    },
+    {
+      "municipio_id": "20010",
+      "provincia_id": "20",
+      "cmun": "010",
+      "dc": "4",
+      "nombre": "Anoeta"
+    },
+    {
+      "municipio_id": "20011",
+      "provincia_id": "20",
+      "cmun": "011",
+      "dc": "1",
+      "nombre": "Antzuola"
+    },
+    {
+      "municipio_id": "20012",
+      "provincia_id": "20",
+      "cmun": "012",
+      "dc": "6",
+      "nombre": "Arama"
+    },
+    {
+      "municipio_id": "20013",
+      "provincia_id": "20",
+      "cmun": "013",
+      "dc": "2",
+      "nombre": "Aretxabaleta"
+    },
+    {
+      "municipio_id": "20055",
+      "provincia_id": "20",
+      "cmun": "055",
+      "dc": "1",
+      "nombre": "Arrasate/Mondragón"
+    },
+    {
+      "municipio_id": "20014",
+      "provincia_id": "20",
+      "cmun": "014",
+      "dc": "7",
+      "nombre": "Asteasu"
+    },
+    {
+      "municipio_id": "20903",
+      "provincia_id": "20",
+      "cmun": "903",
+      "dc": "5",
+      "nombre": "Astigarraga"
+    },
+    {
+      "municipio_id": "20015",
+      "provincia_id": "20",
+      "cmun": "015",
+      "dc": "0",
+      "nombre": "Ataun"
+    },
+    {
+      "municipio_id": "20017",
+      "provincia_id": "20",
+      "cmun": "017",
+      "dc": "9",
+      "nombre": "Azkoitia"
+    },
+    {
+      "municipio_id": "20018",
+      "provincia_id": "20",
+      "cmun": "018",
+      "dc": "5",
+      "nombre": "Azpeitia"
+    },
+    {
+      "municipio_id": "20904",
+      "provincia_id": "20",
+      "cmun": "904",
+      "dc": "0",
+      "nombre": "Baliarrain"
+    },
+    {
+      "municipio_id": "20019",
+      "provincia_id": "20",
+      "cmun": "019",
+      "dc": "8",
+      "nombre": "Beasain"
+    },
+    {
+      "municipio_id": "20020",
+      "provincia_id": "20",
+      "cmun": "020",
+      "dc": "2",
+      "nombre": "Beizama"
+    },
+    {
+      "municipio_id": "20021",
+      "provincia_id": "20",
+      "cmun": "021",
+      "dc": "9",
+      "nombre": "Belauntza"
+    },
+    {
+      "municipio_id": "20022",
+      "provincia_id": "20",
+      "cmun": "022",
+      "dc": "4",
+      "nombre": "Berastegi"
+    },
+    {
+      "municipio_id": "20074",
+      "provincia_id": "20",
+      "cmun": "074",
+      "dc": "4",
+      "nombre": "Bergara"
+    },
+    {
+      "municipio_id": "20023",
+      "provincia_id": "20",
+      "cmun": "023",
+      "dc": "0",
+      "nombre": "Berrobi"
+    },
+    {
+      "municipio_id": "20024",
+      "provincia_id": "20",
+      "cmun": "024",
+      "dc": "5",
+      "nombre": "Bidania-Goiatz"
+    },
+    {
+      "municipio_id": "20029",
+      "provincia_id": "20",
+      "cmun": "029",
+      "dc": "6",
+      "nombre": "Deba"
+    },
+    {
+      "municipio_id": "20069",
+      "provincia_id": "20",
+      "cmun": "069",
+      "dc": "7",
+      "nombre": "Donostia/San Sebastián"
+    },
+    {
+      "municipio_id": "20030",
+      "provincia_id": "20",
+      "cmun": "030",
+      "dc": "0",
+      "nombre": "Eibar"
+    },
+    {
+      "municipio_id": "20031",
+      "provincia_id": "20",
+      "cmun": "031",
+      "dc": "7",
+      "nombre": "Elduain"
+    },
+    {
+      "municipio_id": "20033",
+      "provincia_id": "20",
+      "cmun": "033",
+      "dc": "8",
+      "nombre": "Elgeta"
+    },
+    {
+      "municipio_id": "20032",
+      "provincia_id": "20",
+      "cmun": "032",
+      "dc": "2",
+      "nombre": "Elgoibar"
+    },
+    {
+      "municipio_id": "20067",
+      "provincia_id": "20",
+      "cmun": "067",
+      "dc": "8",
+      "nombre": "Errenteria"
+    },
+    {
+      "municipio_id": "20066",
+      "provincia_id": "20",
+      "cmun": "066",
+      "dc": "2",
+      "nombre": "Errezil"
+    },
+    {
+      "municipio_id": "20034",
+      "provincia_id": "20",
+      "cmun": "034",
+      "dc": "3",
+      "nombre": "Eskoriatza"
+    },
+    {
+      "municipio_id": "20035",
+      "provincia_id": "20",
+      "cmun": "035",
+      "dc": "6",
+      "nombre": "Ezkio-Itsaso"
+    },
+    {
+      "municipio_id": "20038",
+      "provincia_id": "20",
+      "cmun": "038",
+      "dc": "1",
+      "nombre": "Gabiria"
+    },
+    {
+      "municipio_id": "20037",
+      "provincia_id": "20",
+      "cmun": "037",
+      "dc": "5",
+      "nombre": "Gaintza"
+    },
+    {
+      "municipio_id": "20907",
+      "provincia_id": "20",
+      "cmun": "907",
+      "dc": "2",
+      "nombre": "Gaztelu"
+    },
+    {
+      "municipio_id": "20039",
+      "provincia_id": "20",
+      "cmun": "039",
+      "dc": "4",
+      "nombre": "Getaria"
+    },
+    {
+      "municipio_id": "20040",
+      "provincia_id": "20",
+      "cmun": "040",
+      "dc": "8",
+      "nombre": "Hernani"
+    },
+    {
+      "municipio_id": "20041",
+      "provincia_id": "20",
+      "cmun": "041",
+      "dc": "5",
+      "nombre": "Hernialde"
+    },
+    {
+      "municipio_id": "20036",
+      "provincia_id": "20",
+      "cmun": "036",
+      "dc": "9",
+      "nombre": "Hondarribia"
+    },
+    {
+      "municipio_id": "20042",
+      "provincia_id": "20",
+      "cmun": "042",
+      "dc": "0",
+      "nombre": "Ibarra"
+    },
+    {
+      "municipio_id": "20043",
+      "provincia_id": "20",
+      "cmun": "043",
+      "dc": "6",
+      "nombre": "Idiazabal"
+    },
+    {
+      "municipio_id": "20044",
+      "provincia_id": "20",
+      "cmun": "044",
+      "dc": "1",
+      "nombre": "Ikaztegieta"
+    },
+    {
+      "municipio_id": "20045",
+      "provincia_id": "20",
+      "cmun": "045",
+      "dc": "4",
+      "nombre": "Irun"
+    },
+    {
+      "municipio_id": "20046",
+      "provincia_id": "20",
+      "cmun": "046",
+      "dc": "7",
+      "nombre": "Irura"
+    },
+    {
+      "municipio_id": "20047",
+      "provincia_id": "20",
+      "cmun": "047",
+      "dc": "3",
+      "nombre": "Itsasondo"
+    },
+    {
+      "municipio_id": "20048",
+      "provincia_id": "20",
+      "cmun": "048",
+      "dc": "9",
+      "nombre": "Larraul"
+    },
+    {
+      "municipio_id": "20902",
+      "provincia_id": "20",
+      "cmun": "902",
+      "dc": "9",
+      "nombre": "Lasarte-Oria"
+    },
+    {
+      "municipio_id": "20049",
+      "provincia_id": "20",
+      "cmun": "049",
+      "dc": "2",
+      "nombre": "Lazkao"
+    },
+    {
+      "municipio_id": "20050",
+      "provincia_id": "20",
+      "cmun": "050",
+      "dc": "5",
+      "nombre": "Leaburu"
+    },
+    {
+      "municipio_id": "20051",
+      "provincia_id": "20",
+      "cmun": "051",
+      "dc": "2",
+      "nombre": "Legazpi"
+    },
+    {
+      "municipio_id": "20052",
+      "provincia_id": "20",
+      "cmun": "052",
+      "dc": "7",
+      "nombre": "Legorreta"
+    },
+    {
+      "municipio_id": "20068",
+      "provincia_id": "20",
+      "cmun": "068",
+      "dc": "4",
+      "nombre": "Leintz-Gatzaga"
+    },
+    {
+      "municipio_id": "20053",
+      "provincia_id": "20",
+      "cmun": "053",
+      "dc": "3",
+      "nombre": "Lezo"
+    },
+    {
+      "municipio_id": "20054",
+      "provincia_id": "20",
+      "cmun": "054",
+      "dc": "8",
+      "nombre": "Lizartza"
+    },
+    {
+      "municipio_id": "20901",
+      "provincia_id": "20",
+      "cmun": "901",
+      "dc": "4",
+      "nombre": "Mendaro"
+    },
+    {
+      "municipio_id": "20057",
+      "provincia_id": "20",
+      "cmun": "057",
+      "dc": "0",
+      "nombre": "Mutiloa"
+    },
+    {
+      "municipio_id": "20056",
+      "provincia_id": "20",
+      "cmun": "056",
+      "dc": "4",
+      "nombre": "Mutriku"
+    },
+    {
+      "municipio_id": "20063",
+      "provincia_id": "20",
+      "cmun": "063",
+      "dc": "1",
+      "nombre": "Oiartzun"
+    },
+    {
+      "municipio_id": "20058",
+      "provincia_id": "20",
+      "cmun": "058",
+      "dc": "6",
+      "nombre": "Olaberria"
+    },
+    {
+      "municipio_id": "20059",
+      "provincia_id": "20",
+      "cmun": "059",
+      "dc": "9",
+      "nombre": "Oñati"
+    },
+    {
+      "municipio_id": "20076",
+      "provincia_id": "20",
+      "cmun": "076",
+      "dc": "0",
+      "nombre": "Ordizia"
+    },
+    {
+      "municipio_id": "20905",
+      "provincia_id": "20",
+      "cmun": "905",
+      "dc": "3",
+      "nombre": "Orendain"
+    },
+    {
+      "municipio_id": "20060",
+      "provincia_id": "20",
+      "cmun": "060",
+      "dc": "3",
+      "nombre": "Orexa"
+    },
+    {
+      "municipio_id": "20061",
+      "provincia_id": "20",
+      "cmun": "061",
+      "dc": "0",
+      "nombre": "Orio"
+    },
+    {
+      "municipio_id": "20062",
+      "provincia_id": "20",
+      "cmun": "062",
+      "dc": "5",
+      "nombre": "Ormaiztegi"
+    },
+    {
+      "municipio_id": "20064",
+      "provincia_id": "20",
+      "cmun": "064",
+      "dc": "6",
+      "nombre": "Pasaia"
+    },
+    {
+      "municipio_id": "20070",
+      "provincia_id": "20",
+      "cmun": "070",
+      "dc": "1",
+      "nombre": "Segura"
+    },
+    {
+      "municipio_id": "20065",
+      "provincia_id": "20",
+      "cmun": "065",
+      "dc": "9",
+      "nombre": "Soraluze-Placencia de las Armas"
+    },
+    {
+      "municipio_id": "20071",
+      "provincia_id": "20",
+      "cmun": "071",
+      "dc": "8",
+      "nombre": "Tolosa"
+    },
+    {
+      "municipio_id": "20072",
+      "provincia_id": "20",
+      "cmun": "072",
+      "dc": "3",
+      "nombre": "Urnieta"
+    },
+    {
+      "municipio_id": "20077",
+      "provincia_id": "20",
+      "cmun": "077",
+      "dc": "6",
+      "nombre": "Urretxu"
+    },
+    {
+      "municipio_id": "20073",
+      "provincia_id": "20",
+      "cmun": "073",
+      "dc": "9",
+      "nombre": "Usurbil"
+    },
+    {
+      "municipio_id": "20075",
+      "provincia_id": "20",
+      "cmun": "075",
+      "dc": "7",
+      "nombre": "Villabona"
+    },
+    {
+      "municipio_id": "20078",
+      "provincia_id": "20",
+      "cmun": "078",
+      "dc": "2",
+      "nombre": "Zaldibia"
+    },
+    {
+      "municipio_id": "20079",
+      "provincia_id": "20",
+      "cmun": "079",
+      "dc": "5",
+      "nombre": "Zarautz"
+    },
+    {
+      "municipio_id": "20025",
+      "provincia_id": "20",
+      "cmun": "025",
+      "dc": "8",
+      "nombre": "Zegama"
+    },
+    {
+      "municipio_id": "20026",
+      "provincia_id": "20",
+      "cmun": "026",
+      "dc": "1",
+      "nombre": "Zerain"
+    },
+    {
+      "municipio_id": "20027",
+      "provincia_id": "20",
+      "cmun": "027",
+      "dc": "7",
+      "nombre": "Zestoa"
+    },
+    {
+      "municipio_id": "20028",
+      "provincia_id": "20",
+      "cmun": "028",
+      "dc": "3",
+      "nombre": "Zizurkil"
+    },
+    {
+      "municipio_id": "20081",
+      "provincia_id": "20",
+      "cmun": "081",
+      "dc": "6",
+      "nombre": "Zumaia"
+    },
+    {
+      "municipio_id": "20080",
+      "provincia_id": "20",
+      "cmun": "080",
+      "dc": "9",
+      "nombre": "Zumarraga"
+    },
+    {
+      "municipio_id": "28001",
+      "provincia_id": "28",
+      "cmun": "001",
+      "dc": "4",
+      "nombre": "Acebeda, La"
+    },
+    {
+      "municipio_id": "28002",
+      "provincia_id": "28",
+      "cmun": "002",
+      "dc": "9",
+      "nombre": "Ajalvir"
+    },
+    {
+      "municipio_id": "28003",
+      "provincia_id": "28",
+      "cmun": "003",
+      "dc": "5",
+      "nombre": "Alameda del Valle"
+    },
+    {
+      "municipio_id": "28004",
+      "provincia_id": "28",
+      "cmun": "004",
+      "dc": "0",
+      "nombre": "Álamo, El"
+    },
+    {
+      "municipio_id": "28005",
+      "provincia_id": "28",
+      "cmun": "005",
+      "dc": "3",
+      "nombre": "Alcalá de Henares"
+    },
+    {
+      "municipio_id": "28006",
+      "provincia_id": "28",
+      "cmun": "006",
+      "dc": "6",
+      "nombre": "Alcobendas"
+    },
+    {
+      "municipio_id": "28007",
+      "provincia_id": "28",
+      "cmun": "007",
+      "dc": "2",
+      "nombre": "Alcorcón"
+    },
+    {
+      "municipio_id": "28008",
+      "provincia_id": "28",
+      "cmun": "008",
+      "dc": "8",
+      "nombre": "Aldea del Fresno"
+    },
+    {
+      "municipio_id": "28009",
+      "provincia_id": "28",
+      "cmun": "009",
+      "dc": "1",
+      "nombre": "Algete"
+    },
+    {
+      "municipio_id": "28010",
+      "provincia_id": "28",
+      "cmun": "010",
+      "dc": "5",
+      "nombre": "Alpedrete"
+    },
+    {
+      "municipio_id": "28011",
+      "provincia_id": "28",
+      "cmun": "011",
+      "dc": "2",
+      "nombre": "Ambite"
+    },
+    {
+      "municipio_id": "28012",
+      "provincia_id": "28",
+      "cmun": "012",
+      "dc": "7",
+      "nombre": "Anchuelo"
+    },
+    {
+      "municipio_id": "28013",
+      "provincia_id": "28",
+      "cmun": "013",
+      "dc": "3",
+      "nombre": "Aranjuez"
+    },
+    {
+      "municipio_id": "28014",
+      "provincia_id": "28",
+      "cmun": "014",
+      "dc": "8",
+      "nombre": "Arganda del Rey"
+    },
+    {
+      "municipio_id": "28015",
+      "provincia_id": "28",
+      "cmun": "015",
+      "dc": "1",
+      "nombre": "Arroyomolinos"
+    },
+    {
+      "municipio_id": "28016",
+      "provincia_id": "28",
+      "cmun": "016",
+      "dc": "4",
+      "nombre": "Atazar, El"
+    },
+    {
+      "municipio_id": "28017",
+      "provincia_id": "28",
+      "cmun": "017",
+      "dc": "0",
+      "nombre": "Batres"
+    },
+    {
+      "municipio_id": "28018",
+      "provincia_id": "28",
+      "cmun": "018",
+      "dc": "6",
+      "nombre": "Becerril de la Sierra"
+    },
+    {
+      "municipio_id": "28019",
+      "provincia_id": "28",
+      "cmun": "019",
+      "dc": "9",
+      "nombre": "Belmonte de Tajo"
+    },
+    {
+      "municipio_id": "28021",
+      "provincia_id": "28",
+      "cmun": "021",
+      "dc": "0",
+      "nombre": "Berrueco, El"
+    },
+    {
+      "municipio_id": "28020",
+      "provincia_id": "28",
+      "cmun": "020",
+      "dc": "3",
+      "nombre": "Berzosa del Lozoya"
+    },
+    {
+      "municipio_id": "28022",
+      "provincia_id": "28",
+      "cmun": "022",
+      "dc": "5",
+      "nombre": "Boadilla del Monte"
+    },
+    {
+      "municipio_id": "28023",
+      "provincia_id": "28",
+      "cmun": "023",
+      "dc": "1",
+      "nombre": "Boalo, El"
+    },
+    {
+      "municipio_id": "28024",
+      "provincia_id": "28",
+      "cmun": "024",
+      "dc": "6",
+      "nombre": "Braojos"
+    },
+    {
+      "municipio_id": "28025",
+      "provincia_id": "28",
+      "cmun": "025",
+      "dc": "9",
+      "nombre": "Brea de Tajo"
+    },
+    {
+      "municipio_id": "28026",
+      "provincia_id": "28",
+      "cmun": "026",
+      "dc": "2",
+      "nombre": "Brunete"
+    },
+    {
+      "municipio_id": "28027",
+      "provincia_id": "28",
+      "cmun": "027",
+      "dc": "8",
+      "nombre": "Buitrago del Lozoya"
+    },
+    {
+      "municipio_id": "28028",
+      "provincia_id": "28",
+      "cmun": "028",
+      "dc": "4",
+      "nombre": "Bustarviejo"
+    },
+    {
+      "municipio_id": "28029",
+      "provincia_id": "28",
+      "cmun": "029",
+      "dc": "7",
+      "nombre": "Cabanillas de la Sierra"
+    },
+    {
+      "municipio_id": "28030",
+      "provincia_id": "28",
+      "cmun": "030",
+      "dc": "1",
+      "nombre": "Cabrera, La"
+    },
+    {
+      "municipio_id": "28031",
+      "provincia_id": "28",
+      "cmun": "031",
+      "dc": "8",
+      "nombre": "Cadalso de los Vidrios"
+    },
+    {
+      "municipio_id": "28032",
+      "provincia_id": "28",
+      "cmun": "032",
+      "dc": "3",
+      "nombre": "Camarma de Esteruelas"
+    },
+    {
+      "municipio_id": "28033",
+      "provincia_id": "28",
+      "cmun": "033",
+      "dc": "9",
+      "nombre": "Campo Real"
+    },
+    {
+      "municipio_id": "28034",
+      "provincia_id": "28",
+      "cmun": "034",
+      "dc": "4",
+      "nombre": "Canencia"
+    },
+    {
+      "municipio_id": "28035",
+      "provincia_id": "28",
+      "cmun": "035",
+      "dc": "7",
+      "nombre": "Carabaña"
+    },
+    {
+      "municipio_id": "28036",
+      "provincia_id": "28",
+      "cmun": "036",
+      "dc": "0",
+      "nombre": "Casarrubuelos"
+    },
+    {
+      "municipio_id": "28037",
+      "provincia_id": "28",
+      "cmun": "037",
+      "dc": "6",
+      "nombre": "Cenicientos"
+    },
+    {
+      "municipio_id": "28038",
+      "provincia_id": "28",
+      "cmun": "038",
+      "dc": "2",
+      "nombre": "Cercedilla"
+    },
+    {
+      "municipio_id": "28039",
+      "provincia_id": "28",
+      "cmun": "039",
+      "dc": "5",
+      "nombre": "Cervera de Buitrago"
+    },
+    {
+      "municipio_id": "28051",
+      "provincia_id": "28",
+      "cmun": "051",
+      "dc": "3",
+      "nombre": "Chapinería"
+    },
+    {
+      "municipio_id": "28052",
+      "provincia_id": "28",
+      "cmun": "052",
+      "dc": "8",
+      "nombre": "Chinchón"
+    },
+    {
+      "municipio_id": "28040",
+      "provincia_id": "28",
+      "cmun": "040",
+      "dc": "9",
+      "nombre": "Ciempozuelos"
+    },
+    {
+      "municipio_id": "28041",
+      "provincia_id": "28",
+      "cmun": "041",
+      "dc": "6",
+      "nombre": "Cobeña"
+    },
+    {
+      "municipio_id": "28046",
+      "provincia_id": "28",
+      "cmun": "046",
+      "dc": "8",
+      "nombre": "Collado Mediano"
+    },
+    {
+      "municipio_id": "28047",
+      "provincia_id": "28",
+      "cmun": "047",
+      "dc": "4",
+      "nombre": "Collado Villalba"
+    },
+    {
+      "municipio_id": "28043",
+      "provincia_id": "28",
+      "cmun": "043",
+      "dc": "7",
+      "nombre": "Colmenar de Oreja"
+    },
+    {
+      "municipio_id": "28042",
+      "provincia_id": "28",
+      "cmun": "042",
+      "dc": "1",
+      "nombre": "Colmenar del Arroyo"
+    },
+    {
+      "municipio_id": "28045",
+      "provincia_id": "28",
+      "cmun": "045",
+      "dc": "5",
+      "nombre": "Colmenar Viejo"
+    },
+    {
+      "municipio_id": "28044",
+      "provincia_id": "28",
+      "cmun": "044",
+      "dc": "2",
+      "nombre": "Colmenarejo"
+    },
+    {
+      "municipio_id": "28048",
+      "provincia_id": "28",
+      "cmun": "048",
+      "dc": "0",
+      "nombre": "Corpa"
+    },
+    {
+      "municipio_id": "28049",
+      "provincia_id": "28",
+      "cmun": "049",
+      "dc": "3",
+      "nombre": "Coslada"
+    },
+    {
+      "municipio_id": "28050",
+      "provincia_id": "28",
+      "cmun": "050",
+      "dc": "6",
+      "nombre": "Cubas de la Sagra"
+    },
+    {
+      "municipio_id": "28053",
+      "provincia_id": "28",
+      "cmun": "053",
+      "dc": "4",
+      "nombre": "Daganzo de Arriba"
+    },
+    {
+      "municipio_id": "28054",
+      "provincia_id": "28",
+      "cmun": "054",
+      "dc": "9",
+      "nombre": "Escorial, El"
+    },
+    {
+      "municipio_id": "28055",
+      "provincia_id": "28",
+      "cmun": "055",
+      "dc": "2",
+      "nombre": "Estremera"
+    },
+    {
+      "municipio_id": "28056",
+      "provincia_id": "28",
+      "cmun": "056",
+      "dc": "5",
+      "nombre": "Fresnedillas de la Oliva"
+    },
+    {
+      "municipio_id": "28057",
+      "provincia_id": "28",
+      "cmun": "057",
+      "dc": "1",
+      "nombre": "Fresno de Torote"
+    },
+    {
+      "municipio_id": "28058",
+      "provincia_id": "28",
+      "cmun": "058",
+      "dc": "7",
+      "nombre": "Fuenlabrada"
+    },
+    {
+      "municipio_id": "28059",
+      "provincia_id": "28",
+      "cmun": "059",
+      "dc": "0",
+      "nombre": "Fuente el Saz de Jarama"
+    },
+    {
+      "municipio_id": "28060",
+      "provincia_id": "28",
+      "cmun": "060",
+      "dc": "4",
+      "nombre": "Fuentidueña de Tajo"
+    },
+    {
+      "municipio_id": "28061",
+      "provincia_id": "28",
+      "cmun": "061",
+      "dc": "1",
+      "nombre": "Galapagar"
+    },
+    {
+      "municipio_id": "28062",
+      "provincia_id": "28",
+      "cmun": "062",
+      "dc": "6",
+      "nombre": "Garganta de los Montes"
+    },
+    {
+      "municipio_id": "28063",
+      "provincia_id": "28",
+      "cmun": "063",
+      "dc": "2",
+      "nombre": "Gargantilla del Lozoya y Pinilla de Buitrago"
+    },
+    {
+      "municipio_id": "28064",
+      "provincia_id": "28",
+      "cmun": "064",
+      "dc": "7",
+      "nombre": "Gascones"
+    },
+    {
+      "municipio_id": "28065",
+      "provincia_id": "28",
+      "cmun": "065",
+      "dc": "0",
+      "nombre": "Getafe"
+    },
+    {
+      "municipio_id": "28066",
+      "provincia_id": "28",
+      "cmun": "066",
+      "dc": "3",
+      "nombre": "Griñón"
+    },
+    {
+      "municipio_id": "28067",
+      "provincia_id": "28",
+      "cmun": "067",
+      "dc": "9",
+      "nombre": "Guadalix de la Sierra"
+    },
+    {
+      "municipio_id": "28068",
+      "provincia_id": "28",
+      "cmun": "068",
+      "dc": "5",
+      "nombre": "Guadarrama"
+    },
+    {
+      "municipio_id": "28069",
+      "provincia_id": "28",
+      "cmun": "069",
+      "dc": "8",
+      "nombre": "Hiruela, La"
+    },
+    {
+      "municipio_id": "28070",
+      "provincia_id": "28",
+      "cmun": "070",
+      "dc": "2",
+      "nombre": "Horcajo de la Sierra-Aoslos"
+    },
+    {
+      "municipio_id": "28071",
+      "provincia_id": "28",
+      "cmun": "071",
+      "dc": "9",
+      "nombre": "Horcajuelo de la Sierra"
+    },
+    {
+      "municipio_id": "28072",
+      "provincia_id": "28",
+      "cmun": "072",
+      "dc": "4",
+      "nombre": "Hoyo de Manzanares"
+    },
+    {
+      "municipio_id": "28073",
+      "provincia_id": "28",
+      "cmun": "073",
+      "dc": "0",
+      "nombre": "Humanes de Madrid"
+    },
+    {
+      "municipio_id": "28074",
+      "provincia_id": "28",
+      "cmun": "074",
+      "dc": "5",
+      "nombre": "Leganés"
+    },
+    {
+      "municipio_id": "28075",
+      "provincia_id": "28",
+      "cmun": "075",
+      "dc": "8",
+      "nombre": "Loeches"
+    },
+    {
+      "municipio_id": "28076",
+      "provincia_id": "28",
+      "cmun": "076",
+      "dc": "1",
+      "nombre": "Lozoya"
+    },
+    {
+      "municipio_id": "28901",
+      "provincia_id": "28",
+      "cmun": "901",
+      "dc": "5",
+      "nombre": "Lozoyuela-Navas-Sieteiglesias"
+    },
+    {
+      "municipio_id": "28078",
+      "provincia_id": "28",
+      "cmun": "078",
+      "dc": "3",
+      "nombre": "Madarcos"
+    },
+    {
+      "municipio_id": "28079",
+      "provincia_id": "28",
+      "cmun": "079",
+      "dc": "6",
+      "nombre": "Madrid"
+    },
+    {
+      "municipio_id": "28080",
+      "provincia_id": "28",
+      "cmun": "080",
+      "dc": "0",
+      "nombre": "Majadahonda"
+    },
+    {
+      "municipio_id": "28082",
+      "provincia_id": "28",
+      "cmun": "082",
+      "dc": "2",
+      "nombre": "Manzanares el Real"
+    },
+    {
+      "municipio_id": "28083",
+      "provincia_id": "28",
+      "cmun": "083",
+      "dc": "8",
+      "nombre": "Meco"
+    },
+    {
+      "municipio_id": "28084",
+      "provincia_id": "28",
+      "cmun": "084",
+      "dc": "3",
+      "nombre": "Mejorada del Campo"
+    },
+    {
+      "municipio_id": "28085",
+      "provincia_id": "28",
+      "cmun": "085",
+      "dc": "6",
+      "nombre": "Miraflores de la Sierra"
+    },
+    {
+      "municipio_id": "28086",
+      "provincia_id": "28",
+      "cmun": "086",
+      "dc": "9",
+      "nombre": "Molar, El"
+    },
+    {
+      "municipio_id": "28087",
+      "provincia_id": "28",
+      "cmun": "087",
+      "dc": "5",
+      "nombre": "Molinos, Los"
+    },
+    {
+      "municipio_id": "28088",
+      "provincia_id": "28",
+      "cmun": "088",
+      "dc": "1",
+      "nombre": "Montejo de la Sierra"
+    },
+    {
+      "municipio_id": "28089",
+      "provincia_id": "28",
+      "cmun": "089",
+      "dc": "4",
+      "nombre": "Moraleja de Enmedio"
+    },
+    {
+      "municipio_id": "28090",
+      "provincia_id": "28",
+      "cmun": "090",
+      "dc": "8",
+      "nombre": "Moralzarzal"
+    },
+    {
+      "municipio_id": "28091",
+      "provincia_id": "28",
+      "cmun": "091",
+      "dc": "5",
+      "nombre": "Morata de Tajuña"
+    },
+    {
+      "municipio_id": "28092",
+      "provincia_id": "28",
+      "cmun": "092",
+      "dc": "0",
+      "nombre": "Móstoles"
+    },
+    {
+      "municipio_id": "28093",
+      "provincia_id": "28",
+      "cmun": "093",
+      "dc": "6",
+      "nombre": "Navacerrada"
+    },
+    {
+      "municipio_id": "28094",
+      "provincia_id": "28",
+      "cmun": "094",
+      "dc": "1",
+      "nombre": "Navalafuente"
+    },
+    {
+      "municipio_id": "28095",
+      "provincia_id": "28",
+      "cmun": "095",
+      "dc": "4",
+      "nombre": "Navalagamella"
+    },
+    {
+      "municipio_id": "28096",
+      "provincia_id": "28",
+      "cmun": "096",
+      "dc": "7",
+      "nombre": "Navalcarnero"
+    },
+    {
+      "municipio_id": "28097",
+      "provincia_id": "28",
+      "cmun": "097",
+      "dc": "3",
+      "nombre": "Navarredonda y San Mamés"
+    },
+    {
+      "municipio_id": "28099",
+      "provincia_id": "28",
+      "cmun": "099",
+      "dc": "2",
+      "nombre": "Navas del Rey"
+    },
+    {
+      "municipio_id": "28100",
+      "provincia_id": "28",
+      "cmun": "100",
+      "dc": "6",
+      "nombre": "Nuevo Baztán"
+    },
+    {
+      "municipio_id": "28101",
+      "provincia_id": "28",
+      "cmun": "101",
+      "dc": "3",
+      "nombre": "Olmeda de las Fuentes"
+    },
+    {
+      "municipio_id": "28102",
+      "provincia_id": "28",
+      "cmun": "102",
+      "dc": "8",
+      "nombre": "Orusco de Tajuña"
+    },
+    {
+      "municipio_id": "28104",
+      "provincia_id": "28",
+      "cmun": "104",
+      "dc": "9",
+      "nombre": "Paracuellos de Jarama"
+    },
+    {
+      "municipio_id": "28106",
+      "provincia_id": "28",
+      "cmun": "106",
+      "dc": "5",
+      "nombre": "Parla"
+    },
+    {
+      "municipio_id": "28107",
+      "provincia_id": "28",
+      "cmun": "107",
+      "dc": "1",
+      "nombre": "Patones"
+    },
+    {
+      "municipio_id": "28108",
+      "provincia_id": "28",
+      "cmun": "108",
+      "dc": "7",
+      "nombre": "Pedrezuela"
+    },
+    {
+      "municipio_id": "28109",
+      "provincia_id": "28",
+      "cmun": "109",
+      "dc": "0",
+      "nombre": "Pelayos de la Presa"
+    },
+    {
+      "municipio_id": "28110",
+      "provincia_id": "28",
+      "cmun": "110",
+      "dc": "4",
+      "nombre": "Perales de Tajuña"
+    },
+    {
+      "municipio_id": "28111",
+      "provincia_id": "28",
+      "cmun": "111",
+      "dc": "1",
+      "nombre": "Pezuela de las Torres"
+    },
+    {
+      "municipio_id": "28112",
+      "provincia_id": "28",
+      "cmun": "112",
+      "dc": "6",
+      "nombre": "Pinilla del Valle"
+    },
+    {
+      "municipio_id": "28113",
+      "provincia_id": "28",
+      "cmun": "113",
+      "dc": "2",
+      "nombre": "Pinto"
+    },
+    {
+      "municipio_id": "28114",
+      "provincia_id": "28",
+      "cmun": "114",
+      "dc": "7",
+      "nombre": "Piñuécar-Gandullas"
+    },
+    {
+      "municipio_id": "28115",
+      "provincia_id": "28",
+      "cmun": "115",
+      "dc": "0",
+      "nombre": "Pozuelo de Alarcón"
+    },
+    {
+      "municipio_id": "28116",
+      "provincia_id": "28",
+      "cmun": "116",
+      "dc": "3",
+      "nombre": "Pozuelo del Rey"
+    },
+    {
+      "municipio_id": "28117",
+      "provincia_id": "28",
+      "cmun": "117",
+      "dc": "9",
+      "nombre": "Prádena del Rincón"
+    },
+    {
+      "municipio_id": "28118",
+      "provincia_id": "28",
+      "cmun": "118",
+      "dc": "5",
+      "nombre": "Puebla de la Sierra"
+    },
+    {
+      "municipio_id": "28902",
+      "provincia_id": "28",
+      "cmun": "902",
+      "dc": "0",
+      "nombre": "Puentes Viejas"
+    },
+    {
+      "municipio_id": "28119",
+      "provincia_id": "28",
+      "cmun": "119",
+      "dc": "8",
+      "nombre": "Quijorna"
+    },
+    {
+      "municipio_id": "28120",
+      "provincia_id": "28",
+      "cmun": "120",
+      "dc": "2",
+      "nombre": "Rascafría"
+    },
+    {
+      "municipio_id": "28121",
+      "provincia_id": "28",
+      "cmun": "121",
+      "dc": "9",
+      "nombre": "Redueña"
+    },
+    {
+      "municipio_id": "28122",
+      "provincia_id": "28",
+      "cmun": "122",
+      "dc": "4",
+      "nombre": "Ribatejada"
+    },
+    {
+      "municipio_id": "28123",
+      "provincia_id": "28",
+      "cmun": "123",
+      "dc": "0",
+      "nombre": "Rivas-Vaciamadrid"
+    },
+    {
+      "municipio_id": "28124",
+      "provincia_id": "28",
+      "cmun": "124",
+      "dc": "5",
+      "nombre": "Robledillo de la Jara"
+    },
+    {
+      "municipio_id": "28125",
+      "provincia_id": "28",
+      "cmun": "125",
+      "dc": "8",
+      "nombre": "Robledo de Chavela"
+    },
+    {
+      "municipio_id": "28126",
+      "provincia_id": "28",
+      "cmun": "126",
+      "dc": "1",
+      "nombre": "Robregordo"
+    },
+    {
+      "municipio_id": "28127",
+      "provincia_id": "28",
+      "cmun": "127",
+      "dc": "7",
+      "nombre": "Rozas de Madrid, Las"
+    },
+    {
+      "municipio_id": "28128",
+      "provincia_id": "28",
+      "cmun": "128",
+      "dc": "3",
+      "nombre": "Rozas de Puerto Real"
+    },
+    {
+      "municipio_id": "28129",
+      "provincia_id": "28",
+      "cmun": "129",
+      "dc": "6",
+      "nombre": "San Agustín del Guadalix"
+    },
+    {
+      "municipio_id": "28130",
+      "provincia_id": "28",
+      "cmun": "130",
+      "dc": "0",
+      "nombre": "San Fernando de Henares"
+    },
+    {
+      "municipio_id": "28131",
+      "provincia_id": "28",
+      "cmun": "131",
+      "dc": "7",
+      "nombre": "San Lorenzo de El Escorial"
+    },
+    {
+      "municipio_id": "28132",
+      "provincia_id": "28",
+      "cmun": "132",
+      "dc": "2",
+      "nombre": "San Martín de la Vega"
+    },
+    {
+      "municipio_id": "28133",
+      "provincia_id": "28",
+      "cmun": "133",
+      "dc": "8",
+      "nombre": "San Martín de Valdeiglesias"
+    },
+    {
+      "municipio_id": "28134",
+      "provincia_id": "28",
+      "cmun": "134",
+      "dc": "3",
+      "nombre": "San Sebastián de los Reyes"
+    },
+    {
+      "municipio_id": "28135",
+      "provincia_id": "28",
+      "cmun": "135",
+      "dc": "6",
+      "nombre": "Santa María de la Alameda"
+    },
+    {
+      "municipio_id": "28136",
+      "provincia_id": "28",
+      "cmun": "136",
+      "dc": "9",
+      "nombre": "Santorcaz"
+    },
+    {
+      "municipio_id": "28137",
+      "provincia_id": "28",
+      "cmun": "137",
+      "dc": "5",
+      "nombre": "Santos de la Humosa, Los"
+    },
+    {
+      "municipio_id": "28138",
+      "provincia_id": "28",
+      "cmun": "138",
+      "dc": "1",
+      "nombre": "Serna del Monte, La"
+    },
+    {
+      "municipio_id": "28140",
+      "provincia_id": "28",
+      "cmun": "140",
+      "dc": "8",
+      "nombre": "Serranillos del Valle"
+    },
+    {
+      "municipio_id": "28141",
+      "provincia_id": "28",
+      "cmun": "141",
+      "dc": "5",
+      "nombre": "Sevilla la Nueva"
+    },
+    {
+      "municipio_id": "28143",
+      "provincia_id": "28",
+      "cmun": "143",
+      "dc": "6",
+      "nombre": "Somosierra"
+    },
+    {
+      "municipio_id": "28144",
+      "provincia_id": "28",
+      "cmun": "144",
+      "dc": "1",
+      "nombre": "Soto del Real"
+    },
+    {
+      "municipio_id": "28145",
+      "provincia_id": "28",
+      "cmun": "145",
+      "dc": "4",
+      "nombre": "Talamanca de Jarama"
+    },
+    {
+      "municipio_id": "28146",
+      "provincia_id": "28",
+      "cmun": "146",
+      "dc": "7",
+      "nombre": "Tielmes"
+    },
+    {
+      "municipio_id": "28147",
+      "provincia_id": "28",
+      "cmun": "147",
+      "dc": "3",
+      "nombre": "Titulcia"
+    },
+    {
+      "municipio_id": "28148",
+      "provincia_id": "28",
+      "cmun": "148",
+      "dc": "9",
+      "nombre": "Torrejón de Ardoz"
+    },
+    {
+      "municipio_id": "28149",
+      "provincia_id": "28",
+      "cmun": "149",
+      "dc": "2",
+      "nombre": "Torrejón de la Calzada"
+    },
+    {
+      "municipio_id": "28150",
+      "provincia_id": "28",
+      "cmun": "150",
+      "dc": "5",
+      "nombre": "Torrejón de Velasco"
+    },
+    {
+      "municipio_id": "28151",
+      "provincia_id": "28",
+      "cmun": "151",
+      "dc": "2",
+      "nombre": "Torrelaguna"
+    },
+    {
+      "municipio_id": "28152",
+      "provincia_id": "28",
+      "cmun": "152",
+      "dc": "7",
+      "nombre": "Torrelodones"
+    },
+    {
+      "municipio_id": "28153",
+      "provincia_id": "28",
+      "cmun": "153",
+      "dc": "3",
+      "nombre": "Torremocha de Jarama"
+    },
+    {
+      "municipio_id": "28154",
+      "provincia_id": "28",
+      "cmun": "154",
+      "dc": "8",
+      "nombre": "Torres de la Alameda"
+    },
+    {
+      "municipio_id": "28903",
+      "provincia_id": "28",
+      "cmun": "903",
+      "dc": "6",
+      "nombre": "Tres Cantos"
+    },
+    {
+      "municipio_id": "28155",
+      "provincia_id": "28",
+      "cmun": "155",
+      "dc": "1",
+      "nombre": "Valdaracete"
+    },
+    {
+      "municipio_id": "28156",
+      "provincia_id": "28",
+      "cmun": "156",
+      "dc": "4",
+      "nombre": "Valdeavero"
+    },
+    {
+      "municipio_id": "28157",
+      "provincia_id": "28",
+      "cmun": "157",
+      "dc": "0",
+      "nombre": "Valdelaguna"
+    },
+    {
+      "municipio_id": "28158",
+      "provincia_id": "28",
+      "cmun": "158",
+      "dc": "6",
+      "nombre": "Valdemanco"
+    },
+    {
+      "municipio_id": "28159",
+      "provincia_id": "28",
+      "cmun": "159",
+      "dc": "9",
+      "nombre": "Valdemaqueda"
+    },
+    {
+      "municipio_id": "28160",
+      "provincia_id": "28",
+      "cmun": "160",
+      "dc": "3",
+      "nombre": "Valdemorillo"
+    },
+    {
+      "municipio_id": "28161",
+      "provincia_id": "28",
+      "cmun": "161",
+      "dc": "0",
+      "nombre": "Valdemoro"
+    },
+    {
+      "municipio_id": "28162",
+      "provincia_id": "28",
+      "cmun": "162",
+      "dc": "5",
+      "nombre": "Valdeolmos-Alalpardo"
+    },
+    {
+      "municipio_id": "28163",
+      "provincia_id": "28",
+      "cmun": "163",
+      "dc": "1",
+      "nombre": "Valdepiélagos"
+    },
+    {
+      "municipio_id": "28164",
+      "provincia_id": "28",
+      "cmun": "164",
+      "dc": "6",
+      "nombre": "Valdetorres de Jarama"
+    },
+    {
+      "municipio_id": "28165",
+      "provincia_id": "28",
+      "cmun": "165",
+      "dc": "9",
+      "nombre": "Valdilecha"
+    },
+    {
+      "municipio_id": "28166",
+      "provincia_id": "28",
+      "cmun": "166",
+      "dc": "2",
+      "nombre": "Valverde de Alcalá"
+    },
+    {
+      "municipio_id": "28167",
+      "provincia_id": "28",
+      "cmun": "167",
+      "dc": "8",
+      "nombre": "Velilla de San Antonio"
+    },
+    {
+      "municipio_id": "28168",
+      "provincia_id": "28",
+      "cmun": "168",
+      "dc": "4",
+      "nombre": "Vellón, El"
+    },
+    {
+      "municipio_id": "28169",
+      "provincia_id": "28",
+      "cmun": "169",
+      "dc": "7",
+      "nombre": "Venturada"
+    },
+    {
+      "municipio_id": "28171",
+      "provincia_id": "28",
+      "cmun": "171",
+      "dc": "8",
+      "nombre": "Villa del Prado"
+    },
+    {
+      "municipio_id": "28170",
+      "provincia_id": "28",
+      "cmun": "170",
+      "dc": "1",
+      "nombre": "Villaconejos"
+    },
+    {
+      "municipio_id": "28172",
+      "provincia_id": "28",
+      "cmun": "172",
+      "dc": "3",
+      "nombre": "Villalbilla"
+    },
+    {
+      "municipio_id": "28173",
+      "provincia_id": "28",
+      "cmun": "173",
+      "dc": "9",
+      "nombre": "Villamanrique de Tajo"
+    },
+    {
+      "municipio_id": "28174",
+      "provincia_id": "28",
+      "cmun": "174",
+      "dc": "4",
+      "nombre": "Villamanta"
+    },
+    {
+      "municipio_id": "28175",
+      "provincia_id": "28",
+      "cmun": "175",
+      "dc": "7",
+      "nombre": "Villamantilla"
+    },
+    {
+      "municipio_id": "28176",
+      "provincia_id": "28",
+      "cmun": "176",
+      "dc": "0",
+      "nombre": "Villanueva de la Cañada"
+    },
+    {
+      "municipio_id": "28178",
+      "provincia_id": "28",
+      "cmun": "178",
+      "dc": "2",
+      "nombre": "Villanueva de Perales"
+    },
+    {
+      "municipio_id": "28177",
+      "provincia_id": "28",
+      "cmun": "177",
+      "dc": "6",
+      "nombre": "Villanueva del Pardillo"
+    },
+    {
+      "municipio_id": "28179",
+      "provincia_id": "28",
+      "cmun": "179",
+      "dc": "5",
+      "nombre": "Villar del Olmo"
+    },
+    {
+      "municipio_id": "28180",
+      "provincia_id": "28",
+      "cmun": "180",
+      "dc": "9",
+      "nombre": "Villarejo de Salvanés"
+    },
+    {
+      "municipio_id": "28181",
+      "provincia_id": "28",
+      "cmun": "181",
+      "dc": "6",
+      "nombre": "Villaviciosa de Odón"
+    },
+    {
+      "municipio_id": "28182",
+      "provincia_id": "28",
+      "cmun": "182",
+      "dc": "1",
+      "nombre": "Villavieja del Lozoya"
+    },
+    {
+      "municipio_id": "28183",
+      "provincia_id": "28",
+      "cmun": "183",
+      "dc": "7",
+      "nombre": "Zarzalejo"
+    },
+    {
+      "municipio_id": "48001",
+      "provincia_id": "48",
+      "cmun": "001",
+      "dc": "0",
+      "nombre": "Abadiño"
+    },
+    {
+      "municipio_id": "48002",
+      "provincia_id": "48",
+      "cmun": "002",
+      "dc": "5",
+      "nombre": "Abanto y Ciérvana-Abanto Zierbena"
+    },
+    {
+      "municipio_id": "48911",
+      "provincia_id": "48",
+      "cmun": "911",
+      "dc": "9",
+      "nombre": "Ajangiz"
+    },
+    {
+      "municipio_id": "48912",
+      "provincia_id": "48",
+      "cmun": "912",
+      "dc": "4",
+      "nombre": "Alonsotegi"
+    },
+    {
+      "municipio_id": "48003",
+      "provincia_id": "48",
+      "cmun": "003",
+      "dc": "1",
+      "nombre": "Amorebieta-Etxano"
+    },
+    {
+      "municipio_id": "48004",
+      "provincia_id": "48",
+      "cmun": "004",
+      "dc": "6",
+      "nombre": "Amoroto"
+    },
+    {
+      "municipio_id": "48005",
+      "provincia_id": "48",
+      "cmun": "005",
+      "dc": "9",
+      "nombre": "Arakaldo"
+    },
+    {
+      "municipio_id": "48006",
+      "provincia_id": "48",
+      "cmun": "006",
+      "dc": "2",
+      "nombre": "Arantzazu"
+    },
+    {
+      "municipio_id": "48093",
+      "provincia_id": "48",
+      "cmun": "093",
+      "dc": "2",
+      "nombre": "Areatza"
+    },
+    {
+      "municipio_id": "48009",
+      "provincia_id": "48",
+      "cmun": "009",
+      "dc": "7",
+      "nombre": "Arrankudiaga-Zollo"
+    },
+    {
+      "municipio_id": "48914",
+      "provincia_id": "48",
+      "cmun": "914",
+      "dc": "5",
+      "nombre": "Arratzu"
+    },
+    {
+      "municipio_id": "48010",
+      "provincia_id": "48",
+      "cmun": "010",
+      "dc": "1",
+      "nombre": "Arrieta"
+    },
+    {
+      "municipio_id": "48011",
+      "provincia_id": "48",
+      "cmun": "011",
+      "dc": "8",
+      "nombre": "Arrigorriaga"
+    },
+    {
+      "municipio_id": "48023",
+      "provincia_id": "48",
+      "cmun": "023",
+      "dc": "7",
+      "nombre": "Artea"
+    },
+    {
+      "municipio_id": "48008",
+      "provincia_id": "48",
+      "cmun": "008",
+      "dc": "4",
+      "nombre": "Artzentales"
+    },
+    {
+      "municipio_id": "48091",
+      "provincia_id": "48",
+      "cmun": "091",
+      "dc": "1",
+      "nombre": "Atxondo"
+    },
+    {
+      "municipio_id": "48070",
+      "provincia_id": "48",
+      "cmun": "070",
+      "dc": "8",
+      "nombre": "Aulesti"
+    },
+    {
+      "municipio_id": "48012",
+      "provincia_id": "48",
+      "cmun": "012",
+      "dc": "3",
+      "nombre": "Bakio"
+    },
+    {
+      "municipio_id": "48090",
+      "provincia_id": "48",
+      "cmun": "090",
+      "dc": "4",
+      "nombre": "Balmaseda"
+    },
+    {
+      "municipio_id": "48013",
+      "provincia_id": "48",
+      "cmun": "013",
+      "dc": "9",
+      "nombre": "Barakaldo"
+    },
+    {
+      "municipio_id": "48014",
+      "provincia_id": "48",
+      "cmun": "014",
+      "dc": "4",
+      "nombre": "Barrika"
+    },
+    {
+      "municipio_id": "48015",
+      "provincia_id": "48",
+      "cmun": "015",
+      "dc": "7",
+      "nombre": "Basauri"
+    },
+    {
+      "municipio_id": "48092",
+      "provincia_id": "48",
+      "cmun": "092",
+      "dc": "6",
+      "nombre": "Bedia"
+    },
+    {
+      "municipio_id": "48016",
+      "provincia_id": "48",
+      "cmun": "016",
+      "dc": "0",
+      "nombre": "Berango"
+    },
+    {
+      "municipio_id": "48017",
+      "provincia_id": "48",
+      "cmun": "017",
+      "dc": "6",
+      "nombre": "Bermeo"
+    },
+    {
+      "municipio_id": "48018",
+      "provincia_id": "48",
+      "cmun": "018",
+      "dc": "2",
+      "nombre": "Berriatua"
+    },
+    {
+      "municipio_id": "48019",
+      "provincia_id": "48",
+      "cmun": "019",
+      "dc": "5",
+      "nombre": "Berriz"
+    },
+    {
+      "municipio_id": "48020",
+      "provincia_id": "48",
+      "cmun": "020",
+      "dc": "9",
+      "nombre": "Bilbao"
+    },
+    {
+      "municipio_id": "48021",
+      "provincia_id": "48",
+      "cmun": "021",
+      "dc": "6",
+      "nombre": "Busturia"
+    },
+    {
+      "municipio_id": "48901",
+      "provincia_id": "48",
+      "cmun": "901",
+      "dc": "1",
+      "nombre": "Derio"
+    },
+    {
+      "municipio_id": "48026",
+      "provincia_id": "48",
+      "cmun": "026",
+      "dc": "8",
+      "nombre": "Dima"
+    },
+    {
+      "municipio_id": "48027",
+      "provincia_id": "48",
+      "cmun": "027",
+      "dc": "4",
+      "nombre": "Durango"
+    },
+    {
+      "municipio_id": "48028",
+      "provincia_id": "48",
+      "cmun": "028",
+      "dc": "0",
+      "nombre": "Ea"
+    },
+    {
+      "municipio_id": "48031",
+      "provincia_id": "48",
+      "cmun": "031",
+      "dc": "4",
+      "nombre": "Elantxobe"
+    },
+    {
+      "municipio_id": "48032",
+      "provincia_id": "48",
+      "cmun": "032",
+      "dc": "9",
+      "nombre": "Elorrio"
+    },
+    {
+      "municipio_id": "48902",
+      "provincia_id": "48",
+      "cmun": "902",
+      "dc": "6",
+      "nombre": "Erandio"
+    },
+    {
+      "municipio_id": "48033",
+      "provincia_id": "48",
+      "cmun": "033",
+      "dc": "5",
+      "nombre": "Ereño"
+    },
+    {
+      "municipio_id": "48034",
+      "provincia_id": "48",
+      "cmun": "034",
+      "dc": "0",
+      "nombre": "Ermua"
+    },
+    {
+      "municipio_id": "48079",
+      "provincia_id": "48",
+      "cmun": "079",
+      "dc": "2",
+      "nombre": "Errigoiti"
+    },
+    {
+      "municipio_id": "48029",
+      "provincia_id": "48",
+      "cmun": "029",
+      "dc": "3",
+      "nombre": "Etxebarri"
+    },
+    {
+      "municipio_id": "48030",
+      "provincia_id": "48",
+      "cmun": "030",
+      "dc": "7",
+      "nombre": "Etxebarria"
+    },
+    {
+      "municipio_id": "48906",
+      "provincia_id": "48",
+      "cmun": "906",
+      "dc": "3",
+      "nombre": "Forua"
+    },
+    {
+      "municipio_id": "48035",
+      "provincia_id": "48",
+      "cmun": "035",
+      "dc": "3",
+      "nombre": "Fruiz"
+    },
+    {
+      "municipio_id": "48036",
+      "provincia_id": "48",
+      "cmun": "036",
+      "dc": "6",
+      "nombre": "Galdakao"
+    },
+    {
+      "municipio_id": "48037",
+      "provincia_id": "48",
+      "cmun": "037",
+      "dc": "2",
+      "nombre": "Galdames"
+    },
+    {
+      "municipio_id": "48038",
+      "provincia_id": "48",
+      "cmun": "038",
+      "dc": "8",
+      "nombre": "Gamiz-Fika"
+    },
+    {
+      "municipio_id": "48039",
+      "provincia_id": "48",
+      "cmun": "039",
+      "dc": "1",
+      "nombre": "Garai"
+    },
+    {
+      "municipio_id": "48040",
+      "provincia_id": "48",
+      "cmun": "040",
+      "dc": "5",
+      "nombre": "Gatika"
+    },
+    {
+      "municipio_id": "48041",
+      "provincia_id": "48",
+      "cmun": "041",
+      "dc": "2",
+      "nombre": "Gautegiz Arteaga"
+    },
+    {
+      "municipio_id": "48046",
+      "provincia_id": "48",
+      "cmun": "046",
+      "dc": "4",
+      "nombre": "Gernika-Lumo"
+    },
+    {
+      "municipio_id": "48044",
+      "provincia_id": "48",
+      "cmun": "044",
+      "dc": "8",
+      "nombre": "Getxo"
+    },
+    {
+      "municipio_id": "48047",
+      "provincia_id": "48",
+      "cmun": "047",
+      "dc": "0",
+      "nombre": "Gizaburuaga"
+    },
+    {
+      "municipio_id": "48042",
+      "provincia_id": "48",
+      "cmun": "042",
+      "dc": "7",
+      "nombre": "Gordexola"
+    },
+    {
+      "municipio_id": "48043",
+      "provincia_id": "48",
+      "cmun": "043",
+      "dc": "3",
+      "nombre": "Gorliz"
+    },
+    {
+      "municipio_id": "48045",
+      "provincia_id": "48",
+      "cmun": "045",
+      "dc": "1",
+      "nombre": "Güeñes"
+    },
+    {
+      "municipio_id": "48048",
+      "provincia_id": "48",
+      "cmun": "048",
+      "dc": "6",
+      "nombre": "Ibarrangelu"
+    },
+    {
+      "municipio_id": "48094",
+      "provincia_id": "48",
+      "cmun": "094",
+      "dc": "7",
+      "nombre": "Igorre"
+    },
+    {
+      "municipio_id": "48049",
+      "provincia_id": "48",
+      "cmun": "049",
+      "dc": "9",
+      "nombre": "Ispaster"
+    },
+    {
+      "municipio_id": "48910",
+      "provincia_id": "48",
+      "cmun": "910",
+      "dc": "2",
+      "nombre": "Iurreta"
+    },
+    {
+      "municipio_id": "48050",
+      "provincia_id": "48",
+      "cmun": "050",
+      "dc": "2",
+      "nombre": "Izurtza"
+    },
+    {
+      "municipio_id": "48022",
+      "provincia_id": "48",
+      "cmun": "022",
+      "dc": "1",
+      "nombre": "Karrantza Harana/Valle de Carranza"
+    },
+    {
+      "municipio_id": "48907",
+      "provincia_id": "48",
+      "cmun": "907",
+      "dc": "9",
+      "nombre": "Kortezubi"
+    },
+    {
+      "municipio_id": "48051",
+      "provincia_id": "48",
+      "cmun": "051",
+      "dc": "9",
+      "nombre": "Lanestosa"
+    },
+    {
+      "municipio_id": "48052",
+      "provincia_id": "48",
+      "cmun": "052",
+      "dc": "4",
+      "nombre": "Larrabetzu"
+    },
+    {
+      "municipio_id": "48053",
+      "provincia_id": "48",
+      "cmun": "053",
+      "dc": "0",
+      "nombre": "Laukiz"
+    },
+    {
+      "municipio_id": "48054",
+      "provincia_id": "48",
+      "cmun": "054",
+      "dc": "5",
+      "nombre": "Leioa"
+    },
+    {
+      "municipio_id": "48057",
+      "provincia_id": "48",
+      "cmun": "057",
+      "dc": "7",
+      "nombre": "Lekeitio"
+    },
+    {
+      "municipio_id": "48055",
+      "provincia_id": "48",
+      "cmun": "055",
+      "dc": "8",
+      "nombre": "Lemoa"
+    },
+    {
+      "municipio_id": "48056",
+      "provincia_id": "48",
+      "cmun": "056",
+      "dc": "1",
+      "nombre": "Lemoiz"
+    },
+    {
+      "municipio_id": "48081",
+      "provincia_id": "48",
+      "cmun": "081",
+      "dc": "3",
+      "nombre": "Lezama"
+    },
+    {
+      "municipio_id": "48903",
+      "provincia_id": "48",
+      "cmun": "903",
+      "dc": "2",
+      "nombre": "Loiu"
+    },
+    {
+      "municipio_id": "48058",
+      "provincia_id": "48",
+      "cmun": "058",
+      "dc": "3",
+      "nombre": "Mallabia"
+    },
+    {
+      "municipio_id": "48059",
+      "provincia_id": "48",
+      "cmun": "059",
+      "dc": "6",
+      "nombre": "Mañaria"
+    },
+    {
+      "municipio_id": "48060",
+      "provincia_id": "48",
+      "cmun": "060",
+      "dc": "0",
+      "nombre": "Markina-Xemein"
+    },
+    {
+      "municipio_id": "48061",
+      "provincia_id": "48",
+      "cmun": "061",
+      "dc": "7",
+      "nombre": "Maruri-Jatabe"
+    },
+    {
+      "municipio_id": "48062",
+      "provincia_id": "48",
+      "cmun": "062",
+      "dc": "2",
+      "nombre": "Mendata"
+    },
+    {
+      "municipio_id": "48063",
+      "provincia_id": "48",
+      "cmun": "063",
+      "dc": "8",
+      "nombre": "Mendexa"
+    },
+    {
+      "municipio_id": "48064",
+      "provincia_id": "48",
+      "cmun": "064",
+      "dc": "3",
+      "nombre": "Meñaka"
+    },
+    {
+      "municipio_id": "48066",
+      "provincia_id": "48",
+      "cmun": "066",
+      "dc": "9",
+      "nombre": "Morga"
+    },
+    {
+      "municipio_id": "48068",
+      "provincia_id": "48",
+      "cmun": "068",
+      "dc": "1",
+      "nombre": "Mundaka"
+    },
+    {
+      "municipio_id": "48069",
+      "provincia_id": "48",
+      "cmun": "069",
+      "dc": "4",
+      "nombre": "Mungia"
+    },
+    {
+      "municipio_id": "48007",
+      "provincia_id": "48",
+      "cmun": "007",
+      "dc": "8",
+      "nombre": "Munitibar-Arbatzegi Gerrikaitz"
+    },
+    {
+      "municipio_id": "48908",
+      "provincia_id": "48",
+      "cmun": "908",
+      "dc": "5",
+      "nombre": "Murueta"
+    },
+    {
+      "municipio_id": "48071",
+      "provincia_id": "48",
+      "cmun": "071",
+      "dc": "5",
+      "nombre": "Muskiz"
+    },
+    {
+      "municipio_id": "48067",
+      "provincia_id": "48",
+      "cmun": "067",
+      "dc": "5",
+      "nombre": "Muxika"
+    },
+    {
+      "municipio_id": "48909",
+      "provincia_id": "48",
+      "cmun": "909",
+      "dc": "8",
+      "nombre": "Nabarniz"
+    },
+    {
+      "municipio_id": "48073",
+      "provincia_id": "48",
+      "cmun": "073",
+      "dc": "6",
+      "nombre": "Ondarroa"
+    },
+    {
+      "municipio_id": "48075",
+      "provincia_id": "48",
+      "cmun": "075",
+      "dc": "4",
+      "nombre": "Orozko"
+    },
+    {
+      "municipio_id": "48083",
+      "provincia_id": "48",
+      "cmun": "083",
+      "dc": "4",
+      "nombre": "Ortuella"
+    },
+    {
+      "municipio_id": "48072",
+      "provincia_id": "48",
+      "cmun": "072",
+      "dc": "0",
+      "nombre": "Otxandio"
+    },
+    {
+      "municipio_id": "48077",
+      "provincia_id": "48",
+      "cmun": "077",
+      "dc": "3",
+      "nombre": "Plentzia"
+    },
+    {
+      "municipio_id": "48078",
+      "provincia_id": "48",
+      "cmun": "078",
+      "dc": "9",
+      "nombre": "Portugalete"
+    },
+    {
+      "municipio_id": "48082",
+      "provincia_id": "48",
+      "cmun": "082",
+      "dc": "8",
+      "nombre": "Santurtzi"
+    },
+    {
+      "municipio_id": "48084",
+      "provincia_id": "48",
+      "cmun": "084",
+      "dc": "9",
+      "nombre": "Sestao"
+    },
+    {
+      "municipio_id": "48904",
+      "provincia_id": "48",
+      "cmun": "904",
+      "dc": "7",
+      "nombre": "Sondika"
+    },
+    {
+      "municipio_id": "48085",
+      "provincia_id": "48",
+      "cmun": "085",
+      "dc": "2",
+      "nombre": "Sopela"
+    },
+    {
+      "municipio_id": "48086",
+      "provincia_id": "48",
+      "cmun": "086",
+      "dc": "5",
+      "nombre": "Sopuerta"
+    },
+    {
+      "municipio_id": "48076",
+      "provincia_id": "48",
+      "cmun": "076",
+      "dc": "7",
+      "nombre": "Sukarrieta"
+    },
+    {
+      "municipio_id": "48087",
+      "provincia_id": "48",
+      "cmun": "087",
+      "dc": "1",
+      "nombre": "Trucios-Turtzioz"
+    },
+    {
+      "municipio_id": "48088",
+      "provincia_id": "48",
+      "cmun": "088",
+      "dc": "7",
+      "nombre": "Ubide"
+    },
+    {
+      "municipio_id": "48065",
+      "provincia_id": "48",
+      "cmun": "065",
+      "dc": "6",
+      "nombre": "Ugao-Miraballes"
+    },
+    {
+      "municipio_id": "48089",
+      "provincia_id": "48",
+      "cmun": "089",
+      "dc": "0",
+      "nombre": "Urduliz"
+    },
+    {
+      "municipio_id": "48074",
+      "provincia_id": "48",
+      "cmun": "074",
+      "dc": "1",
+      "nombre": "Urduña/Orduña"
+    },
+    {
+      "municipio_id": "48916",
+      "provincia_id": "48",
+      "cmun": "916",
+      "dc": "1",
+      "nombre": "Usansolo"
+    },
+    {
+      "municipio_id": "48080",
+      "provincia_id": "48",
+      "cmun": "080",
+      "dc": "6",
+      "nombre": "Valle de Trápaga-Trapagaran"
+    },
+    {
+      "municipio_id": "48095",
+      "provincia_id": "48",
+      "cmun": "095",
+      "dc": "0",
+      "nombre": "Zaldibar"
+    },
+    {
+      "municipio_id": "48096",
+      "provincia_id": "48",
+      "cmun": "096",
+      "dc": "3",
+      "nombre": "Zalla"
+    },
+    {
+      "municipio_id": "48905",
+      "provincia_id": "48",
+      "cmun": "905",
+      "dc": "0",
+      "nombre": "Zamudio"
+    },
+    {
+      "municipio_id": "48097",
+      "provincia_id": "48",
+      "cmun": "097",
+      "dc": "9",
+      "nombre": "Zaratamo"
+    },
+    {
+      "municipio_id": "48024",
+      "provincia_id": "48",
+      "cmun": "024",
+      "dc": "2",
+      "nombre": "Zeanuri"
+    },
+    {
+      "municipio_id": "48025",
+      "provincia_id": "48",
+      "cmun": "025",
+      "dc": "5",
+      "nombre": "Zeberio"
+    },
+    {
+      "municipio_id": "48913",
+      "provincia_id": "48",
+      "cmun": "913",
+      "dc": "0",
+      "nombre": "Zierbena"
+    },
+    {
+      "municipio_id": "48915",
+      "provincia_id": "48",
+      "cmun": "915",
+      "dc": "8",
+      "nombre": "Ziortza-Bolibar"
+    }
+  ]
+}
