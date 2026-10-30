@@ -1,6 +1,14 @@
 {
-  "default": "noindex",
-  "reviewedMunicipalities": ["Bilbao", "Barakaldo", "Vitoria-Gasteiz", "Donostia / San Sebastián", "Madrid", "Coslada", "San Fernando de Henares"],
-  "criteria": "Contexto local con fuente municipal, contenido específico revisado y servicio con contacto directo. Una nueva ficha no se activa automáticamente por añadir un nombre o una lista de barrios.",
+  "default": "index",
+  "reviewedMunicipalities": [
+    "Bilbao",
+    "Barakaldo",
+    "Vitoria-Gasteiz",
+    "Donostia / San Sebastián",
+    "Madrid",
+    "Coslada",
+    "San Fernando de Henares"
+  ],
+  "criteria": "Indexación de todos los municipios habilitada por petición del titular. La lista reviewedMunicipalities conserva el estado de revisión editorial, sin limitar la indexación.",
   "reviewDate": "2026-10-30"
 }

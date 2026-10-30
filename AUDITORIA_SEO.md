@@ -1,3 +1,11 @@
+# Estado vigente — 30 de octubre de 2026
+
+Por petición expresa del titular se retira la exclusión municipal: las 431 fichas tienen `index,follow` en producción y se incluyen en los sitemaps (445 URLs con las páginas principales). La página 404 y las compilaciones de prueba mantienen `noindex`. Las siete revisiones editoriales registradas se conservan como dato, sin afirmar que las otras 424 hayan recibido esa revisión. La habilitación no acredita indexación ni posiciones en Google.
+
+El informe que sigue documenta la auditoría anterior y sus medidas históricas; la política de exclusión municipal que describe queda sustituida por el estado vigente anterior.
+
+---
+
 # Auditoría SEO y tratamiento del riesgo — versión 2.2.0
 
 Fecha: 30 de octubre de 2026. Alcance: fuente y compilación estática. La revisión alojada es privada; el dominio definitivo facilitado es `https://cerrajerourgente247.com`. No se dispone de acceso a Search Console. No se han verificado todavía respuestas HTTP o posiciones del alojamiento público del usuario.

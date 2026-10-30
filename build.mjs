@@ -4,7 +4,7 @@ import {join} from 'node:path';
 const load=n=>JSON.parse(readFileSync(`data/${n}.json`,'utf8'));
 const version=JSON.parse(readFileSync('package.json','utf8')).version;
 const cfg=load('site'),zones=load('coverage'),services=load('services'),contexts=load('local-context'),homeTowns=load('home-municipalities'),indexing=load('local-indexing'),editorial=load('local-editorial'),references=load('local-references');
-if(indexing.default!=='noindex')throw Error('La política local debe excluir por defecto las fichas no revisadas');
+if(!['index','noindex'].includes(indexing.default))throw Error('Política de indexación local inválida');
 for(const town of indexing.reviewedMunicipalities){if(!contexts[town]?.source||!contexts[town]?.areas?.length||!editorial[town]?.paragraphs?.length)throw Error('Ficha aprobada sin contexto y revisión: '+town);}
 const configuredDomain=process.env.SITE_URL||cfg.domain||process.env.URL||'';
 const base=configuredDomain.replace(/\/$/,'');
