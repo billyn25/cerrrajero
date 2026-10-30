@@ -64,4 +64,8 @@ Canónicas, datos estructurados, Open Graph y sitemaps usan `https://cerrajerour
 
 Queda pendiente comprobar el dominio en producción: DNS, certificado, redirección del subdominio Netlify y respuestas HTTP públicas. No se atribuye un resultado de velocidad o Core Web Vitals sin medición pública.
 
-La información del titular disponible es D.C.G y los teléfonos facilitados. No se han inventado nombre completo, NIF ni domicilio profesional. Es necesario completar esos datos reales para cerrar la información legal; esta auditoría técnica no acredita su suficiencia.
+La información del titular disponible es D.C.G y los teléfonos facilitados. No se han inventado nombre completo, NIF ni domicilio profesional. Por instrucción del titular se conserva únicamente D.C.G; esta auditoría técnica no acredita la suficiencia de la información legal.
+
+## Bloque visual de consultas
+
+La portada incorpora tres ejemplos expresamente identificados como ilustrativos, con bustos vectoriales. No se atribuyen opiniones, puntuaciones, identidades ni experiencias a clientes reales y no se añade marcado de reseñas.
