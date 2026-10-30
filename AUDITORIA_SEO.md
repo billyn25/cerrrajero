@@ -69,3 +69,7 @@ La información del titular disponible es D.C.G y los teléfonos facilitados. No
 ## Bloque visual de consultas
 
 La portada incorpora tres ejemplos expresamente identificados como ilustrativos, con bustos vectoriales. No se atribuyen opiniones, puntuaciones, identidades ni experiencias a clientes reales y no se añade marcado de reseñas.
+
+## Fotos y estrellas de servicio
+
+Las 431 fichas incluyen una fotografía visible también en móvil dentro de apertura de puertas. Se presenta como referencia del servicio, sin atribuirla a una intervención local. La portada añade cinco estrellas asociadas a cinco puntos a confirmar antes de contratar; no hay puntuación ni marcado Review/AggregateRating. Iñaki, Marta y Aitor se identifican como personajes ficticios. Se conserva la política de indexación: 7 fichas habilitadas, 424 pendientes excluidas.
