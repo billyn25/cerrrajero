@@ -1,6 +1,6 @@
-# Auditoría SEO y tratamiento del riesgo — versión 2.1.0
+# Auditoría SEO y tratamiento del riesgo — versión 2.2.0
 
-Fecha: 30 de octubre de 2026. Alcance: fuente y compilación estática. La revisión alojada es privada; no se ha facilitado el dominio definitivo ni acceso a Search Console. No se han verificado todavía respuestas HTTP o posiciones del alojamiento público del usuario.
+Fecha: 30 de octubre de 2026. Alcance: fuente y compilación estática. La revisión alojada es privada; el dominio definitivo facilitado es `https://cerrajerourgente247.com`. No se dispone de acceso a Search Console. No se han verificado todavía respuestas HTTP o posiciones del alojamiento público del usuario.
 
 ## Qué problema se está tratando
 
@@ -57,3 +57,11 @@ Al disponer del dominio público habrá que verificar respuestas 200/404, redire
 - [Controlar la indexación con noindex — Google](https://developers.google.com/search/docs/crawling-indexing/block-indexing?hl=es)
 - [Callejero de Euskadi — Open Data Euskadi / Eustat](https://opendata.euskadi.eus/catalogo/-/callejero-comunidad-autonoma-del-pais-vasco/)
 - [Callejero completo — Comunidad de Madrid](https://web.comunidad.madrid/iestadis/fijas/estructu/general/territorio/estructu_descargas.htm)
+
+## Cierre con dominio definitivo
+
+Canónicas, datos estructurados, Open Graph y sitemaps usan `https://cerrajerourgente247.com`. Se generan redirecciones permanentes de HTTP y www al dominio HTTPS sin www. La compilación de vista privada usa `SITE_PREVIEW=1` para excluirla de indexación incluso con dominio configurado. Los despliegues de prueba de Netlify también se excluyen.
+
+Queda pendiente comprobar el dominio en producción: DNS, certificado, redirección del subdominio Netlify y respuestas HTTP públicas. No se atribuye un resultado de velocidad o Core Web Vitals sin medición pública.
+
+La información del titular disponible es D.C.G y los teléfonos facilitados. No se han inventado nombre completo, NIF ni domicilio profesional. Es necesario completar esos datos reales para cerrar la información legal; esta auditoría técnica no acredita su suficiencia.

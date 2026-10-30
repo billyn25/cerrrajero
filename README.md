@@ -34,7 +34,7 @@ La portada y las páginas generales permiten elegir el contacto. Las páginas pr
 
 El origen canónico se obtiene por orden de `SITE_URL`, `data/site.json → domain` y la variable `URL` de Netlify. Para un dominio definitivo, configurar `domain` o `SITE_URL` con el origen HTTPS, sin barra final ni rutas, y volver a desplegar. Si se cambia de dominio, añadir la redirección 301 del dominio anterior en el alojamiento.
 
-`indexable` está habilitado. La indexación solo se activa cuando hay origen HTTPS, teléfono y titular configurados. Sin origen, la compilación local y la vista privada incorporan `noindex,follow` y un sitemap vacío para no exponer versiones duplicadas. Netlify proporciona `URL` para activar automáticamente canonical y sitemap al desplegar. Antes de enviar el sitemap a Search Console, comprobar el dominio final y que la página pública devuelva `index,follow`. Los despliegues de prueba de Netlify se excluyen de indexación.
+`indexable` está habilitado. La indexación solo se activa cuando hay origen HTTPS, teléfono y titular configurados. Sin origen, o con `SITE_PREVIEW=1`, la compilación incorpora `noindex,follow` y un sitemap vacío para no exponer versiones duplicadas. El dominio definitivo configurado es `https://cerrajerourgente247.com`; prevalece sobre `URL` de Netlify. No definir `SITE_URL` con un dominio temporal. Antes de enviar el sitemap a Search Console, comprobar el dominio final y que la página pública devuelva `index,follow`. Los despliegues de prueba de Netlify se excluyen de indexación.
 
 Los sitemaps contienen las páginas de contenido principal y las fichas municipales, sin las páginas auxiliares o 404. No se incluyen fechas de actualización falsas. Los enlaces internos usan rutas estables terminadas en `/`.
 
@@ -75,3 +75,7 @@ La revisión de contenido y técnica está en [AUDITORIA_SEO.md](AUDITORIA_SEO.m
 ## Verificación
 
 `npm run check` comprueba títulos y descripciones únicos, un H1 por página, JSON-LD válido, recursos y anclas internas, destinos de los municipios y teléfonos de cada provincia. La compilación de producción debe verificarse con el dominio definitivo antes de enviar a indexar.
+
+## Dominio definitivo
+
+Usar `cerrajerourgente247.com` como dominio principal en Netlify y activar su certificado HTTPS. Añadir `www.cerrajerourgente247.com` como alias. Las redirecciones HTTP y www están generadas en `_redirects`, pero DNS y TLS deben estar activos en el alojamiento. Para la vista privada compilar con `SITE_PREVIEW=1 npm run build`; para producción ejecutar `npm run build && npm run check`. Tras conectar DNS, comprobar `/`, una ficha, `/robots.txt`, `/sitemap.xml` y una ruta inexistente (404 real). Enviar `https://cerrajerourgente247.com/sitemap.xml` a Search Console una vez verificado. No se dispone de acceso al registrador ni a Search Console desde este proyecto.
