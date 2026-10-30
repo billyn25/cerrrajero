@@ -1,12 +1,12 @@
 # Auditoría del sitio — 30 de octubre de 2026
 
-Versión 2.4.0. Dominio configurado: https://cerrajerourgente247.com. Revisión de código, compilación y navegación local. La consulta pública de portada, robots y sitemap no ha permitido verificar el alojamiento del dominio; no se atribuye ese fallo a una causa DNS o TLS sin más evidencia.
+Versión 2.4.1. Dominio configurado: https://cerrajerourgente247.com. Revisión de código, compilación y navegación local. La consulta pública de portada, robots y sitemap no ha permitido verificar el alojamiento del dominio; no se atribuye ese fallo a una causa DNS o TLS sin más evidencia.
 
 ## Resultado y correcciones
 
 - Las 431 fichas municipales están habilitadas para indexación por instrucción expresa del titular. El índice de sitemaps incluye 445 URLs: 431 municipales y 14 principales. No significa que Google las haya indexado.
 - La revisión encontró que el buscador no incluía barrios. Se añaden las zonas municipales y los barrios documentados a sus datos, sin crear páginas de barrio vacías.
-- La portada incorpora ocho enlaces visibles de barrio o zona hacia la sección correspondiente de la ficha municipal: Salburua, Zabalgana, Algorta, Deusto, Gros, Amara Berri, Barrio del Puerto y Parque Henares. Se distingue «barrio o zona» porque Deusto es distrito y no todos los datos usan la misma división territorial.
+- Se retira la selección de ocho enlaces de barrio de portada. Los barrios y zonas se conservan en sus fichas municipales y son localizables mediante el buscador.
 - Getxo no tenía barrios en la importación del callejero. Se añaden Las Arenas, Algorta, Romo, Neguri y Andra Mari, contrastados con el Ayuntamiento de Getxo: https://www.getxo.eus/es/turismo/descubre-getxo/Historia-getxo.
 - Se evita mostrar un encabezado vacío de barrios cuando todas sus referencias ya figuran en las zonas municipales.
 - Se prueban en navegador las búsquedas Algorta → Getxo, Gros → Donostia y Salburua → Vitoria-Gasteiz.
@@ -28,7 +28,7 @@ El cero en Madrid corresponde al campo barrios de la importación del callejero,
 
 - 448 páginas: un H1 por página, títulos y descripciones diferentes, enlaces, recursos y anclas internos existentes.
 - 431 URLs municipales distintas, contactos regionales y WhatsApp correctos, sin fichas huérfanas. Municipios accesibles en dos enlaces desde portada como máximo.
-- 48 municipios y ocho referencias de barrio o zona visibles desde portada.
+- 48 municipios visibles desde portada y búsqueda por barrios y zonas documentados.
 - Siete servicios en las cuatro provincias, antes del directorio; mirilla WiFi enlazada desde las fichas y seleccionable en el borrador de WhatsApp.
 - Canónicas, migas JSON-LD y sitemaps apuntan al dominio definitivo. No hay marcado de puntuaciones ni reseñas inventadas.
 - La página 404 y las vistas de prueba siguen excluidas; producción permite indexar las 431 fichas. Robots permite el rastreo.
