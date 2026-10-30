@@ -87,5 +87,17 @@
     "source": "https://www.barakaldo.eus/OficinaVirtualBarakaldo/tramites/acceso.do?id=494",
     "label": "Zonas de Barakaldo",
     "note": "Para pedir cerrajería en Barakaldo, concreta la zona y el portal. Si el cierre afectado es el del portal de una comunidad, conviene coordinar el trabajo con la persona que lo autoriza y distinguir el fallo del bombín del de un cierrapuertas."
+  },
+  "Getxo": {
+    "areas": [
+      "Las Arenas",
+      "Algorta",
+      "Romo",
+      "Neguri",
+      "Andra Mari"
+    ],
+    "source": "https://www.getxo.eus/es/turismo/descubre-getxo/Historia-getxo",
+    "label": "Barrios de Getxo",
+    "note": "Indica el barrio, la calle y el portal para concretar la dirección del aviso en Getxo."
   }
 }

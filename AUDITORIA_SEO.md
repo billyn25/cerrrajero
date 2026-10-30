@@ -1,87 +1,49 @@
-# Estado vigente — 30 de octubre de 2026
+# Auditoría del sitio — 30 de octubre de 2026
 
-Por petición expresa del titular se retira la exclusión municipal: las 431 fichas tienen `index,follow` en producción y se incluyen en los sitemaps (445 URLs con las páginas principales). La página 404 y las compilaciones de prueba mantienen `noindex`. Las siete revisiones editoriales registradas se conservan como dato, sin afirmar que las otras 424 hayan recibido esa revisión. La habilitación no acredita indexación ni posiciones en Google.
+Versión 2.4.0. Dominio configurado: https://cerrajerourgente247.com. Revisión de código, compilación y navegación local. La consulta pública de portada, robots y sitemap no ha permitido verificar el alojamiento del dominio; no se atribuye ese fallo a una causa DNS o TLS sin más evidencia.
 
-El informe que sigue documenta la auditoría anterior y sus medidas históricas; la política de exclusión municipal que describe queda sustituida por el estado vigente anterior.
+## Resultado y correcciones
 
----
+- Las 431 fichas municipales están habilitadas para indexación por instrucción expresa del titular. El índice de sitemaps incluye 445 URLs: 431 municipales y 14 principales. No significa que Google las haya indexado.
+- La revisión encontró que el buscador no incluía barrios. Se añaden las zonas municipales y los barrios documentados a sus datos, sin crear páginas de barrio vacías.
+- La portada incorpora ocho enlaces visibles de barrio o zona hacia la sección correspondiente de la ficha municipal: Salburua, Zabalgana, Algorta, Deusto, Gros, Amara Berri, Barrio del Puerto y Parque Henares. Se distingue «barrio o zona» porque Deusto es distrito y no todos los datos usan la misma división territorial.
+- Getxo no tenía barrios en la importación del callejero. Se añaden Las Arenas, Algorta, Romo, Neguri y Andra Mari, contrastados con el Ayuntamiento de Getxo: https://www.getxo.eus/es/turismo/descubre-getxo/Historia-getxo.
+- Se evita mostrar un encabezado vacío de barrios cuando todas sus referencias ya figuran en las zonas municipales.
+- Se prueban en navegador las búsquedas Algorta → Getxo, Gros → Donostia y Salburua → Vitoria-Gasteiz.
 
-# Auditoría SEO y tratamiento del riesgo — versión 2.2.0
+## Cobertura de referencias
 
-Fecha: 30 de octubre de 2026. Alcance: fuente y compilación estática. La revisión alojada es privada; el dominio definitivo facilitado es `https://cerrajerourgente247.com`. No se dispone de acceso a Search Console. No se han verificado todavía respuestas HTTP o posiciones del alojamiento público del usuario.
+| Provincia | Municipios | Con calles | Con barrios del callejero | Con contexto municipal adicional |
+| --- | ---: | ---: | ---: | ---: |
+| Álava | 51 | 49 | 23 | 1 |
+| Bizkaia | 113 | 87 | 107 | 3 |
+| Gipuzkoa | 88 | 77 | 76 | 1 |
+| Madrid | 179 | 179 | 0 | 3 |
 
-## Qué problema se está tratando
+Hay 2.919 referencias de calles en 392 municipios y 1.000 referencias de barrios del callejero en 206. No son cantidades de nombres globalmente únicos. Las zonas de ocho fichas municipales se muestran aparte; no se suman indiscriminadamente distritos, barrios y entidades. Los datos de Eustat y de la Comunidad de Madrid conservan su atribución visible.
 
-La versión 2.0.1 tenía 424 fichas con el mismo patrón principal de artículo al retirar nombres y teléfonos. Los títulos y canónicas propias no resolvían esa debilidad editorial. La cifra procedía de una comparación de texto del proyecto, no de un diagnóstico o penalización de Google.
+El cero en Madrid corresponde al campo barrios de la importación del callejero, no a una ausencia de barrios en la provincia. Madrid capital, Coslada y San Fernando de Henares cuentan con contexto adicional contrastado. Los otros 176 municipios de Madrid siguen necesitando esa investigación municipal; tener calles no completa los barrios. Otros municipios, como Getxo, requieren fuentes municipales porque la importación de vías no recoge todos sus barrios urbanos.
 
-No se han generado sinónimos aleatorios ni casos ficticios para alterar esa medición. Tampoco se presenta una lista de calles como una garantía de valor editorial o de posicionamiento.
+## Controles superados
 
-## Cambios aplicados
+- 448 páginas: un H1 por página, títulos y descripciones diferentes, enlaces, recursos y anclas internos existentes.
+- 431 URLs municipales distintas, contactos regionales y WhatsApp correctos, sin fichas huérfanas. Municipios accesibles en dos enlaces desde portada como máximo.
+- 48 municipios y ocho referencias de barrio o zona visibles desde portada.
+- Siete servicios en las cuatro provincias, antes del directorio; mirilla WiFi enlazada desde las fichas y seleccionable en el borrador de WhatsApp.
+- Canónicas, migas JSON-LD y sitemaps apuntan al dominio definitivo. No hay marcado de puntuaciones ni reseñas inventadas.
+- La página 404 y las vistas de prueba siguen excluidas; producción permite indexar las 431 fichas. Robots permite el rastreo.
+- Redirecciones preparadas para HTTP, www e index.html en Netlify. Su funcionamiento efectivo requiere comprobarlas en el alojamiento público.
+- Fotos locales y recursos sin dependencias externas en tiempo de ejecución. Foto de servicio visible en las fichas también en móvil. No se atribuyen imágenes ilustrativas a trabajos realizados.
 
-1. Se conservan las 431 URLs, sus contactos regionales y los enlaces de navegación.
-2. Las fichas pendientes se excluyen mediante `noindex,follow` y se retiran de los sitemaps. `robots.txt` permite su rastreo para que el buscador pueda leer la directiva.
-3. Solo siete fichas con contexto municipal y revisión editorial explícita quedan habilitadas para indexación de producción: Bilbao, Barakaldo, Vitoria-Gasteiz, Donostia / San Sebastián, Madrid, Coslada y San Fernando de Henares.
-4. Las explicaciones técnicas largas se concentran en las siete páginas de servicio; las fichas municipales incorporan un resumen, referencias de ubicación y el aviso contextual de WhatsApp.
-5. Se incorporan calles y barrios de registros públicos, cruzados por código de municipio y mostrados con su fuente. Elegir una referencia permite incorporarla al mensaje antes de enviarlo.
+## Qué falta, por prioridad
 
-## Referencias locales
+1. **Verificar producción:** respuestas 200, 301 y 404 reales, certificado, dominio principal, sitemap con sus 445 URLs y ausencia de cabeceras X-Robots-Tag noindex. La compilación no acredita cómo responde el alojamiento ni posibles variables de entorno de Netlify. Confirmar que SITE_PREVIEW no está activo y CONTEXT es de producción.
+2. **Ampliar barrios contrastados:** especialmente los 176 municipios de Madrid sin contexto adicional, además de huecos urbanos en otras provincias. No convertir carreteras, entidades o polígonos automáticamente en barrios.
+3. **Revisión editorial local:** solo siete fichas tienen contenido específico revisado registrado. Las otras 424 comparten buena parte de la estructura y los textos. Abrir la indexación por petición del titular no elimina ese límite. No generar variaciones sin utilidad para alterar una cifra de similitud.
+4. **Evidencia del servicio:** fotografías propias autorizadas y casos reales documentados cuando el titular los aporte. No se inventan intervenciones, oficinas, testimonios, tarifas ni plazos de llegada.
+5. **Imagen específica de mirilla:** el servicio utiliza una fotografía contextual de puerta; una foto de un equipo real facilitaría entenderlo. No se muestra un producto inexistente como instalación propia.
+6. **Search Console y rendimiento real:** verificar propiedad, enviar el sitemap, inspeccionar portada/provincias/muestras locales y revisar cobertura e impresiones. No hay acceso a esos datos ni medición pública de Core Web Vitals en esta auditoría.
 
-- 2.919 referencias de calles en 392 municipios.
-- 1.000 referencias de barrios del callejero en 206 municipios, además de las zonas municipales contrastadas de las fichas con contexto editorial.
-- Datos de Eustat para Álava, Bizkaia y Gipuzkoa. Se usan únicamente tipos identificados como calle, avenida, plaza, paseo, alameda, travesía o barrio; no se convierten entidades, núcleos, polígonos o códigos estadísticos en barrios ficticios.
-- Callejero completo oficial de la Comunidad de Madrid, distribución `Callejero_Completo_V124.dbf`, para sus 179 municipios.
-- La selección no se presenta como un listado de obras realizadas, sedes, averías habituales o calles más importantes. No se publican números de portal, domicilios individuales, coordenadas ni otros campos del registro de origen.
+## Reproducción
 
-Los datos se conservan en `data/local-references.json`, con procedencia y fecha de consulta. El importador reproducible está en `scripts/import-local-references.py`. Una descarga incompleta, un municipio ausente o un código fuera del conjunto esperado impiden la importación.
-
-## Control editorial de indexación
-
-`data/local-indexing.json` tiene exclusión por defecto y una lista explícita de municipios revisados. Añadir una calle o un barrio a los datos no cambia esa lista. Para ampliar la indexación debe revisarse información específica útil para contratar el servicio: cobertura real, condiciones, coordinación del acceso, preguntas locales y, si se dispone de ellas, intervenciones propias documentadas con autorización. No se inventan tiempos, sedes, precios ni experiencias de clientes.
-
-La producción incluye 21 URLs en los sitemaps: siete fichas municipales y catorce páginas principales. Las otras 424 fichas no están en ellos y llevan `noindex`. Las páginas auxiliares quedan fuera del sitemap y la página 404 sigue excluida de indexación. La vista privada y los despliegues de prueba llevan exclusión global.
-
-## Comprobaciones
-
-- 431 municipios, sin URLs duplicadas; títulos y descripciones propios y un H1 por página.
-- Enlaces y recursos internos válidos. Todos los municipios accesibles en un máximo de dos enlaces desde portada.
-- 48 municipios visibles en la portada, 12 por provincia.
-- Teléfono y WhatsApp regional correctos en todas las fichas; selección de referencia incluida en el borrador, sin envío automático.
-- JSON-LD con municipio correcto, sin reseñas ni direcciones inventadas.
-- Sitemaps sin URLs con `noindex`; canónica propia sin trasladar indiscriminadamente todas las fichas a la provincia.
-- Redirecciones de `index.html` preparadas para Netlify y página 404 excluida.
-
-`npm run check` valida las directivas de las 431 fichas y su coherencia con los sitemaps en una compilación de producción. `npm run audit:seo` informa de la cobertura de referencias y del estado editorial.
-
-## Límites que siguen existiendo
-
-La medida reduce la exposición del bloque repetitivo; no garantiza indexación, ausencia de acciones de calidad ni posiciones de las siete fichas habilitadas. Todas siguen necesitando mantenimiento y evidencia del servicio real. No puede afirmarse que las 424 fichas pendientes estén listas para competir en búsquedas locales mientras no pasen esa revisión.
-
-Al disponer del dominio público habrá que verificar respuestas 200/404, redirecciones, etiquetas, canónicas, dominio principal y Search Console. Si una ficha pendiente ya estuviera indexada, su exclusión no sería instantánea: el buscador tendría que volver a rastrearla.
-
-## Fuentes
-
-- [Políticas de spam — Google](https://developers.google.com/search/docs/essentials/spam-policies?hl=es)
-- [Contenido útil y fiable — Google](https://developers.google.com/search/docs/fundamentals/creating-helpful-content?hl=es)
-- [Controlar la indexación con noindex — Google](https://developers.google.com/search/docs/crawling-indexing/block-indexing?hl=es)
-- [Callejero de Euskadi — Open Data Euskadi / Eustat](https://opendata.euskadi.eus/catalogo/-/callejero-comunidad-autonoma-del-pais-vasco/)
-- [Callejero completo — Comunidad de Madrid](https://web.comunidad.madrid/iestadis/fijas/estructu/general/territorio/estructu_descargas.htm)
-
-## Cierre con dominio definitivo
-
-Canónicas, datos estructurados, Open Graph y sitemaps usan `https://cerrajerourgente247.com`. Se generan redirecciones permanentes de HTTP y www al dominio HTTPS sin www. La compilación de vista privada usa `SITE_PREVIEW=1` para excluirla de indexación incluso con dominio configurado. Los despliegues de prueba de Netlify también se excluyen.
-
-Queda pendiente comprobar el dominio en producción: DNS, certificado, redirección del subdominio Netlify y respuestas HTTP públicas. No se atribuye un resultado de velocidad o Core Web Vitals sin medición pública.
-
-La información del titular disponible es D.C.G y los teléfonos facilitados. No se han inventado nombre completo, NIF ni domicilio profesional. Por instrucción del titular se conserva únicamente D.C.G; esta auditoría técnica no acredita la suficiencia de la información legal.
-
-## Bloque visual de consultas
-
-La portada incorpora tres ejemplos expresamente identificados como ilustrativos, con bustos vectoriales. No se atribuyen opiniones, puntuaciones, identidades ni experiencias a clientes reales y no se añade marcado de reseñas.
-
-## Fotos y estrellas de servicio
-
-Las 431 fichas incluyen una fotografía visible también en móvil dentro de apertura de puertas. Se presenta como referencia del servicio, sin atribuirla a una intervención local. La portada añade cinco estrellas asociadas a cinco puntos a confirmar antes de contratar; no hay puntuación ni marcado Review/AggregateRating. Iñaki, Marta y Aitor se identifican como personajes ficticios. Se conserva la política de indexación: 7 fichas habilitadas, 424 pendientes excluidas.
-
-## Mirillas digitales WiFi
-
-Servicio añadido con página propia, enlace desde portada y pie, enlace y opción de consulta en las 431 fichas. Compatibilidad y prestaciones se expresan por modelo; no se promete grabación o nube gratuita ni compatibilidad universal. Referencia técnica consultada: [ficha oficial EZVIZ DP2C](https://www.ezviz.com/es/product/dp2c/40069). La fotografía de puerta es contextual, no se presenta como un modelo de mirilla.
+`npm run build && npm run check && npm run audit:seo` comprueba producción. `SITE_PREVIEW=1 npm run build && SITE_PREVIEW=1 npm run check` comprueba exclusión de la revisión privada. La política de indexación está en data/local-indexing.json; su lista de revisión editorial no limita la indexación cuando default es index.

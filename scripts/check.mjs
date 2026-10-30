@@ -28,3 +28,5 @@ console.log(`OK: ${approved.size} fichas habilitadas para indexación; ${towns.l
 
 if(production&&config.domain){for(const f of pages){const html=readFileSync(f,"utf8");const canonical=html.match(/rel="canonical" href="([^"]+)"/)?.[1];if(canonical)assert(canonical.startsWith(config.domain+"/"),"Canonical fuera del dominio: "+f);}assert(redirects.includes("https://www.cerrajerourgente247.com/* https://cerrajerourgente247.com/:splat 301!"));assert(readFileSync(join(root,"robots.txt"),"utf8").includes(config.domain+"/sitemap.xml"));}
 if(process.env.SITE_PREVIEW==="1"||["deploy-preview","branch-deploy"].includes(process.env.CONTEXT)){for(const f of pages)assert(readFileSync(f,"utf8").includes('content="noindex,follow"'),"Vista previa indexable: "+f);assert(!readFileSync(join(root,"sitemap.xml"),"utf8").includes("<loc>"));}
+
+for(const [area,town] of [['Algorta','Getxo'],['Gros','Donostia / San Sebastián'],['Salburua','Vitoria-Gasteiz']])assert(towns.find(t=>t.name===town)?.areas?.includes(area),'Buscador sin barrio documentado: '+area);
