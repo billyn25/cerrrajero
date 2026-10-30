@@ -13,7 +13,7 @@ No se han generado sinónimos aleatorios ni casos ficticios para alterar esa med
 1. Se conservan las 431 URLs, sus contactos regionales y los enlaces de navegación.
 2. Las fichas pendientes se excluyen mediante `noindex,follow` y se retiran de los sitemaps. `robots.txt` permite su rastreo para que el buscador pueda leer la directiva.
 3. Solo siete fichas con contexto municipal y revisión editorial explícita quedan habilitadas para indexación de producción: Bilbao, Barakaldo, Vitoria-Gasteiz, Donostia / San Sebastián, Madrid, Coslada y San Fernando de Henares.
-4. Las explicaciones técnicas largas se concentran en las seis páginas de servicio; las fichas municipales incorporan un resumen, referencias de ubicación y el aviso contextual de WhatsApp.
+4. Las explicaciones técnicas largas se concentran en las siete páginas de servicio; las fichas municipales incorporan un resumen, referencias de ubicación y el aviso contextual de WhatsApp.
 5. Se incorporan calles y barrios de registros públicos, cruzados por código de municipio y mostrados con su fuente. Elegir una referencia permite incorporarla al mensaje antes de enviarlo.
 
 ## Referencias locales
@@ -30,7 +30,7 @@ Los datos se conservan en `data/local-references.json`, con procedencia y fecha 
 
 `data/local-indexing.json` tiene exclusión por defecto y una lista explícita de municipios revisados. Añadir una calle o un barrio a los datos no cambia esa lista. Para ampliar la indexación debe revisarse información específica útil para contratar el servicio: cobertura real, condiciones, coordinación del acceso, preguntas locales y, si se dispone de ellas, intervenciones propias documentadas con autorización. No se inventan tiempos, sedes, precios ni experiencias de clientes.
 
-La producción incluye 20 URLs en los sitemaps: siete fichas municipales y trece páginas principales. Las otras 424 fichas no están en ellos y llevan `noindex`. Las páginas auxiliares quedan fuera del sitemap y la página 404 sigue excluida de indexación. La vista privada y los despliegues de prueba llevan exclusión global.
+La producción incluye 21 URLs en los sitemaps: siete fichas municipales y catorce páginas principales. Las otras 424 fichas no están en ellos y llevan `noindex`. Las páginas auxiliares quedan fuera del sitemap y la página 404 sigue excluida de indexación. La vista privada y los despliegues de prueba llevan exclusión global.
 
 ## Comprobaciones
 
@@ -73,3 +73,7 @@ La portada incorpora tres ejemplos expresamente identificados como ilustrativos,
 ## Fotos y estrellas de servicio
 
 Las 431 fichas incluyen una fotografía visible también en móvil dentro de apertura de puertas. Se presenta como referencia del servicio, sin atribuirla a una intervención local. La portada añade cinco estrellas asociadas a cinco puntos a confirmar antes de contratar; no hay puntuación ni marcado Review/AggregateRating. Iñaki, Marta y Aitor se identifican como personajes ficticios. Se conserva la política de indexación: 7 fichas habilitadas, 424 pendientes excluidas.
+
+## Mirillas digitales WiFi
+
+Servicio añadido con página propia, enlace desde portada y pie, enlace y opción de consulta en las 431 fichas. Compatibilidad y prestaciones se expresan por modelo; no se promete grabación o nube gratuita ni compatibilidad universal. Referencia técnica consultada: [ficha oficial EZVIZ DP2C](https://www.ezviz.com/es/product/dp2c/40069). La fotografía de puerta es contextual, no se presenta como un modelo de mirilla.

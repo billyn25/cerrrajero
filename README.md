@@ -18,7 +18,7 @@ En Netlify: importar este repositorio, comando `npm run build && npm run check`,
 | Archivo | Contenido |
 |---|---|
 | `data/site.json` | Marca, teléfonos, dominio y titular |
-| `data/services.json` | Los seis servicios, contenido y preguntas |
+| `data/services.json` | Los siete servicios, contenido y preguntas |
 | `data/coverage.json` | Cuatro provincias, agrupaciones y 431 municipios |
 | `build.mjs` | Estructura global, metadatos, JSON-LD y sitemaps |
 | `local-pages.mjs` | Contenido y estructura de las fichas locales |
@@ -40,7 +40,7 @@ Los sitemaps contienen las páginas de contenido principal y las fichas municipa
 
 ## Páginas locales y SEO
 
-Hay **431 páginas municipales** en `/cerrajero/{provincia}/{municipio}/`: Álava 51, Bizkaia 113 (incluido Usansolo), Gipuzkoa 88 y Madrid 179. Se generan 447 páginas en total, contando portada, provincias, servicios y páginas auxiliares.
+Hay **431 páginas municipales** en `/cerrajero/{provincia}/{municipio}/`: Álava 51, Bizkaia 113 (incluido Usansolo), Gipuzkoa 88 y Madrid 179. Se generan 448 páginas en total, contando portada, provincias, servicios y páginas auxiliares.
 
 Las páginas municipales son HTML estático completo, no anclas ni títulos creados solo con JavaScript. Cada una tiene title, descripción, H1, canonical cuando existe dominio, migas y `Service.areaServed` de su municipio. Todas permiten contactar directamente con el teléfono regional y preparar una consulta de WhatsApp con municipio, problema y acceso. El directorio provincial, el buscador y la portada enlazan a las URLs reales.
 
@@ -48,7 +48,7 @@ Las fichas comparten estructura y explicaciones técnicas de los servicios: no s
 
 El listado completo y los códigos se conservan en `data/municipios-ine.json`, con fuente y fecha de referencia. Se contrasta con el recuento del INE y se distribuye a partir del dataset de CodeForSpain. Las denominaciones bilingües se conservan en una sola URL; no se crean páginas duplicadas para sinónimos.
 
-Los sitemaps son un índice en `/sitemap.xml` con cinco ficheros. La versión 2.1.0 permite indexar siete fichas revisadas y trece páginas principales: 20 URLs en total. Las otras 424 fichas conservan su URL y contacto, pero llevan `noindex,follow` y quedan fuera del sitemap. `data/local-indexing.json` controla la selección, con exclusión por defecto. Añadir nombres de calles no activa la indexación.
+Los sitemaps son un índice en `/sitemap.xml` con cinco ficheros. La versión 2.1.0 permite indexar siete fichas revisadas y catorce páginas principales: 21 URLs en total. Las otras 424 fichas conservan su URL y contacto, pero llevan `noindex,follow` y quedan fuera del sitemap. `data/local-indexing.json` controla la selección, con exclusión por defecto. Añadir nombres de calles no activa la indexación.
 
 Las referencias públicas se conservan en `data/local-references.json`, importadas con `scripts/import-local-references.py`. Incluyen 2.919 calles seleccionadas en 392 municipios y 1.000 barrios del registro en 206 municipios. Los barrios municipales adicionales mantienen su fuente en `data/local-context.json`; el texto revisado está en `data/local-editorial.json`. No se confunden distritos o entidades con barrios. La nueva ficha local concentra el contexto y la preparación del aviso; las explicaciones técnicas extensas están en las páginas de servicio.
 
