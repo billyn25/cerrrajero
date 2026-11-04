@@ -26,3 +26,4 @@
 .hardware-section figure img{object-fit:contain;background:#e4e2dc}.hardware-section figcaption,.local-assistance figcaption{font-size:11px;line-height:1.5}.hardware-section figcaption a,.local-assistance figcaption a{text-decoration:underline}.page-hero .cylinder-photo img{object-fit:contain;max-height:520px;background:#e4e2dc}.local-title h1{overflow-wrap:anywhere}
 
 .footer-top>*{min-width:0}.footer-map{min-width:0;max-width:100%}.coverage-map{max-width:100%;height:auto}@media(max-width:600px){.footer-wordmark{font-size:clamp(45px,16vw,72px)}}
+@media(max-width:600px){.hardware-section h2{font-size:clamp(36px,10vw,48px);line-height:1.1}}
