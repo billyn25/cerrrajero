@@ -1,0 +1,4 @@
+import fs from 'node:fs';
+const read=f=>JSON.parse(fs.readFileSync(f,'utf8')),provinces=read('data/coverage.json').map(p=>({...p,url:'/cerrajero/'+p.slug+'/'})),references=read('data/local-references.json'),geo=read('data/municipal-geography.json'),byCode=new Map(geo.municipalities.map(t=>[t.code,t]));
+const slug=s=>s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+export const config={key:'cerra',domain:'https://cerrajerourgente247.com',label:'Cerrajería Urgente 24h',searchPath:'/assets/municipios.json',contactId:'preparar-aviso',townInput:'#request-town',provinces,source:{geography:geo.source,edition:geo.edition},towns:provinces.flatMap(p=>p.groups.flatMap(g=>g.towns.map(name=>{const code=references.municipalities[name].code;return {...byCode.get(code),code,name,province:p.name,provinceSlug:p.slug,route:p.url+slug(name)+'/'};})))};
