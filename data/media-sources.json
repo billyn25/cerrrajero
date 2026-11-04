@@ -1,0 +1,22 @@
+[
+  {
+    "file": "entrada-llaves-real.webp",
+    "author": "Jakub Zerdzicki",
+    "source": "https://www.pexels.com/photo/hand-holding-keys-at-doorway-in-new-home-31989061/",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "changes": "Redimensionado proporcional y conversión a WebP; sin generación ni alteración de la escena.",
+    "usage": "Imagen de referencia de llaves y acceso; no acredita un trabajo o ubicación del negocio.",
+    "sha256": "cb6cb5a6daaa3955612c4d906612aad68d94c8dd00db2aae80b32ecbda169e58"
+  },
+  {
+    "file": "bombines-perfil-europeo.webp",
+    "author": "Markus Wiesecke (Wiesecke)",
+    "source": "https://commons.wikimedia.org/wiki/File:Zylinderset.jpg",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "changes": "Conversión a WebP; derivado disponible bajo CC BY-SA 3.0.",
+    "usage": "Fotografía documental de cilindros de perfil europeo, sin atribuir instalación al negocio.",
+    "sha256": "c455d366f7fd22a2a9d0dd26bd2c5856a0a6cb27d615e011ea68f20795c3db33"
+  }
+]

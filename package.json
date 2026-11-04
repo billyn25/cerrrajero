@@ -1,11 +1,13 @@
 {
   "name": "cerrajeria-urgente",
-  "version": "2.4.4",
+  "version": "2.5.0",
   "private": true,
   "type": "module",
   "scripts": {
     "build": "node build.mjs",
     "check": "node scripts/check.mjs",
-    "audit:seo": "node scripts/audit-seo.mjs"
+    "audit:seo": "node scripts/audit-seo.mjs",
+    "test": "node --test tests/municipal-coverage.test.mjs",
+    "build:release": "npm run build && npm run check && npm test && node scripts/consolidate-localities.mjs && node scripts/audit-consolidated-coverage.mjs"
   }
 }

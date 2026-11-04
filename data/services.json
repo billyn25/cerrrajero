@@ -5,8 +5,8 @@
     "short": "¿Las llaves se han quedado dentro?",
     "lead": "Recupera el acceso a tu vivienda cuando la puerta se cierra, pierdes las llaves o el mecanismo deja de responder.",
     "icon": "door",
-    "image": "hero.webp",
-    "alt": "Llaves junto al escudo de seguridad de una puerta de vivienda",
+    "image": "entrada-llaves-real.webp",
+    "alt": "Mano con llaves junto a una puerta de entrada",
     "situations": [
       "Puerta cerrada de golpe, sin haber echado la llave.",
       "Pérdida o robo de llaves con la vivienda cerrada.",
@@ -36,7 +36,10 @@
         "¿Tengo que cambiar la cerradura después de abrir?",
         "No necesariamente. Si la apertura se realiza sin dañar el cierre y no se han perdido las llaves, puede no hacer falta sustituirlo. Si las llaves han sido robadas o no sabes quién puede tenerlas, conviene valorar el cambio del bombín."
       ]
-    ]
+    ],
+    "imageWidth": 1400,
+    "imageHeight": 934,
+    "caption": "Foto de Jakub Zerdzicki / Pexels. Imagen de referencia del acceso a una vivienda."
   },
   {
     "slug": "cambio-de-bombines",
@@ -44,8 +47,8 @@
     "short": "Nuevas llaves. Vuelve a tener el control.",
     "lead": "Sustitución del cilindro de la cerradura por pérdida de llaves, mudanza, desgaste o mejora de seguridad.",
     "icon": "key",
-    "image": "puerta.webp",
-    "alt": "Cerradura electrónica instalada en la cara interior de una puerta",
+    "image": "bombines-perfil-europeo.webp",
+    "alt": "Bombines de perfil europeo de distintas medidas y tornillo de fijación",
     "situations": [
       "Has perdido las llaves o te las han robado.",
       "Te mudas a una vivienda y quieres nuevas llaves.",
@@ -75,7 +78,11 @@
         "¿Puedo abrir desde fuera si queda una llave dentro?",
         "Algunos cilindros con función de emergencia o doble embrague lo permiten, con las condiciones previstas por el fabricante. Hay que confirmar esa función en el modelo elegido."
       ]
-    ]
+    ],
+    "imageWidth": 1220,
+    "imageHeight": 1312,
+    "caption": "Bombines de perfil europeo. Foto: Wiesecke / Wikimedia Commons, CC BY-SA 3.0.",
+    "imageClass": "cylinder-photo"
   },
   {
     "slug": "cambio-de-cerraduras",
@@ -83,8 +90,8 @@
     "short": "Cuando el mecanismo ya no responde.",
     "lead": "Reparación y sustitución de cerraduras averiadas en puertas de viviendas, oficinas, locales y trasteros.",
     "icon": "lock",
-    "image": "hero.webp",
-    "alt": "Manilla y cerradura sobre una puerta de madera",
+    "image": "entrada-llaves-real.webp",
+    "alt": "Mano con llaves junto a una puerta de entrada",
     "situations": [
       "La llave gira pero los puntos de cierre no se mueven.",
       "La puerta no queda cerrada o el resbalón falla.",
@@ -114,7 +121,10 @@
         "¿Reparáis cerraduras multipunto?",
         "Se valora el mecanismo instalado, el daño y la disponibilidad de recambios. En algunos casos puede repararse o sustituirse una parte; en otros será necesario cambiar el conjunto."
       ]
-    ]
+    ],
+    "imageWidth": 1400,
+    "imageHeight": 934,
+    "caption": "Foto de Jakub Zerdzicki / Pexels. Imagen de referencia del acceso a una vivienda."
   },
   {
     "slug": "instalacion-cambio-cerrojos",
@@ -122,8 +132,8 @@
     "short": "Un segundo cierre, bien instalado.",
     "lead": "Instalación, reparación y sustitución de cerrojos adicionales para reforzar el cierre de viviendas y trasteros.",
     "icon": "shield",
-    "image": "hero.webp",
-    "alt": "Detalle ilustrativo de herrajes de seguridad en una puerta de vivienda",
+    "image": "entrada-llaves-real.webp",
+    "alt": "Mano con llaves junto a una puerta de entrada",
     "situations": [
       "Quieres añadir un segundo punto de cierre.",
       "El cerrojo actual está atascado o desgastado.",
@@ -153,7 +163,10 @@
         "¿Se puede instalar en cualquier trastero?",
         "Hay que revisar el material y los puntos de anclaje. En puertas ligeras o huecas puede necesitarse otra solución de refuerzo para que la instalación sea adecuada."
       ]
-    ]
+    ],
+    "imageWidth": 1400,
+    "imageHeight": 934,
+    "caption": "Foto de Jakub Zerdzicki / Pexels. Imagen de referencia del acceso a una vivienda."
   },
   {
     "slug": "llave-rota-cerradura-atascada",
@@ -161,8 +174,8 @@
     "short": "No fuerces. Puede tener solución.",
     "lead": "Revisión de cerraduras bloqueadas y extracción de llaves rotas, con comprobación del cilindro y del mecanismo.",
     "icon": "tool",
-    "image": "hero.webp",
-    "alt": "Detalle de la entrada de llave de una cerradura de vivienda",
+    "image": "bombines-perfil-europeo.webp",
+    "alt": "Bombines de perfil europeo de distintas medidas y tornillo de fijación",
     "situations": [
       "La llave se ha partido dentro del bombín.",
       "La llave entra pero no gira o no sale.",
@@ -192,7 +205,11 @@
         "¿Se puede extraer la llave sin cambiar el bombín?",
         "En algunos casos sí. Depende de la posición del fragmento y de si el cilindro ha sufrido daños; se comprueba durante la intervención."
       ]
-    ]
+    ],
+    "imageWidth": 1220,
+    "imageHeight": 1312,
+    "caption": "Bombines de perfil europeo. Foto: Wiesecke / Wikimedia Commons, CC BY-SA 3.0.",
+    "imageClass": "cylinder-photo"
   },
   {
     "slug": "cerrajeria-comunidades-trasteros",
@@ -200,8 +217,8 @@
     "short": "Accesos que tienen que cerrar bien.",
     "lead": "Revisión de cerraduras de portal, ajustes de cierre y soluciones para accesos comunitarios y puertas de trastero.",
     "icon": "building",
-    "image": "puerta.webp",
-    "alt": "Herrajes y sistema de cierre de una puerta",
+    "image": "entrada-llaves-real.webp",
+    "alt": "Mano con llaves junto a una puerta de entrada",
     "situations": [
       "El portal queda abierto o no encaja al cerrar.",
       "La llave del acceso comunitario falla.",
@@ -231,7 +248,10 @@
         "¿Puedo cambiar por mi cuenta el bombín del portal?",
         "Es un acceso compartido: la intervención debe coordinarse con la comunidad y con quien tenga autorización para contratar el trabajo."
       ]
-    ]
+    ],
+    "imageWidth": 1400,
+    "imageHeight": 934,
+    "caption": "Foto de Jakub Zerdzicki / Pexels. Imagen de referencia del acceso a una vivienda."
   },
   {
     "slug": "instalacion-mirillas-digitales-wifi",

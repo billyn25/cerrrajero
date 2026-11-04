@@ -13,4 +13,23 @@ let contacts={};fetch('/assets/contact.json').then(r=>r.json()).then(c=>{contact
 for(const a of document.querySelectorAll('[data-town]'))a.addEventListener('click',()=>{const town=a.dataset.town,province=a.dataset.province;document.querySelector('#local-heading').textContent='Cerrajero urgente en '+town;document.querySelector('#local-description').textContent='Consulta de cerrajería en '+town+' ('+province+'). Indica el tipo de puerta, si está cerrada con llave y qué problema tienes.';document.querySelector('#local-status').textContent='Municipio seleccionado: '+town;const link=document.querySelector('#consulta-local a[href^="https://wa.me"]');if(link){const number=province==='Madrid'?contacts.madridWhatsapp:contacts.whatsapp;if(number)link.href='https://wa.me/'+number+'?text='+encodeURIComponent('Hola, necesito un cerrajero en '+town+' ('+province+'). Mi problema es: ');}});
 const picker=document.querySelector('#contact-picker');for(const a of document.querySelectorAll('[data-contact-picker]'))a.addEventListener('click',event=>{if(picker){event.preventDefault();const kind=a.dataset.contactPicker;for(const link of picker.querySelectorAll('[data-region]')){const num=link.dataset.phone,wa=link.dataset.wa;if(kind==='wa'&&wa)link.href='https://wa.me/'+wa;else if(num)link.href='tel:'+num;}picker.showModal()}});picker?.querySelector('.close-dialog')?.addEventListener('click',()=>picker.close());picker?.addEventListener('click',event=>{if(event.target===picker)picker.close()});
 const requestBuilder=document.querySelector('.request-builder');
-if(requestBuilder){const problem=document.querySelector('#request-problem'),access=document.querySelector('#request-access'),place=document.querySelector('#request-place'),requestLink=document.querySelector('#request-link'),preview=document.querySelector('#request-preview');const updateRequest=()=>{const town=requestBuilder.dataset.localName,province=requestBuilder.dataset.localProvince,text='Hola, necesito un cerrajero en '+town+' ('+province+'). Necesito: '+problem.value+'. Acceso: '+access.value+(place?.value?'. Referencia de ubicación: '+place.value:'')+'. ¿Podéis confirmarme disponibilidad y condiciones?';requestLink.href='https://wa.me/'+requestBuilder.dataset.localPhone+'?text='+encodeURIComponent(text);preview.textContent=problem.value+' · '+access.value+' · '+town+(place?.value?' · '+place.value:'');};problem.addEventListener('change',updateRequest);access.addEventListener('change',updateRequest);place?.addEventListener('change',updateRequest);updateRequest();}
+if(requestBuilder){
+ const problem=document.querySelector('#request-problem'),access=document.querySelector('#request-access'),place=document.querySelector('#request-place'),town=document.querySelector('#request-town'),requestLink=document.querySelector('#request-link'),preview=document.querySelector('#request-preview');
+ const initialName=requestBuilder.dataset.localName,hint=requestBuilder.querySelector('[data-request-hint]'),initialHint=hint?.textContent;
+ let revision=0;
+ const updateRequest=()=>{
+  const name=town?.value||requestBuilder.dataset.localName,province=requestBuilder.dataset.localProvince;
+  const heading=requestBuilder.querySelector('[data-request-town]');if(heading)heading.textContent=name;if(hint)hint.textContent=name===initialName?initialHint:'Indica calle, número y qué puerta o cierre necesita la intervención. Revisa el mensaje antes de abrir WhatsApp.';
+  const text='Hola, necesito un cerrajero en '+name+' ('+province+'). Necesito: '+problem.value+'. Acceso: '+access.value+(place?.value?'. Referencia de ubicación: '+place.value:'')+'. ¿Podéis confirmarme disponibilidad y condiciones?';
+  requestLink.href='https://wa.me/'+requestBuilder.dataset.localPhone+'?text='+encodeURIComponent(text);
+  preview.textContent=problem.value+' · '+access.value+' · '+name+(place?.value?' · '+place.value:'');
+  document.querySelectorAll('[data-local-whatsapp]').forEach(a=>{const u=new URL(a.href);u.searchParams.set('text','Hola, necesito un cerrajero en '+name+' ('+province+'). Mi problema es: ');a.href=u.href;});
+ };
+ const changeTown=async()=>{
+  const current=++revision,name=town.value;place.replaceChildren(new Option('Indicaré mi dirección al contactar',''));place.disabled=true;updateRequest();
+  try{const rows=await fetch('/assets/municipios.json').then(r=>r.json()),row=rows.find(t=>t.name===name&&t.province===requestBuilder.dataset.localProvince);if(current!==revision)return;for(const reference of row?.requestPlaces||[])place.add(new Option(reference,reference));}
+  catch{/* The exact address can always be supplied when contacting. */}
+  finally{if(current===revision)place.disabled=false;}
+ };
+ problem.addEventListener('change',updateRequest);access.addEventListener('change',updateRequest);place.addEventListener('change',updateRequest);town?.addEventListener('change',changeTown);updateRequest();
+}
